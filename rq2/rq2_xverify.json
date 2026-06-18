@@ -1,0 +1,128 @@
+{
+  "per_run": {
+    "temp0/run_1": {
+      "n_records": 50,
+      "expected_records": 50,
+      "missing_records": [],
+      "extra_records": [],
+      "field_slots_expected": 750,
+      "field_cells_present": 746
+    },
+    "temp0/run_2": {
+      "n_records": 50,
+      "expected_records": 50,
+      "missing_records": [],
+      "extra_records": [],
+      "field_slots_expected": 750,
+      "field_cells_present": 746
+    },
+    "temp0/run_3": {
+      "n_records": 50,
+      "expected_records": 50,
+      "missing_records": [],
+      "extra_records": [],
+      "field_slots_expected": 750,
+      "field_cells_present": 746
+    },
+    "temp0/run_4": {
+      "n_records": 50,
+      "expected_records": 50,
+      "missing_records": [],
+      "extra_records": [],
+      "field_slots_expected": 750,
+      "field_cells_present": 746
+    },
+    "temp0/run_5": {
+      "n_records": 50,
+      "expected_records": 50,
+      "missing_records": [],
+      "extra_records": [],
+      "field_slots_expected": 750,
+      "field_cells_present": 746
+    },
+    "temp0.3/run_1": {
+      "n_records": 50,
+      "expected_records": 50,
+      "missing_records": [],
+      "extra_records": [],
+      "field_slots_expected": 750,
+      "field_cells_present": 749
+    },
+    "temp0.3/run_2": {
+      "n_records": 50,
+      "expected_records": 50,
+      "missing_records": [],
+      "extra_records": [],
+      "field_slots_expected": 750,
+      "field_cells_present": 746
+    },
+    "temp0.3/run_3": {
+      "n_records": 50,
+      "expected_records": 50,
+      "missing_records": [],
+      "extra_records": [],
+      "field_slots_expected": 750,
+      "field_cells_present": 747
+    },
+    "temp0.3/run_4": {
+      "n_records": 50,
+      "expected_records": 50,
+      "missing_records": [],
+      "extra_records": [],
+      "field_slots_expected": 750,
+      "field_cells_present": 749
+    },
+    "temp0.3/run_5": {
+      "n_records": 50,
+      "expected_records": 50,
+      "missing_records": [],
+      "extra_records": [],
+      "field_slots_expected": 750,
+      "field_cells_present": 749
+    },
+    "temp0.7/run_1": {
+      "n_records": 50,
+      "expected_records": 50,
+      "missing_records": [],
+      "extra_records": [],
+      "field_slots_expected": 750,
+      "field_cells_present": 746
+    },
+    "temp0.7/run_2": {
+      "n_records": 50,
+      "expected_records": 50,
+      "missing_records": [],
+      "extra_records": [],
+      "field_slots_expected": 750,
+      "field_cells_present": 748
+    },
+    "temp0.7/run_3": {
+      "n_records": 50,
+      "expected_records": 50,
+      "missing_records": [],
+      "extra_records": [],
+      "field_slots_expected": 750,
+      "field_cells_present": 746
+    },
+    "temp0.7/run_4": {
+      "n_records": 50,
+      "expected_records": 50,
+      "missing_records": [],
+      "extra_records": [],
+      "field_slots_expected": 750,
+      "field_cells_present": 747
+    },
+    "temp0.7/run_5": {
+      "n_records": 50,
+      "expected_records": 50,
+      "missing_records": [],
+      "extra_records": [],
+      "field_slots_expected": 750,
+      "field_cells_present": 739
+    }
+  },
+  "issues": [],
+  "svr_temp0_task4": 0.08,
+  "svr_temp0_task6": 0.08,
+  "consistent": true
+}

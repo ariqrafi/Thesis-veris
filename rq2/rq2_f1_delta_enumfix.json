@@ -1,0 +1,20 @@
+{
+  "note": "Enum changes affect schema-compliance only. F1 scoring (score_rq1.multi_label_metrics) matches predicted vs gold label SETS by string and never filtered/remapped off-vocab predictions, so a Defacement match was already credited. Deltas are expected to be 0; verified empirically below.",
+  "rq2_subset_n50": {
+    "macro_f1_after": 0.6757396825396826,
+    "baseline": 0.676,
+    "delta_vs_0.676": -0.00026
+  },
+  "rq1_n72_v3": {
+    "overall_macro_f1_old": 0.68413139329806,
+    "overall_macro_f1_after": 0.68413139329806,
+    "overall_delta": 0.0,
+    "action_variety_f1_old": 0.6537037037037038,
+    "action_variety_f1_after": 0.6537037037037038,
+    "action_variety_delta": 0.0,
+    "attr_integrity_variety_f1_old": 0.8861111111111111,
+    "attr_integrity_variety_f1_after": 0.8861111111111111,
+    "attr_integrity_variety_delta": 0.0
+  },
+  "rq1_chapter4_table_change_needed": false
+}

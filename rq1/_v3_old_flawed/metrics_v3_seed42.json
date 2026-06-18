@@ -1,0 +1,533 @@
+{
+  "run_meta": {
+    "model": "qwen3.5:35b",
+    "model_digest": "3460ffeede5453ead027dbd2f821b12ad0aa3de54630971993babdb2165221f7",
+    "ollama_version": "0.30.8",
+    "prompt_version": "v3_fewshot",
+    "seed": 42,
+    "temperature": 0,
+    "think": false,
+    "max_chars": 16000,
+    "num_ctx": 32768,
+    "text_field": "full_content_clean",
+    "n_records": 72,
+    "n_exemplars": 6,
+    "exemplar_ids": [
+      "FS-01",
+      "FS-02",
+      "FS-04",
+      "FS-05",
+      "FS-06",
+      "FS-07"
+    ],
+    "started_at": "2026-06-14T04:45:09"
+  },
+  "h1_threshold": 0.7,
+  "n_scorable": 72,
+  "n_salvaged_json": 0,
+  "salvaged_ids": [],
+  "schema_compliance": {
+    "total_values": 919,
+    "off_vocab": 1,
+    "violation_rate": 0.001088139281828074,
+    "per_field": {
+      "actor_category": {
+        "total": 72,
+        "off": 0,
+        "rate": 0.0,
+        "examples": []
+      },
+      "action_category": {
+        "total": 72,
+        "off": 0,
+        "rate": 0.0,
+        "examples": []
+      },
+      "asset_category": {
+        "total": 72,
+        "off": 0,
+        "rate": 0.0,
+        "examples": []
+      },
+      "attr_conf_present": {
+        "total": 72,
+        "off": 0,
+        "rate": 0.0,
+        "examples": []
+      },
+      "attr_integrity_present": {
+        "total": 72,
+        "off": 0,
+        "rate": 0.0,
+        "examples": []
+      },
+      "attr_avail_present": {
+        "total": 72,
+        "off": 0,
+        "rate": 0.0,
+        "examples": []
+      },
+      "attr_conf_disclosure": {
+        "total": 72,
+        "off": 0,
+        "rate": 0.0,
+        "examples": []
+      },
+      "actor_variety": {
+        "total": 72,
+        "off": 0,
+        "rate": 0.0,
+        "examples": []
+      },
+      "actor_motive": {
+        "total": 70,
+        "off": 0,
+        "rate": 0.0,
+        "examples": []
+      },
+      "action_variety": {
+        "total": 75,
+        "off": 1,
+        "rate": 0.013333333333333334,
+        "examples": [
+          [
+            "Defacement",
+            1
+          ]
+        ]
+      },
+      "action_vector": {
+        "total": 7,
+        "off": 0,
+        "rate": 0.0,
+        "examples": []
+      },
+      "asset_variety": {
+        "total": 77,
+        "off": 0,
+        "rate": 0.0,
+        "examples": []
+      },
+      "attr_conf_data_variety": {
+        "total": 96,
+        "off": 0,
+        "rate": 0.0,
+        "examples": []
+      },
+      "attr_integrity_variety": {
+        "total": 13,
+        "off": 0,
+        "rate": 0.0,
+        "examples": []
+      },
+      "attr_avail_variety": {
+        "total": 5,
+        "off": 0,
+        "rate": 0.0,
+        "examples": []
+      }
+    }
+  },
+  "single_label": {
+    "actor_category": {
+      "accuracy": 0.7916666666666666,
+      "n": 72,
+      "correct": 57,
+      "macro_f1_incl_unknown": 0.6777592438142898,
+      "macro_f1_excl_unknown": 0.7824668705402651,
+      "micro_f1": 0.7916666666666666,
+      "per_class": {
+        "External": {
+          "p": 0.8,
+          "r": 0.9795918367346939,
+          "f1": 0.8807339449541285,
+          "support": 49
+        },
+        "Internal": {
+          "p": 0.8,
+          "r": 0.8,
+          "f1": 0.8000000000000002,
+          "support": 5
+        },
+        "Partner": {
+          "p": 1.0,
+          "r": 0.5,
+          "f1": 0.6666666666666666,
+          "support": 2
+        },
+        "Unknown": {
+          "p": 0.6666666666666666,
+          "r": 0.25,
+          "f1": 0.36363636363636365,
+          "support": 16
+        }
+      }
+    },
+    "action_category": {
+      "accuracy": 0.4305555555555556,
+      "n": 72,
+      "correct": 31,
+      "macro_f1_incl_unknown": 0.5016374269005848,
+      "macro_f1_excl_unknown": 0.627046783625731,
+      "micro_f1": 0.4305555555555556,
+      "per_class": {
+        "Error": {
+          "p": 0.2857142857142857,
+          "r": 0.6666666666666666,
+          "f1": 0.4,
+          "support": 3
+        },
+        "Hacking": {
+          "p": 0.38181818181818183,
+          "r": 1.0,
+          "f1": 0.5526315789473685,
+          "support": 21
+        },
+        "Malware": {
+          "p": 0.8,
+          "r": 0.5714285714285714,
+          "f1": 0.6666666666666666,
+          "support": 7
+        },
+        "Misuse": {
+          "p": 0.8,
+          "r": 1.0,
+          "f1": 0.888888888888889,
+          "support": 4
+        },
+        "Unknown": {
+          "p": 0.0,
+          "r": 0.0,
+          "f1": 0.0,
+          "support": 37
+        }
+      }
+    },
+    "asset_category": {
+      "accuracy": 0.6527777777777778,
+      "n": 72,
+      "correct": 47,
+      "macro_f1_incl_unknown": 0.2799145299145299,
+      "macro_f1_excl_unknown": 0.3732193732193732,
+      "micro_f1": 0.6527777777777778,
+      "per_class": {
+        "Person": {
+          "p": 0.0,
+          "r": 0.0,
+          "f1": 0.0,
+          "support": 2
+        },
+        "Server": {
+          "p": 0.647887323943662,
+          "r": 1.0,
+          "f1": 0.7863247863247863,
+          "support": 46
+        },
+        "Unknown": {
+          "p": 0.0,
+          "r": 0.0,
+          "f1": 0.0,
+          "support": 19
+        },
+        "User Device": {
+          "p": 1.0,
+          "r": 0.2,
+          "f1": 0.33333333333333337,
+          "support": 5
+        }
+      }
+    },
+    "attr_conf_present": {
+      "accuracy": 0.9027777777777778,
+      "n": 72,
+      "correct": 65,
+      "macro_f1_incl_unknown": 0.5848484848484848,
+      "macro_f1_excl_unknown": 0.8772727272727272,
+      "micro_f1": 0.9027777777777778,
+      "per_class": {
+        "No": {
+          "p": 0.6666666666666666,
+          "r": 1.0,
+          "f1": 0.8,
+          "support": 2
+        },
+        "Unknown": {
+          "p": 0.0,
+          "r": 0.0,
+          "f1": 0.0,
+          "support": 7
+        },
+        "Yes": {
+          "p": 0.9130434782608695,
+          "r": 1.0,
+          "f1": 0.9545454545454545,
+          "support": 63
+        }
+      }
+    },
+    "attr_integrity_present": {
+      "accuracy": 0.8194444444444444,
+      "n": 72,
+      "correct": 59,
+      "macro_f1_incl_unknown": 0.5620709257072893,
+      "macro_f1_excl_unknown": 0.7319952774498228,
+      "micro_f1": 0.8194444444444444,
+      "per_class": {
+        "No": {
+          "p": 0.8059701492537313,
+          "r": 1.0,
+          "f1": 0.8925619834710743,
+          "support": 54
+        },
+        "Unknown": {
+          "p": 1.0,
+          "r": 0.125,
+          "f1": 0.2222222222222222,
+          "support": 8
+        },
+        "Yes": {
+          "p": 1.0,
+          "r": 0.4,
+          "f1": 0.5714285714285715,
+          "support": 10
+        }
+      }
+    },
+    "attr_avail_present": {
+      "accuracy": 0.8472222222222222,
+      "n": 72,
+      "correct": 61,
+      "macro_f1_incl_unknown": 0.5488758553274682,
+      "macro_f1_excl_unknown": 0.8233137829912023,
+      "micro_f1": 0.8472222222222222,
+      "per_class": {
+        "No": {
+          "p": 0.8507462686567164,
+          "r": 1.0,
+          "f1": 0.9193548387096774,
+          "support": 57
+        },
+        "Unknown": {
+          "p": 0.0,
+          "r": 0.0,
+          "f1": 0.0,
+          "support": 8
+        },
+        "Yes": {
+          "p": 1.0,
+          "r": 0.5714285714285714,
+          "f1": 0.7272727272727273,
+          "support": 7
+        }
+      }
+    },
+    "attr_conf_disclosure": {
+      "accuracy": 0.3611111111111111,
+      "n": 72,
+      "correct": 26,
+      "macro_f1_incl_unknown": 0.45495735607675913,
+      "macro_f1_excl_unknown": 0.425839552238806,
+      "micro_f1": 0.3611111111111111,
+      "per_class": {
+        "": {
+          "p": 0.0,
+          "r": 0.0,
+          "f1": 0.0,
+          "support": 4
+        },
+        "No": {
+          "p": 1.0,
+          "r": 1.0,
+          "f1": 1.0,
+          "support": 1
+        },
+        "Potentially": {
+          "p": 0.2037037037037037,
+          "r": 0.8461538461538461,
+          "f1": 0.3283582089552239,
+          "support": 13
+        },
+        "Unknown": {
+          "p": 0.5,
+          "r": 0.6666666666666666,
+          "f1": 0.5714285714285715,
+          "support": 3
+        },
+        "Yes": {
+          "p": 0.9230769230769231,
+          "r": 0.23529411764705882,
+          "f1": 0.375,
+          "support": 51
+        }
+      }
+    }
+  },
+  "multi_label": {
+    "actor_variety": {
+      "macro_p": 0.5416666666666666,
+      "macro_r": 0.5254629629629629,
+      "macro_f1": 0.5300925925925927,
+      "micro_p": 0.5416666666666666,
+      "micro_r": 0.5,
+      "micro_f1": 0.52
+    },
+    "actor_motive": {
+      "macro_p": 0.7222222222222222,
+      "macro_r": 0.6967592592592592,
+      "macro_f1": 0.7055555555555555,
+      "micro_p": 0.7571428571428571,
+      "micro_r": 0.6883116883116883,
+      "micro_f1": 0.7210884353741497
+    },
+    "action_variety": {
+      "macro_p": 0.5486111111111112,
+      "macro_r": 0.53125,
+      "macro_f1": 0.5356481481481481,
+      "micro_p": 0.5333333333333333,
+      "micro_r": 0.5128205128205128,
+      "micro_f1": 0.5228758169934641
+    },
+    "action_vector": {
+      "macro_p": 0.041666666666666664,
+      "macro_r": 0.041666666666666664,
+      "macro_f1": 0.041666666666666664,
+      "micro_p": 0.42857142857142855,
+      "micro_r": 0.04054054054054054,
+      "micro_f1": 0.07407407407407408
+    },
+    "asset_variety": {
+      "macro_p": 0.625,
+      "macro_r": 0.5763888888888888,
+      "macro_f1": 0.5879629629629629,
+      "micro_p": 0.6103896103896104,
+      "micro_r": 0.5465116279069767,
+      "micro_f1": 0.5766871165644172
+    },
+    "attr_conf_data_variety": {
+      "macro_p": 0.8009259259259259,
+      "macro_r": 0.7509259259259259,
+      "macro_f1": 0.7550264550264552,
+      "micro_p": 0.8125,
+      "micro_r": 0.6842105263157895,
+      "micro_f1": 0.742857142857143
+    },
+    "attr_integrity_variety": {
+      "macro_p": 0.8958333333333334,
+      "macro_r": 0.8981481481481483,
+      "macro_f1": 0.8930555555555555,
+      "micro_p": 0.5384615384615384,
+      "micro_r": 0.5,
+      "micro_f1": 0.5185185185185186
+    },
+    "attr_avail_variety": {
+      "macro_p": 0.9027777777777778,
+      "macro_r": 0.8958333333333334,
+      "macro_f1": 0.8981481481481483,
+      "micro_p": 0.6,
+      "micro_r": 0.21428571428571427,
+      "micro_f1": 0.3157894736842105
+    }
+  },
+  "dimension_headline_f1": {
+    "actor_category": 0.6777592438142898,
+    "action_category": 0.5016374269005848,
+    "asset_category": 0.2799145299145299,
+    "attr_conf_present": 0.5848484848484848,
+    "attr_integrity_present": 0.5620709257072893,
+    "attr_avail_present": 0.5488758553274682,
+    "attr_conf_disclosure": 0.45495735607675913,
+    "actor_variety": 0.5300925925925927,
+    "actor_motive": 0.7055555555555555,
+    "action_variety": 0.5356481481481481,
+    "action_vector": 0.041666666666666664,
+    "asset_variety": 0.5879629629629629,
+    "attr_conf_data_variety": 0.7550264550264552,
+    "attr_integrity_variety": 0.8930555555555555,
+    "attr_avail_variety": 0.8981481481481483
+  },
+  "overall": {
+    "macro_f1_per_record_mean": 0.6501807760141093,
+    "macro_f1_over_dimensions": 0.5704813271496995,
+    "bootstrap_mean": 0.6496280026455027,
+    "bootstrap_ci95": [
+      0.6122858245149914,
+      0.6833312389770724
+    ],
+    "h1_verdict": "NOT SUPPORTED (95% CI entirely below 0.70)",
+    "ttest_t": -2.665071253203729,
+    "ttest_p": 0.009521653991206466
+  },
+  "wilson_ci": {
+    "actor_category": {
+      "acc": 0.7916666666666666,
+      "lo": 0.6843051941004199,
+      "hi": 0.8694805910095988,
+      "k": 57,
+      "n": 72
+    },
+    "action_category": {
+      "acc": 0.4305555555555556,
+      "lo": 0.3225772336645315,
+      "hi": 0.5455690079759403,
+      "k": 31,
+      "n": 72
+    },
+    "asset_category": {
+      "acc": 0.6527777777777778,
+      "lo": 0.5376108847085543,
+      "hi": 0.7524673836824078,
+      "k": 47,
+      "n": 72
+    },
+    "attr_conf_present": {
+      "acc": 0.9027777777777778,
+      "lo": 0.812647509746432,
+      "hi": 0.9521042887388321,
+      "k": 65,
+      "n": 72
+    },
+    "attr_integrity_present": {
+      "acc": 0.8194444444444444,
+      "lo": 0.7151944298987886,
+      "hi": 0.8913328585550414,
+      "k": 59,
+      "n": 72
+    },
+    "attr_avail_present": {
+      "acc": 0.8472222222222222,
+      "lo": 0.7467749821453958,
+      "hi": 0.9124938096522456,
+      "k": 61,
+      "n": 72
+    },
+    "attr_conf_disclosure": {
+      "acc": 0.3611111111111111,
+      "lo": 0.25981514475687584,
+      "hi": 0.4764773385240676,
+      "k": 26,
+      "n": 72
+    }
+  },
+  "per_sector": {
+    "education_healthcare": {
+      "n": 4,
+      "macro_f1": 0.6633333333333333
+    },
+    "financial": {
+      "n": 7,
+      "macro_f1": 0.8024943310657596
+    },
+    "government": {
+      "n": 53,
+      "macro_f1": 0.6309853249475892
+    },
+    "telco": {
+      "n": 3,
+      "macro_f1": 0.7333333333333334
+    },
+    "unknown": {
+      "n": 5,
+      "macro_f1": 0.5800000000000001
+    }
+  }
+}

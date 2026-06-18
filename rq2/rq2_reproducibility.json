@@ -1,0 +1,195 @@
+{
+  "n_runs": 5,
+  "n_docs": 50,
+  "mean_pairwise_agreement": 1.0,
+  "mean_exact_match_all_runs": 1.0,
+  "agreement_ci95_t": [
+    1.0,
+    1.0
+  ],
+  "ttest_vs_0.85": {
+    "t": NaN,
+    "p": NaN,
+    "note": "zero variance across documents (degenerate) — all per-doc agreements identical; t-test undefined, CI collapses to the mean"
+  },
+  "h2b_threshold": 0.85,
+  "h2b_verdict": "SUPPORTED",
+  "h2b_rule": "SUPPORTED iff lower bound of mean-agreement CI >= 0.85",
+  "h2b_caveat": "All scored A4 labels identical across the 5 temp=0/seed=42 runs: agreement=1.0 is trivial and Fleiss is undefined for constant dimensions; reproducibility evidence rests on the temperature stability analysis (Task 6).",
+  "fleiss_kappa_per_dimension": {
+    "actor_category": {
+      "kappa": 1.0,
+      "n_categories": 4
+    },
+    "action_category": {
+      "kappa": 1.0,
+      "n_categories": 4
+    },
+    "asset_category": {
+      "kappa": 1.0,
+      "n_categories": 2
+    },
+    "attr_conf_present": {
+      "kappa": 1.0,
+      "n_categories": 2
+    },
+    "attr_integrity_present": {
+      "kappa": 1.0,
+      "n_categories": 3
+    },
+    "attr_avail_present": {
+      "kappa": 1.0,
+      "n_categories": 3
+    },
+    "attr_conf_disclosure": {
+      "kappa": 1.0,
+      "n_categories": 3
+    },
+    "actor_variety": {
+      "kappa": 1.0,
+      "n_categories": 7
+    },
+    "actor_motive": {
+      "kappa": 1.0,
+      "n_categories": 6
+    },
+    "action_variety": {
+      "kappa": 1.0,
+      "n_categories": 11
+    },
+    "action_vector": {
+      "kappa": 1.0,
+      "n_categories": 9
+    },
+    "asset_variety": {
+      "kappa": 1.0,
+      "n_categories": 5
+    },
+    "attr_conf_data_variety": {
+      "kappa": 1.0,
+      "n_categories": 8
+    },
+    "attr_integrity_variety": {
+      "kappa": 1.0,
+      "n_categories": 5
+    },
+    "attr_avail_variety": {
+      "kappa": 1.0,
+      "n_categories": 3
+    }
+  },
+  "fleiss_kappa_macro": 1.0,
+  "determinism": {
+    "n_runs": 5,
+    "n_docs": 50,
+    "deterministic_scored_fields": true,
+    "n_docs_label_identical": 50,
+    "n_docs_raw_identical": 50,
+    "raw_byte_identical_all": true,
+    "per_doc_label_identical": {
+      "GS-002": true,
+      "GS-003": true,
+      "GS-005": true,
+      "GS-008": true,
+      "GS-009": true,
+      "GS-011": true,
+      "GS-013": true,
+      "GS-015": true,
+      "GS-024": true,
+      "GS-026": true,
+      "GS-027": true,
+      "GS-028": true,
+      "GS-031": true,
+      "GS-032": true,
+      "GS-034": true,
+      "GS-035": true,
+      "GS-036": true,
+      "GS-038": true,
+      "GS-040": true,
+      "GS-041": true,
+      "GS-043": true,
+      "GS-044": true,
+      "GS-046": true,
+      "GS-047": true,
+      "GS-048": true,
+      "GS-049": true,
+      "GS-051": true,
+      "GS-052": true,
+      "GS-055": true,
+      "GS-057": true,
+      "GS-059": true,
+      "GS-060": true,
+      "GS-061": true,
+      "GS-065": true,
+      "GS-068": true,
+      "GS-071": true,
+      "GS-075": true,
+      "GS-078": true,
+      "GS-080": true,
+      "GS-081": true,
+      "GS-082": true,
+      "GS-083": true,
+      "GS-086": true,
+      "GS-087": true,
+      "GS-088": true,
+      "GS-091": true,
+      "GS-092": true,
+      "GS-095": true,
+      "GS-099": true,
+      "GS-100": true
+    },
+    "note": "All scored A4 labels identical across the 5 temp=0/seed=42 runs: agreement=1.0 is trivial and Fleiss is undefined for constant dimensions; reproducibility evidence rests on the temperature stability analysis (Task 6)."
+  },
+  "per_doc_pairwise_agreement": {
+    "GS-002": 1.0,
+    "GS-003": 1.0,
+    "GS-005": 1.0,
+    "GS-008": 1.0,
+    "GS-009": 1.0,
+    "GS-011": 1.0,
+    "GS-013": 1.0,
+    "GS-015": 1.0,
+    "GS-024": 1.0,
+    "GS-026": 1.0,
+    "GS-027": 1.0,
+    "GS-028": 1.0,
+    "GS-031": 1.0,
+    "GS-032": 1.0,
+    "GS-034": 1.0,
+    "GS-035": 1.0,
+    "GS-036": 1.0,
+    "GS-038": 1.0,
+    "GS-040": 1.0,
+    "GS-041": 1.0,
+    "GS-043": 1.0,
+    "GS-044": 1.0,
+    "GS-046": 1.0,
+    "GS-047": 1.0,
+    "GS-048": 1.0,
+    "GS-049": 1.0,
+    "GS-051": 1.0,
+    "GS-052": 1.0,
+    "GS-055": 1.0,
+    "GS-057": 1.0,
+    "GS-059": 1.0,
+    "GS-060": 1.0,
+    "GS-061": 1.0,
+    "GS-065": 1.0,
+    "GS-068": 1.0,
+    "GS-071": 1.0,
+    "GS-075": 1.0,
+    "GS-078": 1.0,
+    "GS-080": 1.0,
+    "GS-081": 1.0,
+    "GS-082": 1.0,
+    "GS-083": 1.0,
+    "GS-086": 1.0,
+    "GS-087": 1.0,
+    "GS-088": 1.0,
+    "GS-091": 1.0,
+    "GS-092": 1.0,
+    "GS-095": 1.0,
+    "GS-099": 1.0,
+    "GS-100": 1.0
+  }
+}

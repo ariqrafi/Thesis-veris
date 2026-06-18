@@ -1,0 +1,235 @@
+{
+  "policy": "controlled vocabulary = full official VERIS 1.3.x per field; enum must be a superset of frozen gold. Off-vocab = violation, never remapped.",
+  "enum_changes": [
+    {
+      "value": "Defacement",
+      "field": "action.hacking.variety (->action_variety)",
+      "reason": "gold GS-080 uses action_variety=Defacement (Hacking, web defacement)"
+    },
+    {
+      "value": "Destroy data",
+      "field": "attribute.integrity.variety",
+      "reason": "gold GS-020 uses attr_integrity_variety=Destroy data"
+    },
+    {
+      "value": "Encryption",
+      "field": "attribute.availability.variety",
+      "reason": "gold GS-026 (ransomware) uses attr_avail_variety=Encryption"
+    }
+  ],
+  "enum_NOT_changed": [
+    {
+      "value": "Obscuration",
+      "field": "attribute.integrity.variety",
+      "reason": "official VERIS places Obscuration under availability (already in enum), not integrity; gold never uses it -> genuine off-vocab violation, kept"
+    }
+  ],
+  "before": {
+    "svr": 0.08,
+    "svr_wilson_ci95": [
+      0.052382328372331775,
+      0.12032964320384168
+    ],
+    "n_violation_records": 20,
+    "n_outputs": 250,
+    "field_completeness_rate": 0.9946666666666667,
+    "vocabulary_conformance_rate": 0.9970501474926253,
+    "cause_breakdown_records": {
+      "missing": 15,
+      "vocabulary": 10
+    },
+    "cause_sole_records": {
+      "missing": 10,
+      "vocabulary": 5
+    }
+  },
+  "after": {
+    "svr": 0.08,
+    "svr_wilson_ci95": [
+      0.052382328372331775,
+      0.12032964320384168
+    ],
+    "n_violation_records": 20,
+    "n_outputs": 250,
+    "field_completeness_rate": 0.9946666666666667,
+    "vocabulary_conformance_rate": 0.9985250737463127,
+    "cause_breakdown_records": {
+      "missing": 15,
+      "vocabulary": 5
+    },
+    "cause_sole_records": {
+      "missing": 15,
+      "vocabulary": 5
+    },
+    "test_proportions_ztest_two_sided": {
+      "z": -1.05409255338946,
+      "p": 0.29184054514378843
+    },
+    "test_proportions_ztest_smaller": {
+      "z": -1.05409255338946,
+      "p": 0.14592027257189422,
+      "alt": "SVR < 0.10"
+    },
+    "test_binomtest_two_sided_p": 0.3423340642120506,
+    "per_field_off_vocab": {
+      "actor_category": {
+        "values": 250,
+        "off": 0,
+        "rate": 0.0,
+        "examples": []
+      },
+      "action_category": {
+        "values": 250,
+        "off": 0,
+        "rate": 0.0,
+        "examples": []
+      },
+      "asset_category": {
+        "values": 250,
+        "off": 0,
+        "rate": 0.0,
+        "examples": []
+      },
+      "attr_conf_present": {
+        "values": 250,
+        "off": 0,
+        "rate": 0.0,
+        "examples": []
+      },
+      "attr_integrity_present": {
+        "values": 250,
+        "off": 0,
+        "rate": 0.0,
+        "examples": []
+      },
+      "attr_avail_present": {
+        "values": 250,
+        "off": 0,
+        "rate": 0.0,
+        "examples": []
+      },
+      "attr_conf_disclosure": {
+        "values": 250,
+        "off": 0,
+        "rate": 0.0,
+        "examples": []
+      },
+      "actor_variety": {
+        "values": 250,
+        "off": 0,
+        "rate": 0.0,
+        "examples": []
+      },
+      "actor_motive": {
+        "values": 225,
+        "off": 0,
+        "rate": 0.0,
+        "examples": []
+      },
+      "action_variety": {
+        "values": 255,
+        "off": 0,
+        "rate": 0.0,
+        "examples": []
+      },
+      "action_vector": {
+        "values": 255,
+        "off": 0,
+        "rate": 0.0,
+        "examples": []
+      },
+      "asset_variety": {
+        "values": 260,
+        "off": 0,
+        "rate": 0.0,
+        "examples": []
+      },
+      "attr_conf_data_variety": {
+        "values": 340,
+        "off": 0,
+        "rate": 0.0,
+        "examples": []
+      },
+      "attr_integrity_variety": {
+        "values": 40,
+        "off": 5,
+        "rate": 0.125,
+        "examples": [
+          [
+            "Obscuration",
+            5
+          ]
+        ]
+      },
+      "attr_avail_variety": {
+        "values": 15,
+        "off": 0,
+        "rate": 0.0,
+        "examples": []
+      }
+    }
+  },
+  "before_vs_after": {
+    "svr": {
+      "before": 0.08,
+      "after": 0.08
+    },
+    "n_violation_records": {
+      "before": 20,
+      "after": 20
+    },
+    "field_completeness_rate": {
+      "before": 0.9946666666666667,
+      "after": 0.9946666666666667
+    },
+    "vocabulary_conformance_rate": {
+      "before": 0.9970501474926253,
+      "after": 0.9985250737463127
+    },
+    "svr_wilson_ci95": {
+      "before": [
+        0.052382328372331775,
+        0.12032964320384168
+      ],
+      "after": [
+        0.052382328372331775,
+        0.12032964320384168
+      ]
+    },
+    "cause_breakdown_records": {
+      "before": {
+        "missing": 15,
+        "vocabulary": 10
+      },
+      "after": {
+        "missing": 15,
+        "vocabulary": 5
+      }
+    },
+    "cause_sole_records": {
+      "before": {
+        "missing": 10,
+        "vocabulary": 5
+      },
+      "after": {
+        "missing": 15,
+        "vocabulary": 5
+      }
+    },
+    "per_field_off_vocab_after": {
+      "attr_integrity_variety": {
+        "values": 40,
+        "off": 5,
+        "rate": 0.125,
+        "examples": [
+          [
+            "Obscuration",
+            5
+          ]
+        ]
+      }
+    }
+  },
+  "h2a_verdict_before": "NOT SUPPORTED",
+  "h2a_verdict_after_preregistered": "INCONCLUSIVE (Wilson CI straddles 10%)"
+}

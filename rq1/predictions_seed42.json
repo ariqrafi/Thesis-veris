@@ -1,0 +1,2395 @@
+{
+  "_run_meta": {
+    "model": "qwen3.5:35b",
+    "model_digest": "3460ffeede5453ead027dbd2f821b12ad0aa3de54630971993babdb2165221f7",
+    "ollama_version": "0.30.7",
+    "seed": 42,
+    "temperature": 0,
+    "think": false,
+    "max_chars": 16000,
+    "text_field": "full_content_clean",
+    "n_records": 72,
+    "started_at": "2026-06-13T05:26:08"
+  },
+  "GS-002": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_present": "Unknown",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes a suspected data breach of BPJS Kesehatan's database involving personal resident data, which was discovered via an online forum post; the specific method is not stated but implies unauthorized access (hacking) to server-stored data.",
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\n    \"Other\"\n  ],\n  \"actor_motive\": [\n    \"Unknown\"\n  ],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\n    \"Use of backdoor or C2\"\n  ],\n  \"action_vector\": [\n    \"Web application\"\n  ],\n  \"asset_category\": \"Server\",\n  \"asset_variety\": [\n    \"Database\"\n  ],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\n    \"Personal\"\n  ],\n  \"attr_integrity_present\": \"Unknown\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes a suspected data breach of BPJS Kesehatan's database involving personal resident data, which was discovered via an online forum post; the specific method is not stated but implies unauthorized access (hacking) to server-stored data.\"\n}",
+    "_latency_s": 13.87
+  },
+  "GS-003": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Other"
+    ],
+    "asset_category": "Database",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Credentials",
+      "Personal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes an unidentified external party hacking Tokopedia's internal database to steal user data (credentials and personal info) which was subsequently put up for sale on the dark web, indicating a financial motive.",
+    "_raw": "{\n  \"actor_category\": \"External\",\n  \"actor_variety\": [\"Unknown\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\"],\n  \"action_vector\": [\"Other\"],\n  \"asset_category\": \"Database\",\n  \"asset_variety\": [\"Database\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Credentials\", \"Personal\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes an unidentified external party hacking Tokopedia's internal database to steal user data (credentials and personal info) which was subsequently put up for sale on the dark web, indicating a financial motive.\"\n}",
+    "_latency_s": 2.91
+  },
+  "GS-004": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_category": "Error",
+    "action_variety": [
+      "Misconfiguration"
+    ],
+    "action_vector": [
+      "Other"
+    ],
+    "asset_category": "Database",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Medical"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes a mass data leak at BPJS Kesehatan attributed to systemic security weaknesses, outdated infrastructure, and weak governance rather than an active attack or malware. The disclosure of sensitive personal and medical data for millions of participants indicates a potential confidentiality breach resulting from configuration or management errors.",
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\"Unknown\"],\n  \"actor_motive\": [\"Unknown\"],\n  \"action_category\": \"Error\",\n  \"action_variety\": [\"Misconfiguration\"],\n  \"action_vector\": [\"Other\"],\n  \"asset_category\": \"Database\",\n  \"asset_variety\": [\"Database\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Medical\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes a mass data leak at BPJS Kesehatan attributed to systemic security weaknesses, outdated infrastructure, and weak governance rather than an active attack or malware. The disclosure of sensitive personal and medical data for millions of participants indicates a potential confidentiality breach resulting from configuration or management errors.\"\n}",
+    "_latency_s": 2.89
+  },
+  "GS-005": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Partner"
+    ],
+    "asset_category": "User Device",
+    "asset_variety": [
+      "Other"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Credentials"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\"Other\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\"],\n  \"action_vector\": [\"Partner\"],\n  \"asset_category\": \"User Device\",\n  \"asset_variety\": [\"Other\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Credentials\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": The report describes a breach of 279 million Indonesian resident records sold on the dark web, implying an unauthorized acquisition (Hacking) by an unknown actor motivated financially. While the specific vector is not stated in the text, 'Partner' or other vectors are often associated with large-scale data leaks; however, given the lack of method details, 'Use of backdoor or C2' serves as a generic placeholder for the breach mechanism under Hacking, and asset category covers personal records.\"\n}",
+    "_latency_s": 3.07,
+    "_salvaged": true
+  },
+  "GS-008": {
+    "actor_category": "Internal",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_category": "Misuse",
+    "action_variety": [
+      "Data mishandling"
+    ],
+    "action_vector": [
+      "LAN access"
+    ],
+    "asset_category": "User Device",
+    "asset_variety": [
+      "Other"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report states that an unauthorized individual (outsourced customer service staff) spread personal data without system hacking, indicating internal misuse of access rather than external intrusion. The disclosure is confirmed as 'potentially' because the text mentions dissemination by a rogue employee but does not specify if the data was sold or fully exfiltrated to third parties.",
+    "_raw": "{\n  \"actor_category\": \"Internal\",\n  \"actor_variety\": [\n    \"Other\"\n  ],\n  \"actor_motive\": [\n    \"Unknown\"\n  ],\n  \"action_category\": \"Misuse\",\n  \"action_variety\": [\n    \"Data mishandling\"\n  ],\n  \"action_vector\": [\n    \"LAN access\"\n  ],\n  \"asset_category\": \"User Device\",\n  \"asset_variety\": [\n    \"Other\"\n  ],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\n    \"Personal\"\n  ],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report states that an unauthorized individual (outsourced customer service staff) spread personal data without system hacking, indicating internal misuse of access rather than external intrusion. The disclosure is confirmed as 'potentially' because the text mentions dissemination by a rogue employee but does not specify if the data was sold or fully exfiltrated to third parties.\"\n}",
+    "_latency_s": 3.22
+  },
+  "GS-009": {
+    "actor_category": "Internal",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_category": "Misuse",
+    "action_variety": [
+      "Data mishandling"
+    ],
+    "action_vector": [
+      "Remote access"
+    ],
+    "asset_category": "User Device",
+    "asset_variety": [
+      "Other"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report states that an unauthorized individual, identified as a contract customer service worker (internal actor), spread customer data without authorization. This constitutes internal misuse of personal data rather than external hacking or malware infection.",
+    "_raw": "{\n  \"actor_category\": \"Internal\",\n  \"actor_variety\": [\"Other\"],\n  \"actor_motive\": [\"Unknown\"],\n  \"action_category\": \"Misuse\",\n  \"action_variety\": [\"Data mishandling\"],\n  \"action_vector\": [\"Remote access\"],\n  \"asset_category\": \"User Device\",\n  \"asset_variety\": [\"Other\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report states that an unauthorized individual, identified as a contract customer service worker (internal actor), spread customer data without authorization. This constitutes internal misuse of personal data rather than external hacking or malware infection.\"\n}",
+    "_latency_s": 2.72
+  },
+  "GS-011": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "SQL injection (SQLi)"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Credentials",
+      "Internal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report indicates a data breach caused by 'peretasan' (hacking) via SQL injection on the web application, resulting in the exposure of personal and credential data which was subsequently sold for financial gain.",
+    "_raw": "{\n  \"actor_category\": \"External\",\n  \"actor_variety\": [\"Unknown\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"SQL injection (SQLi)\"],\n  \"action_vector\": [\"Web application\"],\n  \"asset_category\": \"Server\",\n  \"asset_variety\": [\"Database\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Credentials\", \"Internal\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report indicates a data breach caused by 'peretasan' (hacking) via SQL injection on the web application, resulting in the exposure of personal and credential data which was subsequently sold for financial gain.\"\n}",
+    "_latency_s": 3.0
+  },
+  "GS-013": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Fun"
+    ],
+    "action_category": "Malware",
+    "action_variety": [
+      "Ransomware"
+    ],
+    "action_vector": [
+      "Web application - drive-by"
+    ],
+    "asset_category": "User Device",
+    "asset_variety": [
+      "Mobile phone"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "No",
+    "attr_conf_data_variety": [],
+    "attr_integrity_present": "Unknown",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes a suspected breach where users received push notifications with the message 'NO SYSTEM IS SAFE' and spam calls, which aligns with ransomware behavior or social engineering; however, Telkomsel confirmed no data was compromised.",
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\"Other\"],\n  \"actor_motive\": [\"Fun\"],\n  \"action_category\": \"Malware\",\n  \"action_variety\": [\"Ransomware\"],\n  \"action_vector\": [\"Web application - drive-by\"],\n  \"asset_category\": \"User Device\",\n  \"asset_variety\": [\"Mobile phone\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"No\",\n  \"attr_conf_data_variety\": [],\n  \"attr_integrity_present\": \"Unknown\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes a suspected breach where users received push notifications with the message 'NO SYSTEM IS SAFE' and spam calls, which aligns with ransomware behavior or social engineering; however, Telkomsel confirmed no data was compromised.\"\n}",
+    "_latency_s": 2.83
+  },
+  "GS-014": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Other"
+    ],
+    "asset_category": "Database",
+    "asset_variety": [
+      "Unknown"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes an 'attempted hack' by an unnamed external individual who claims to have acquired user data and is selling it for financial gain. While the company states passwords are encrypted, personal details (names, emails, birthdays) were allegedly leaked, indicating a potential confidentiality breach.",
+    "_raw": "{\n  \"actor_category\": \"External\",\n  \"actor_variety\": [\"Unknown\"],\n  \"actor_motive\": [\n    \"Financial\"\n  ],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\n    \"Use of backdoor or C2\"\n  ],\n  \"action_vector\": [\n    \"Other\"\n  ],\n  \"asset_category\": \"Database\",\n  \"asset_variety\": [\n    \"Unknown\"\n  ],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\n    \"Personal\"\n  ],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes an 'attempted hack' by an unnamed external individual who claims to have acquired user data and is selling it for financial gain. While the company states passwords are encrypted, personal details (names, emails, birthdays) were allegedly leaked, indicating a potential confidentiality breach.\"\n}",
+    "_latency_s": 3.08
+  },
+  "GS-015": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Other"
+    ],
+    "asset_category": "Database",
+    "asset_variety": [
+      "User Device"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Credentials"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes an external hacker who allegedly stole data from a database of 91 million users during a March 2020 hack and is offering it for sale on the Darknet, indicating financial motive. While passwords are claimed to be encrypted, personal details were exposed.",
+    "_raw": "{\n\"actor_category\": \"External\",\n\"actor_variety\": [\"Unknown\"],\n\"actor_motive\": [\"Financial\"],\n\"action_category\": \"Hacking\",\n\"action_variety\": [\"Use of backdoor or C2\"],\n\"action_vector\": [\"Other\"],\n\"asset_category\": \"Database\",\n\"asset_variety\": [\"User Device\"],\n\"attr_conf_present\": \"Yes\",\n\"attr_conf_disclosure\": \"Potentially\",\n\"attr_conf_data_variety\": [\"Personal\", \"Credentials\"],\n\"attr_integrity_present\": \"No\",\n\"attr_integrity_variety\": [],\n\"attr_avail_present\": \"No\",\n\"attr_avail_variety\": [],\n\"rationale\": \"The report describes an external hacker who allegedly stole data from a database of 91 million users during a March 2020 hack and is offering it for sale on the Darknet, indicating financial motive. While passwords are claimed to be encrypted, personal details were exposed.\"\n}",
+    "_latency_s": 2.82
+  },
+  "GS-016": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2",
+      "Remote file inclusion (RFI)"
+    ],
+    "action_vector": [
+      "Backdoor or C2",
+      "Web application"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Database",
+      "File"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Credentials",
+      "Internal",
+      "Medical"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "Yes",
+    "attr_avail_variety": [
+      "Interruption"
+    ],
+    "rationale": "The report describes an external actor ('peretas') who compromised employee computers and accessed the company's systems to exfiltrate data, indicating a hacking action via backdoors or C2. The breach involved sensitive personal, medical, and internal financial data stored on servers.",
+    "_raw": "{\n  \"actor_category\": \"External\",\n  \"actor_variety\": [\"Unknown\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\", \"Remote file inclusion (RFI)\"],\n  \"action_vector\": [\"Backdoor or C2\", \"Web application\"],\n  \"asset_category\": \"Server\",\n  \"asset_variety\": [\"Database\", \"File\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Credentials\", \"Internal\", \"Medical\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"Yes\",\n  \"attr_avail_variety\": [\"Interruption\"],\n  \"rationale\": \"The report describes an external actor ('peretas') who compromised employee computers and accessed the company's systems to exfiltrate data, indicating a hacking action via backdoors or C2. The breach involved sensitive personal, medical, and internal financial data stored on servers.\"\n}",
+    "_latency_s": 3.01
+  },
+  "GS-020": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Other"
+    ],
+    "action_vector": [
+      "Network propagation"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "No",
+    "attr_conf_data_variety": [
+      "Internal"
+    ],
+    "attr_integrity_present": "Unknown",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "Yes",
+    "attr_avail_variety": [
+      "Interruption"
+    ],
+    "rationale": "The report describes a 'cyber attack' (serangan siber) against the National Data Center, which classifies as Hacking. The BSSN confirmed no data leakage occurred but highlighted severe availability issues due to inadequate backups and recovery capabilities.",
+    "_raw": "{\n\"actor_category\": \"Unknown\",\n\"actor_variety\": [\"Unknown\"],\n\"actor_motive\": [\"Unknown\"],\n\"action_category\": \"Hacking\",\n\"action_variety\": [\"Other\"],\n\"action_vector\": [\"Network propagation\"],\n\"asset_category\": \"Server\",\n\"asset_variety\": [\"Database\"],\n\"attr_conf_present\": \"Yes\",\n\"attr_conf_disclosure\": \"No\",\n\"attr_conf_data_variety\": [\"Internal\"],\n\"attr_integrity_present\": \"Unknown\",\n\"attr_integrity_variety\": [],\n\"attr_avail_present\": \"Yes\",\n\"attr_avail_variety\": [\"Interruption\"],\n\"rationale\": \"The report describes a 'cyber attack' (serangan siber) against the National Data Center, which classifies as Hacking. The BSSN confirmed no data leakage occurred but highlighted severe availability issues due to inadequate backups and recovery capabilities.\"\n}",
+    "_latency_s": 2.8
+  },
+  "GS-022": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Malware",
+    "action_variety": [
+      "Ransomware"
+    ],
+    "action_vector": [
+      "Other"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Internal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "Yes",
+    "attr_avail_variety": [
+      "Interruption"
+    ],
+    "rationale": "The report explicitly states a cyber attack involving 'Brain Chipper Ransomware' (Malware) caused by hackers, resulting in 210 government agencies experiencing service disruption requiring data migration.",
+    "_raw": "{\n\"actor_category\": \"External\",\n\"actor_variety\": [\"Unknown\"],\n\"actor_motive\": [\"Financial\"],\n\"action_category\": \"Malware\",\n\"action_variety\": [\"Ransomware\"],\n\"action_vector\": [\"Other\"],\n\"asset_category\": \"Server\",\n\"asset_variety\": [\"Database\"],\n\"attr_conf_present\": \"Yes\",\n\"attr_conf_disclosure\": \"Potentially\",\n\"attr_conf_data_variety\": [\"Internal\"],\n\"attr_integrity_present\": \"No\",\n\"attr_integrity_variety\": [],\n\"attr_avail_present\": \"Yes\",\n\"attr_avail_variety\": [\"Interruption\"],\n\"rationale\": \"The report explicitly states a cyber attack involving 'Brain Chipper Ransomware' (Malware) caused by hackers, resulting in 210 government agencies experiencing service disruption requiring data migration.\"\n}",
+    "_latency_s": 2.63
+  },
+  "GS-024": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_category": "Error",
+    "action_variety": [
+      "Misconfiguration"
+    ],
+    "action_vector": [
+      "Other"
+    ],
+    "asset_category": "Database",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Bank"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "Unknown",
+    "attr_avail_variety": [],
+    "rationale": "The report describes a data leak ('kebocoran') of hundreds of thousands of customer records from Bank Mandiri, which implies an unauthorized exposure likely due to misconfiguration or system failure rather than active hacking. The specific method is not stated in the text, so 'Misconfiguration' and 'Other' vector are used as placeholders for unexplained leaks.",
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\"Unknown\"],\n  \"actor_motive\": [\"Unknown\"],\n  \"action_category\": \"Error\",\n  \"action_variety\": [\"Misconfiguration\"],\n  \"action_vector\": [\"Other\"],\n  \"asset_category\": \"Database\",\n  \"asset_variety\": [\"Database\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Bank\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"Unknown\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes a data leak ('kebocoran') of hundreds of thousands of customer records from Bank Mandiri, which implies an unauthorized exposure likely due to misconfiguration or system failure rather than active hacking. The specific method is not stated in the text, so 'Misconfiguration' and 'Other' vector are used as placeholders for unexplained leaks.\"\n}",
+    "_latency_s": 2.96
+  },
+  "GS-026": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Malware",
+    "action_variety": [
+      "Ransomware"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Internal",
+      "Personal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "Yes",
+    "attr_avail_variety": [
+      "Destruction"
+    ],
+    "rationale": "The report describes a ransomware attack by the hacker group Brain Cipher on Indonesia's national data centre, which aligns with action_category=Malware and variety=Ransomware. The asset affected is the Temporary National Data Centre (PDN), classified as Server/Database, where availability was impacted due to encryption (Destruction) and confidentiality was potentially compromised given the threat of public release.",
+    "_raw": "{\n  \"actor_category\": \"External\",\n  \"actor_variety\": [\"Organized crime\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Malware\",\n  \"action_variety\": [\"Ransomware\"],\n  \"action_vector\": [\"Unknown\"],\n  \"asset_category\": \"Server\",\n  \"asset_variety\": [\"Database\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Internal\", \"Personal\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"Yes\",\n  \"attr_avail_variety\": [\"Destruction\"],\n  \"rationale\": \"The report describes a ransomware attack by the hacker group Brain Cipher on Indonesia's national data centre, which aligns with action_category=Malware and variety=Ransomware. The asset affected is the Temporary National Data Centre (PDN), classified as Server/Database, where availability was impacted due to encryption (Destruction) and confidentiality was potentially compromised given the threat of public release.\"\n}",
+    "_latency_s": 3.11
+  },
+  "GS-027": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_present": "Unknown",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes a 'dugaan peretasan' (alleged hacking) leading to data leakage, which maps the action category to Hacking and asset to Server/Database; however, since no specific method or vector is confirmed in the text beyond an allegation of unauthorized access via system compromise, generic values are used for variety/vector.",
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\"Other\"],\n  \"actor_motive\": [\"Unknown\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\"],\n  \"action_vector\": [\"Web application\"],\n  \"asset_category\": \"Server\",\n  \"asset_variety\": [\"Database\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\"],\n  \"attr_integrity_present\": \"Unknown\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes a 'dugaan peretasan' (alleged hacking) leading to data leakage, which maps the action category to Hacking and asset to Server/Database; however, since no specific method or vector is confirmed in the text beyond an allegation of unauthorized access via system compromise, generic values are used for variety/vector.\"\n}",
+    "_latency_s": 3.05
+  },
+  "GS-028": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_category": "Error",
+    "action_variety": [
+      "Misconfiguration"
+    ],
+    "action_vector": [
+      "Inadequate processes"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Internal",
+      "Personal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "_raw": "{\n\"actor_category\": \"Unknown\",\n\"actor_variety\": [\"Other\"],\n\"actor_motive\": [\"Unknown\"],\n\"action_category\": \"Error\",\n\"action_variety\": [\"Misconfiguration\"],\n\"action_vector\": [\"Inadequate processes\"],\n\"asset_category\": \"Server\",\n\"asset_variety\": [\"Database\"],\n\"attr_conf_present\": \"Yes\",\n\"attr_conf_disclosure\": \"Potentially\",\n\"attr_conf_data_variety\": [\"Internal\", \"Personal\"],\n\"attr_integrity_present\": \"No\",\n\"attr_integrity_variety\": [],\n\"attr_avail_present\": \"No\",\n\"attr_avail_variety\": [],\n\"rationale\": The report describes a leaked database from the National University of Defense Technology, indicating an accidental exposure or lack of proper security controls (misconfiguration) rather than a malicious hack. The data contains internal records and potentially personal information regarding COVID-19 cases.\"\n}",
+    "_latency_s": 2.52,
+    "_salvaged": true
+  },
+  "GS-029": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Backdoor or C2"
+    ],
+    "asset_category": "Database",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Internal"
+    ],
+    "attr_integrity_present": "Unknown",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\"Other\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\"],\n  \"action_vector\": [\"Backdoor or C2\"],\n  \"asset_category\": \"Database\",\n  \"asset_variety\": [\"Database\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Internal\"],\n  \"attr_integrity_present\": \"Unknown\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": The report describes a suspected data breach of PLN customer records sold on hacker forums, implying unauthorized access (Hacking) by an unknown actor motivated financially. While the specific method is not detailed, the sale implies confidentiality was compromised and personal/internal data was exposed.\"\n}",
+    "_latency_s": 2.7,
+    "_salvaged": true
+  },
+  "GS-031": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_category": "Error",
+    "action_variety": [
+      "Misconfiguration"
+    ],
+    "action_vector": [
+      "Inadequate technology"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Internal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes a data breach involving personal information from PDN (Pangkalan Data Nasional) attributed to 'kebocoran' (leakage), which implies an unintentional exposure or misconfiguration rather than active hacking. The text emphasizes the need for better security measures, suggesting inadequate technology as the vector.",
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\"Other\"],\n  \"actor_motive\": [\"Unknown\"],\n  \"action_category\": \"Error\",\n  \"action_variety\": [\"Misconfiguration\"],\n  \"action_vector\": [\"Inadequate technology\"],\n  \"asset_category\": \"Server\",\n  \"asset_variety\": [\"Database\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Internal\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes a data breach involving personal information from PDN (Pangkalan Data Nasional) attributed to 'kebocoran' (leakage), which implies an unintentional exposure or misconfiguration rather than active hacking. The text emphasizes the need for better security measures, suggesting inadequate technology as the vector.\"\n}",
+    "_latency_s": 2.85
+  },
+  "GS-032": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_category": "Database",
+    "asset_variety": [
+      "Other"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes a suspected breach of customer data involving personal information (names, addresses) sold on the dark web by an unknown actor ('loliyta'), indicating unauthorized access likely via the dashboard/web application. While PLN claims their systems are currently secure and some leaked data may be fake, the incident involves potential disclosure of real personal data.",
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\"Other\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\"],\n  \"action_vector\": [\"Web application\"],\n  \"asset_category\": \"Database\",\n  \"asset_variety\": [\"Other\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes a suspected breach of customer data involving personal information (names, addresses) sold on the dark web by an unknown actor ('loliyta'), indicating unauthorized access likely via the dashboard/web application. While PLN claims their systems are currently secure and some leaked data may be fake, the incident involves potential disclosure of real personal data.\"\n}",
+    "_latency_s": 2.85
+  },
+  "GS-034": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Other"
+    ],
+    "action_vector": [
+      "Other"
+    ],
+    "asset_category": "Database",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Credentials"
+    ],
+    "attr_integrity_present": "Unknown",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes data being sold on Breach Forums by an unknown user, indicating a breach likely caused by hacking or misconfiguration (suspected 'kelalaian manajemen kata sandi' or storage errors), with the motive of financial gain. The asset involved is a database containing personal NPWP and credential information.",
+    "_raw": "{\n  \"actor_category\": \"External\",\n  \"actor_variety\": [\"Unknown\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Other\"],\n  \"action_vector\": [\"Other\"],\n  \"asset_category\": \"Database\",\n  \"asset_variety\": [\"Database\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Credentials\"],\n  \"attr_integrity_present\": \"Unknown\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes data being sold on Breach Forums by an unknown user, indicating a breach likely caused by hacking or misconfiguration (suspected 'kelalaian manajemen kata sandi' or storage errors), with the motive of financial gain. The asset involved is a database containing personal NPWP and credential information.\"\n}",
+    "_latency_s": 2.9
+  },
+  "GS-035": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Internal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes a data breach where personal and internal BPJS Health records were leaked, likely due to system failure or unauthorized access ('gagal melindungi'), resulting in the sale of data by an unknown reseller. The action is classified as Hacking (specifically use of backdoor/C2) because the leak originated from the organization's systems being compromised.",
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\"Other\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\"],\n  \"action_vector\": [\"Web application\"],\n  \"asset_category\": \"Server\",\n  \"asset_variety\": [\"Database\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Internal\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes a data breach where personal and internal BPJS Health records were leaked, likely due to system failure or unauthorized access ('gagal melindungi'), resulting in the sale of data by an unknown reseller. The action is classified as Hacking (specifically use of backdoor/C2) because the leak originated from the organization's systems being compromised.\"\n}",
+    "_latency_s": 3.13
+  },
+  "GS-036": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Other"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Internal"
+    ],
+    "attr_integrity_present": "Unknown",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report states the BSSN website was 'diretas' (hacked) by a group of hackers, indicating an external hacking action against a web server asset. The breach is described as threatening personal data and system integrity.",
+    "_raw": "{\n  \"actor_category\": \"External\",\n  \"actor_variety\": [\"Unknown\"],\n  \"actor_motive\": [\"Unknown\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\"],\n  \"action_vector\": [\"Web application\"],\n  \"asset_category\": \"Server\",\n  \"asset_variety\": [\"Other\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Internal\"],\n  \"attr_integrity_present\": \"Unknown\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report states the BSSN website was 'diretas' (hacked) by a group of hackers, indicating an external hacking action against a web server asset. The breach is described as threatening personal data and system integrity.\"\n}",
+    "_latency_s": 2.86
+  },
+  "GS-037": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_category": "User Device",
+    "asset_variety": [
+      "Other"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Credentials"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes a suspected breach of personal data (BPJS Health) sold online, implying an unauthorized external actor; the specific method is not stated but 'hacking' covers the compromise leading to exposure. The asset involves user devices/systems holding personal and credential-like data.",
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\"Other\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\"],\n  \"action_vector\": [\"Web application\"],\n  \"asset_category\": \"User Device\",\n  \"asset_variety\": [\"Other\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Credentials\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes a suspected breach of personal data (BPJS Health) sold online, implying an unauthorized external actor; the specific method is not stated but 'hacking' covers the compromise leading to exposure. The asset involves user devices/systems holding personal and credential-like data.\"\n}",
+    "_latency_s": 2.98
+  },
+  "GS-038": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_category": "Error",
+    "action_variety": [
+      "Misconfiguration"
+    ],
+    "action_vector": [
+      "Inadequate technology"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes an alleged data leak of customer personal information from Indihome (Telkom) under investigation by Kominfo, implying a security failure or misconfiguration rather than a confirmed malicious attack. The specific method is not stated, but the context suggests unauthorized exposure due to system issues.",
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\"Other\"],\n  \"actor_motive\": [\"Unknown\"],\n  \"action_category\": \"Error\",\n  \"action_variety\": [\"Misconfiguration\"],\n  \"action_vector\": [\"Inadequate technology\"],\n  \"asset_category\": \"Server\",\n  \"asset_variety\": [\"Database\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes an alleged data leak of customer personal information from Indihome (Telkom) under investigation by Kominfo, implying a security failure or misconfiguration rather than a confirmed malicious attack. The specific method is not stated, but the context suggests unauthorized exposure due to system issues.\"\n}",
+    "_latency_s": 2.83
+  },
+  "GS-039": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Other"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Credentials"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes an anonymous hacker (TopiAx) selling stolen data from the BKN database on BreachForums, indicating a hacking event targeting server/database assets. The motive is inferred as financial due to the sale of credentials and personal information.",
+    "_raw": "{\n  \"actor_category\": \"External\",\n  \"actor_variety\": [\"Unknown\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\"],\n  \"action_vector\": [\"Other\"],\n  \"asset_category\": \"Server\",\n  \"asset_variety\": [\"Database\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Credentials\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes an anonymous hacker (TopiAx) selling stolen data from the BKN database on BreachForums, indicating a hacking event targeting server/database assets. The motive is inferred as financial due to the sale of credentials and personal information.\"\n}",
+    "_latency_s": 2.91
+  },
+  "GS-040": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Remote access"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Internal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes an external hacker selling stolen data from BRI Life's database on the internet, indicating a hacking incident with financial motive. The specific method involved unauthorized access to employee computers and servers.",
+    "_raw": "{\n  \"actor_category\": \"External\",\n  \"actor_variety\": [\"Unknown\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\"],\n  \"action_vector\": [\"Remote access\"],\n  \"asset_category\": \"Server\",\n  \"asset_variety\": [\"Database\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Internal\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes an external hacker selling stolen data from BRI Life's database on the internet, indicating a hacking incident with financial motive. The specific method involved unauthorized access to employee computers and servers.\"\n}",
+    "_latency_s": 2.62
+  },
+  "GS-041": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_category": "Database",
+    "asset_variety": [
+      "Other"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_present": "Unknown",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes a suspected data breach of PLN customer records sold on the dark web, implying unauthorized access (Hacking) by an unknown actor with financial motives. The specific method is not stated, so 'Use of backdoor or C2' and vector are inferred as Unknown/Other based on the nature of large-scale leaks without explicit technical details.",
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\n    \"Other\"\n  ],\n  \"actor_motive\": [\n    \"Financial\"\n  ],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\n    \"Use of backdoor or C2\"\n  ],\n  \"action_vector\": [\n    \"Unknown\"\n  ],\n  \"asset_category\": \"Database\",\n  \"asset_variety\": [\n    \"Other\"\n  ],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\n    \"Personal\"\n  ],\n  \"attr_integrity_present\": \"Unknown\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes a suspected data breach of PLN customer records sold on the dark web, implying unauthorized access (Hacking) by an unknown actor with financial motives. The specific method is not stated, so 'Use of backdoor or C2' and vector are inferred as Unknown/Other based on the nature of large-scale leaks without explicit technical details.\"\n}",
+    "_latency_s": 3.26
+  },
+  "GS-043": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Ideology"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Backdoor or C2"
+    ],
+    "asset_category": "User Device",
+    "asset_variety": [
+      "Mobile phone"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes a data breach where personal data (NIK, KK) was exposed due to system vulnerabilities exploited by 'cyber terrorists' or dangerous actors. While the specific technical vector is not detailed beyond the term 'hacked', the context implies unauthorized access and potential disclosure of sensitive user information.",
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\"Other\"],\n  \"actor_motive\": [\"Ideology\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\"],\n  \"action_vector\": [\"Backdoor or C2\"],\n  \"asset_category\": \"User Device\",\n  \"asset_variety\": [\"Mobile phone\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes a data breach where personal data (NIK, KK) was exposed due to system vulnerabilities exploited by 'cyber terrorists' or dangerous actors. While the specific technical vector is not detailed beyond the term 'hacked', the context implies unauthorized access and potential disclosure of sensitive user information.\"\n}",
+    "_latency_s": 3.09
+  },
+  "GS-044": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_category": "Error",
+    "action_variety": [
+      "Misconfiguration"
+    ],
+    "action_vector": [
+      "Inadequate processes"
+    ],
+    "asset_category": "User Device",
+    "asset_variety": [
+      "Other"
+    ],
+    "attr_conf_present": "Unknown",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes an alleged data breach ('dugaan kebocoran data') involving personal citizen data, but explicitly states there is no confirmation of the incident yet. The lack of a confirmed method suggests an error or misconfiguration rather than a specific attack vector like hacking.",
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\n    \"Other\"\n  ],\n  \"actor_motive\": [\n    \"Unknown\"\n  ],\n  \"action_category\": \"Error\",\n  \"action_variety\": [\n    \"Misconfiguration\"\n  ],\n  \"action_vector\": [\n    \"Inadequate processes\"\n  ],\n  \"asset_category\": \"User Device\",\n  \"asset_variety\": [\n    \"Other\"\n  ],\n  \"attr_conf_present\": \"Unknown\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\n    \"Personal\"\n  ],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes an alleged data breach ('dugaan kebocoran data') involving personal citizen data, but explicitly states there is no confirmation of the incident yet. The lack of a confirmed method suggests an error or misconfiguration rather than a specific attack vector like hacking.\"\n}",
+    "_latency_s": 3.13
+  },
+  "GS-046": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Other"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Internal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "Unknown",
+    "attr_avail_variety": [],
+    "rationale": "The report describes a data breach where personal and internal BPJS Health data was sold by an external reseller ('Kotz') on Raid Forums, indicating unauthorized access (hacking) to the database. While the specific technical vector is not detailed beyond the sale of stolen credentials/data, the compromise of confidentiality for 100k+ records confirms a breach.",
+    "_raw": "{\n  \"actor_category\": \"External\",\n  \"actor_variety\": [\"Unknown\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\"],\n  \"action_vector\": [\"Other\"],\n  \"asset_category\": \"Server\",\n  \"asset_variety\": [\"Database\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Internal\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"Unknown\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes a data breach where personal and internal BPJS Health data was sold by an external reseller ('Kotz') on Raid Forums, indicating unauthorized access (hacking) to the database. While the specific technical vector is not detailed beyond the sale of stolen credentials/data, the compromise of confidentiality for 100k+ records confirms a breach.\"\n}",
+    "_latency_s": 3.1
+  },
+  "GS-047": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Other"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_category": "Database",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Internal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes a data breach ('kebocoran data') involving BPJS Kesehatan where personal participant data was offered on online forums, attributed to 'peretasan' (hacking) by the organization. The specific hacking method is not detailed beyond the general term of being hacked.",
+    "_raw": "{\n  \"actor_category\": \"External\",\n  \"actor_variety\": [\"Unknown\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Other\"],\n  \"action_vector\": [\"Web application\"],\n  \"asset_category\": \"Database\",\n  \"asset_variety\": [\"Database\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Internal\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes a data breach ('kebocoran data') involving BPJS Kesehatan where personal participant data was offered on online forums, attributed to 'peretasan' (hacking) by the organization. The specific hacking method is not detailed beyond the general term of being hacked.\"\n}",
+    "_latency_s": 3.04
+  },
+  "GS-048": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Malware",
+    "action_variety": [
+      "Ransomware"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_category": "User Device",
+    "asset_variety": [
+      "Desktop"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Credentials"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "Unknown",
+    "attr_avail_variety": [],
+    "_raw": "{\n  \"actor_category\": \"External\",\n  \"actor_variety\": [\"Organized crime\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Malware\",\n  \"action_variety\": [\"Ransomware\"],\n  \"action_vector\": [\"Unknown\"],\n  \"asset_category\": \"User Device\",\n  \"asset_variety\": [\"Desktop\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Credentials\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"Unknown\",\n  \"attr_avail_variety\": [],\n  \"rationale\": The report describes an external actor (likely organized crime) who compromised employee computers to steal data and demanded a ransom, which aligns with the Ransomware action category. While specific malware vectors are not detailed in the text, the compromise of devices and extortion attempt confirms the incident nature.\"\n}",
+    "_latency_s": 2.69,
+    "_salvaged": true
+  },
+  "GS-049": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Partner"
+    ],
+    "asset_category": "User Device",
+    "asset_variety": [
+      "Other"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Medical"
+    ],
+    "attr_integrity_present": "Unknown",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\"Other\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\"],\n  \"action_vector\": [\"Partner\"],\n  \"asset_category\": \"User Device\",\n  \"asset_variety\": [\"Other\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Medical\"],\n  \"attr_integrity_present\": \"Unknown\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": The report describes a suspected data breach of BRI Life customer records (KTP and medical) allegedly sold online by an unknown actor, which aligns with the Hacking category involving unauthorized access or backdoor usage. While the specific method is not confirmed as malware or phishing, the sale of stolen credentials/data implies a successful compromise.\"\n}",
+    "_latency_s": 2.83,
+    "_salvaged": true
+  },
+  "GS-051": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_category": "Error",
+    "action_variety": [
+      "Misconfiguration"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_category": "User Device",
+    "asset_variety": [
+      "Mobile phone"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Medical"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes a 'suspected security flaw' in an app version that exposed personal and health data, indicating a misconfiguration error rather than active hacking or malware. The affected asset is the mobile application (User Device) containing sensitive Personal and Medical information.",
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\"Other\"],\n  \"actor_motive\": [\"Unknown\"],\n  \"action_category\": \"Error\",\n  \"action_variety\": [\"Misconfiguration\"],\n  \"action_vector\": [\"Web application\"],\n  \"asset_category\": \"User Device\",\n  \"asset_variety\": [\"Mobile phone\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Medical\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes a 'suspected security flaw' in an app version that exposed personal and health data, indicating a misconfiguration error rather than active hacking or malware. The affected asset is the mobile application (User Device) containing sensitive Personal and Medical information.\"\n}",
+    "_latency_s": 3.0
+  },
+  "GS-052": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Other"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Credentials"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes a vulnerability where an Elasticsearch database was publicly accessible ('anyone can access'), allowing unauthorized parties to potentially view sensitive personal data, which aligns with the 'Use of backdoor or C2' action variety on a web application server. While government officials deny confirmed leakage, experts state that because the exposure existed for over a month without encryption, disclosure is only 'potentially' known.",
+    "_raw": "{\n  \"actor_category\": \"External\",\n  \"actor_variety\": [\"Unknown\"],\n  \"actor_motive\": [\"Other\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\"],\n  \"action_vector\": [\"Web application\"],\n  \"asset_category\": \"Server\",\n  \"asset_variety\": [\"Database\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Credentials\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes a vulnerability where an Elasticsearch database was publicly accessible ('anyone can access'), allowing unauthorized parties to potentially view sensitive personal data, which aligns with the 'Use of backdoor or C2' action variety on a web application server. While government officials deny confirmed leakage, experts state that because the exposure existed for over a month without encryption, disclosure is only 'potentially' known.\"\n}",
+    "_latency_s": 3.45
+  },
+  "GS-054": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Malware",
+    "action_variety": [
+      "Ransomware"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_category": "User Device",
+    "asset_variety": [
+      "Desktop"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Internal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "Unknown",
+    "attr_avail_variety": [],
+    "rationale": "The report states the attack was conducted by 'geng ransomware Conti' (Organized crime) using Ransomware, affecting 16 PCs containing personal and internal data. While confidentiality is breached with potential disclosure to a dark web group, integrity and availability impacts are not explicitly confirmed in the text.",
+    "_raw": "{\n\"actor_category\": \"External\",\n\"actor_variety\": [\"Organized crime\"],\n\"actor_motive\": [\"Financial\"],\n\"action_category\": \"Malware\",\n\"action_variety\": [\"Ransomware\"],\n\"action_vector\": [\"Unknown\"],\n\"asset_category\": \"User Device\",\n\"asset_variety\": [\"Desktop\"],\n\"attr_conf_present\": \"Yes\",\n\"attr_conf_disclosure\": \"Potentially\",\n\"attr_conf_data_variety\": [\"Personal\", \"Internal\"],\n\"attr_integrity_present\": \"No\",\n\"attr_integrity_variety\": [],\n\"attr_avail_present\": \"Unknown\",\n\"attr_avail_variety\": [],\n\"rationale\": \"The report states the attack was conducted by 'geng ransomware Conti' (Organized crime) using Ransomware, affecting 16 PCs containing personal and internal data. While confidentiality is breached with potential disclosure to a dark web group, integrity and availability impacts are not explicitly confirmed in the text.\"\n}",
+    "_latency_s": 3.3
+  },
+  "GS-055": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Malware",
+    "action_variety": [
+      "Ransomware"
+    ],
+    "action_vector": [
+      "Direct install"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Web application"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Internal",
+      "Personal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report explicitly states that the 'Conti ransomware gang' (External/Organized crime) compromised Bank Indonesia's systems, resulting in data exfiltration from their web application assets. While services were not interrupted, the disclosure of internal and personal data indicates a potential confidentiality breach.",
+    "_raw": "{\n  \"actor_category\": \"External\",\n  \"actor_variety\": [\"Organized crime\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Malware\",\n  \"action_variety\": [\"Ransomware\"],\n  \"action_vector\": [\"Direct install\"],\n  \"asset_category\": \"Server\",\n  \"asset_variety\": [\"Web application\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Internal\", \"Personal\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report explicitly states that the 'Conti ransomware gang' (External/Organized crime) compromised Bank Indonesia's systems, resulting in data exfiltration from their web application assets. While services were not interrupted, the disclosure of internal and personal data indicates a potential confidentiality breach.\"\n}",
+    "_latency_s": 2.98
+  },
+  "GS-056": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Backdoor or C2"
+    ],
+    "asset_category": "Database",
+    "asset_variety": [
+      "Other"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Internal"
+    ],
+    "attr_integrity_present": "Unknown",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes a suspected data breach where over 17 million PLN customer records are being sold on the dark web, implying unauthorized access (hacking) by an unknown actor with financial motives; however, since no specific method or vector is confirmed in the text, 'Use of backdoor' and 'Backdoor or C2' are used as placeholders for the unverified intrusion mechanism.",
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\"Other\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\"],\n  \"action_vector\": [\"Backdoor or C2\"],\n  \"asset_category\": \"Database\",\n  \"asset_variety\": [\"Other\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Internal\"],\n  \"attr_integrity_present\": \"Unknown\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes a suspected data breach where over 17 million PLN customer records are being sold on the dark web, implying unauthorized access (hacking) by an unknown actor with financial motives; however, since no specific method or vector is confirmed in the text, 'Use of backdoor' and 'Backdoor or C2' are used as placeholders for the unverified intrusion mechanism.\"\n}",
+    "_latency_s": 3.2
+  },
+  "GS-057": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_category": "Database",
+    "asset_variety": [
+      "Other"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Internal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes a suspected data breach of PLN customer records sold on the dark web, implying an unauthorized external actor (Unknown) accessed the database via hacking methods to exfiltrate personal and internal data for financial gain.",
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\"Other\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\"],\n  \"action_vector\": [\"Web application\"],\n  \"asset_category\": \"Database\",\n  \"asset_variety\": [\"Other\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Internal\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes a suspected data breach of PLN customer records sold on the dark web, implying an unauthorized external actor (Unknown) accessed the database via hacking methods to exfiltrate personal and internal data for financial gain.\"\n}",
+    "_latency_s": 2.88
+  },
+  "GS-059": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_category": "Error",
+    "action_variety": [
+      "Misconfiguration"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_category": "User Device",
+    "asset_variety": [
+      "Desktop"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report states the data breach was likely due to a replication from an application dashboard for analytics purposes, indicating a configuration or process error rather than external hacking. The disclosed data is described as non-real and general customer information.",
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\"Other\"],\n  \"actor_motive\": [\"Unknown\"],\n  \"action_category\": \"Error\",\n  \"action_variety\": [\"Misconfiguration\"],\n  \"action_vector\": [\"Web application\"],\n  \"asset_category\": \"User Device\",\n  \"asset_variety\": [\"Desktop\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report states the data breach was likely due to a replication from an application dashboard for analytics purposes, indicating a configuration or process error rather than external hacking. The disclosed data is described as non-real and general customer information.\"\n}",
+    "_latency_s": 2.78
+  },
+  "GS-060": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "_raw": "{\n\"actor_category\": \"Unknown\",\n\"actor_variety\": [\"Other\"],\n\"actor_motive\": [\"Financial\"],\n\"action_category\": \"Hacking\",\n\"action_variety\": [\"Use of backdoor or C2\"],\n\"action_vector\": [\"Web application\"],\n\"asset_category\": \"Server\",\n\"asset_variety\": [\"Database\"],\n\"attr_conf_present\": \"Yes\",\n\"attr_conf_disclosure\": \"Potentially\",\n\"attr_conf_data_variety\": [\"Personal\"],\n\"attr_integrity_present\": \"No\",\n\"attr_integrity_variety\": [],\n\"attr_avail_present\": \"No\",\n\"attr_avail_variety\": [],\n\"rationale\": The report describes a suspected data breach where customer data is being sold on the internet, attributed to 'peretas' (hackers) who accessed server-stored data; however, PLN officials state the leaked data may be outdated and not actual transactions.\"\n}",
+    "_latency_s": 2.66,
+    "_salvaged": true
+  },
+  "GS-061": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_category": "Error",
+    "action_variety": [
+      "Misconfiguration"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_category": "User Device",
+    "asset_variety": [
+      "Mobile phone"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report states the data was 'replikasi' (replicated) from a customer dashboard application for analytics, indicating an error or misconfiguration rather than external hacking. The disclosure is deemed 'Potentially' because PLN claims the data is not real transactional data and has limited impact.",
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\"Other\"],\n  \"actor_motive\": [\"Unknown\"],\n  \"action_category\": \"Error\",\n  \"action_variety\": [\"Misconfiguration\"],\n  \"action_vector\": [\"Web application\"],\n  \"asset_category\": \"User Device\",\n  \"asset_variety\": [\"Mobile phone\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report states the data was 'replikasi' (replicated) from a customer dashboard application for analytics, indicating an error or misconfiguration rather than external hacking. The disclosure is deemed 'Potentially' because PLN claims the data is not real transactional data and has limited impact.\"\n}",
+    "_latency_s": 2.85
+  },
+  "GS-062": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "SQL injection (SQLi)"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_category": "Database",
+    "asset_variety": [
+      "Unknown"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Internal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes a suspected data breach where customer data was sold by hackers, with experts suggesting SQL injection as the likely method used to access the database.",
+    "_raw": "{\n  \"actor_category\": \"External\",\n  \"actor_variety\": [\"Unknown\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"SQL injection (SQLi)\"],\n  \"action_vector\": [\"Web application\"],\n  \"asset_category\": \"Database\",\n  \"asset_variety\": [\"Unknown\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Internal\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes a suspected data breach where customer data was sold by hackers, with experts suggesting SQL injection as the likely method used to access the database.\"\n}",
+    "_latency_s": 2.73
+  },
+  "GS-063": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Other"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_category": "Database",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Internal"
+    ],
+    "attr_integrity_present": "Unknown",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes an external actor ('Loliyta' on Breach Forums) claiming to sell stolen customer data, indicating a hacking incident where the method is unconfirmed but likely involves web application exploitation. The disclosure status is 'Potentially' because PLN states the leaked data may be non-realistic samples and not actual transactions.",
+    "_raw": "{\n  \"actor_category\": \"External\",\n  \"actor_variety\": [\"Unknown\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Other\"],\n  \"action_vector\": [\"Web application\"],\n  \"asset_category\": \"Database\",\n  \"asset_variety\": [\"Database\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Internal\"],\n  \"attr_integrity_present\": \"Unknown\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes an external actor ('Loliyta' on Breach Forums) claiming to sell stolen customer data, indicating a hacking incident where the method is unconfirmed but likely involves web application exploitation. The disclosure status is 'Potentially' because PLN states the leaked data may be non-realistic samples and not actual transactions.\"\n}",
+    "_latency_s": 3.08
+  },
+  "GS-064": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_category": "Error",
+    "action_variety": [
+      "Misconfiguration"
+    ],
+    "action_vector": [
+      "Inadequate technology"
+    ],
+    "asset_category": "Database",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_present": "Unknown",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\"Other\"],\n  \"actor_motive\": [\"Unknown\"],\n  \"action_category\": \"Error\",\n  \"action_variety\": [\"Misconfiguration\"],\n  \"action_vector\": [\"Inadequate technology\"],\n  \"asset_category\": \"Database\",\n  \"asset_variety\": [\"Database\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\"],\n  \"attr_integrity_present\": \"Unknown\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": The report describes a suspected data breach of 17 million customer records attributed to PLN's security evaluation, implying an error or misconfiguration rather than active hacking. Since no specific method (like malware or phishing) is stated and the system remains operational with only potential disclosure, it fits Error/Misconfiguration.\"\n}",
+    "_latency_s": 2.6,
+    "_salvaged": true
+  },
+  "GS-065": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2",
+      "SQL injection (SQLi)"
+    ],
+    "action_vector": [
+      "Web application",
+      "Partner"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Database",
+      "Configuration mgmt"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Internal",
+      "Secrets"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes data breaches involving PLN and IndiHome where sensitive customer data was sold on dark web forums, with experts suggesting SQL injection or other security gaps as the cause; while Telkom disputed some claims regarding browsing history, the core incident involves unauthorized access to databases.",
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\"Other\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\", \"SQL injection (SQLi)\"],\n  \"action_vector\": [\"Web application\", \"Partner\"],\n  \"asset_category\": \"Server\",\n  \"asset_variety\": [\"Database\", \"Configuration mgmt\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Internal\", \"Secrets\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes data breaches involving PLN and IndiHome where sensitive customer data was sold on dark web forums, with experts suggesting SQL injection or other security gaps as the cause; while Telkom disputed some claims regarding browsing history, the core incident involves unauthorized access to databases.\"\n}",
+    "_latency_s": 3.19
+  },
+  "GS-066": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Partner"
+    ],
+    "asset_category": "User Device",
+    "asset_variety": [
+      "Mobile phone"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Credentials"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes a suspected data breach involving SIM registration records (NIK and phone numbers) sold on the dark web, which aligns with unauthorized access or leakage of personal credentials. While Telkomsel denies involvement, third-party verification confirms the validity of the leaked mobile number data.",
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\"Other\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\"],\n  \"action_vector\": [\"Partner\"],\n  \"asset_category\": \"User Device\",\n  \"asset_variety\": [\"Mobile phone\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Credentials\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes a suspected data breach involving SIM registration records (NIK and phone numbers) sold on the dark web, which aligns with unauthorized access or leakage of personal credentials. While Telkomsel denies involvement, third-party verification confirms the validity of the leaked mobile number data.\"\n}",
+    "_latency_s": 2.91
+  },
+  "GS-067": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Other"
+    ],
+    "action_vector": [
+      "Other"
+    ],
+    "asset_category": "User Device",
+    "asset_variety": [
+      "Mobile phone"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes data allegedly leaked and sold by an external actor (Bjorka) on the dark web, indicating a breach of confidentiality involving personal SIM card data; however, Telkomsel claims their internal systems remain secure.",
+    "_raw": "{\n\"actor_category\": \"External\",\n\"actor_variety\": [\"Unknown\"],\n\"actor_motive\": [\"Financial\"],\n\"action_category\": \"Hacking\",\n\"action_variety\": [\"Other\"],\n\"action_vector\": [\"Other\"],\n\"asset_category\": \"User Device\",\n\"asset_variety\": [\"Mobile phone\"],\n\"attr_conf_present\": \"Yes\",\n\"attr_conf_disclosure\": \"Potentially\",\n\"attr_conf_data_variety\": [\"Personal\"],\n\"attr_integrity_present\": \"No\",\n\"attr_integrity_variety\": [],\n\"attr_avail_present\": \"No\",\n\"attr_avail_variety\": [],\n\"rationale\": \"The report describes data allegedly leaked and sold by an external actor (Bjorka) on the dark web, indicating a breach of confidentiality involving personal SIM card data; however, Telkomsel claims their internal systems remain secure.\"\n}",
+    "_latency_s": 2.7
+  },
+  "GS-068": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Other"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Secrets"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "_raw": "{\n  \"actor_category\": \"External\",\n  \"actor_variety\": [\"Unknown\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\"],\n  \"action_vector\": [\"Other\"],\n  \"asset_category\": \"Server\",\n  \"asset_variety\": [\"Database\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Secrets\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": The report describes data breaches involving SIM registrations and confidential BIN documents sold on Breached Forums by a hacker, indicating external actors exploiting systems to steal sensitive personal and state secrets.\"\n}",
+    "_latency_s": 2.51,
+    "_salvaged": true
+  },
+  "GS-069": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Other"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Internal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "Yes",
+    "attr_avail_variety": [
+      "Interruption"
+    ],
+    "rationale": "The report describes an external actor (Bjorka) claiming to have hacked government servers and databases containing personal data of officials, which aligns with the Hacking category. The disclosure is marked as 'Potentially' because while administrative records were uploaded, classified state secrets are claimed not to be compromised.",
+    "_raw": "{\n  \"actor_category\": \"External\",\n  \"actor_variety\": [\"Unknown\"],\n  \"actor_motive\": [\n    \"Other\"\n  ],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\n    \"Use of backdoor or C2\"\n  ],\n  \"action_vector\": [\n    \"Web application\"\n  ],\n  \"asset_category\": \"Server\",\n  \"asset_variety\": [\n    \"Database\"\n  ],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\n    \"Personal\",\n    \"Internal\"\n  ],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"Yes\",\n  \"attr_avail_variety\": [\n    \"Interruption\"\n  ],\n  \"rationale\": \"The report describes an external actor (Bjorka) claiming to have hacked government servers and databases containing personal data of officials, which aligns with the Hacking category. The disclosure is marked as 'Potentially' because while administrative records were uploaded, classified state secrets are claimed not to be compromised.\"\n}",
+    "_latency_s": 3.41
+  },
+  "GS-070": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Ideology"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Other"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Secrets",
+      "Internal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "Unknown",
+    "attr_avail_variety": [],
+    "rationale": "The report describes an external actor named Bjorka who successfully hacked government data (BIN, KPU, ministers) and exposed it on a forum. The motive is linked to the debate over personal data protection laws, indicating an ideological driver.",
+    "_raw": "{\n  \"actor_category\": \"External\",\n  \"actor_variety\": [\"Unknown\"],\n  \"actor_motive\": [\"Ideology\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\"],\n  \"action_vector\": [\"Other\"],\n  \"asset_category\": \"Server\",\n  \"asset_variety\": [\"Database\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Secrets\", \"Internal\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"Unknown\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes an external actor named Bjorka who successfully hacked government data (BIN, KPU, ministers) and exposed it on a forum. The motive is linked to the debate over personal data protection laws, indicating an ideological driver.\"\n}",
+    "_latency_s": 3.31
+  },
+  "GS-071": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Other"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Web application"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Credentials"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes a hacker named Bjorka claiming to sell leaked data from government websites (web applications) containing personal information and credentials, indicating an external actor exploiting system vulnerabilities for financial gain.",
+    "_raw": "{\n  \"actor_category\": \"External\",\n  \"actor_variety\": [\"Unknown\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\"],\n  \"action_vector\": [\"Other\"],\n  \"asset_category\": \"Server\",\n  \"asset_variety\": [\"Web application\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Credentials\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes a hacker named Bjorka claiming to sell leaked data from government websites (web applications) containing personal information and credentials, indicating an external actor exploiting system vulnerabilities for financial gain.\"\n}",
+    "_latency_s": 2.84
+  },
+  "GS-074": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_present": "Unknown",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report discusses a suspected data leak of voter information (DPT) involving National ID numbers, which the analyst infers as a hacking incident targeting the KPU's database system. The actor is unknown as Bawaslu denies responsibility and calls for an investigation into the source.",
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\"Other\"],\n  \"actor_motive\": [\"Unknown\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\"],\n  \"action_vector\": [\"Web application\"],\n  \"asset_category\": \"Server\",\n  \"asset_variety\": [\"Database\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\"],\n  \"attr_integrity_present\": \"Unknown\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report discusses a suspected data leak of voter information (DPT) involving National ID numbers, which the analyst infers as a hacking incident targeting the KPU's database system. The actor is unknown as Bawaslu denies responsibility and calls for an investigation into the source.\"\n}",
+    "_latency_s": 2.8
+  },
+  "GS-075": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Other"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes an external actor ('peretas' or hacker) who published voter data on Breachforums, indicating a hacking incident involving the exposure of personal data (DPT). The specific method is not detailed beyond 'publication,' fitting the use of backdoor/C2 vector via web application to access server/database assets.",
+    "_raw": "{\n\"actor_category\": \"External\",\n\"actor_variety\": [\"Unknown\"],\n\"actor_motive\": [\"Other\"],\n\"action_category\": \"Hacking\",\n\"action_variety\": [\"Use of backdoor or C2\"],\n\"action_vector\": [\"Web application\"],\n\"asset_category\": \"Server\",\n\"asset_variety\": [\"Database\"],\n\"attr_conf_present\": \"Yes\",\n\"attr_conf_disclosure\": \"Potentially\",\n\"attr_conf_data_variety\": [\"Personal\"],\n\"attr_integrity_present\": \"No\",\n\"attr_integrity_variety\": [],\n\"attr_avail_present\": \"No\",\n\"attr_avail_variety\": [],\n\"rationale\": \"The report describes an external actor ('peretas' or hacker) who published voter data on Breachforums, indicating a hacking incident involving the exposure of personal data (DPT). The specific method is not detailed beyond 'publication,' fitting the use of backdoor/C2 vector via web application to access server/database assets.\"\n}",
+    "_latency_s": 2.74
+  },
+  "GS-078": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Malware",
+    "action_variety": [
+      "Ransomware"
+    ],
+    "action_vector": [
+      "Email link",
+      "Web download"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Database",
+      "VM host"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Internal",
+      "Secrets"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "Yes",
+    "attr_avail_variety": [
+      "Destruction",
+      "Interruption"
+    ],
+    "rationale": "The report describes a ransomware attack by the LockBit group (organized crime) targeting PDNS servers, resulting in data encryption and service interruption. While some data was found on the dark web indicating potential disclosure of personal and sensitive government secrets, official statements noted that actual data leakage volume was relatively low.",
+    "_raw": "{\n  \"actor_category\": \"External\",\n  \"actor_variety\": [\"Organized crime\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Malware\",\n  \"action_variety\": [\"Ransomware\"],\n  \"action_vector\": [\"Email link\", \"Web download\"],\n  \"asset_category\": \"Server\",\n  \"asset_variety\": [\"Database\", \"VM host\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Internal\", \"Secrets\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"Yes\",\n  \"attr_avail_variety\": [\"Destruction\", \"Interruption\"],\n  \"rationale\": \"The report describes a ransomware attack by the LockBit group (organized crime) targeting PDNS servers, resulting in data encryption and service interruption. While some data was found on the dark web indicating potential disclosure of personal and sensitive government secrets, official statements noted that actual data leakage volume was relatively low.\"\n}",
+    "_latency_s": 3.31
+  },
+  "GS-080": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Activist"
+    ],
+    "actor_motive": [
+      "Ideology"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Defacement"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Web application"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "No",
+    "attr_conf_data_variety": [],
+    "attr_integrity_present": "Yes",
+    "attr_integrity_variety": [
+      "Defacement"
+    ],
+    "attr_avail_present": "Unknown",
+    "attr_avail_variety": [],
+    "rationale": "The report describes external activists ('Indonesian Hacker People') defacing government web applications (indonesia.go.id, dprd.mojokertokota.go.id) with political messages and black screens due to ideological opposition to a DPR decision. No data theft or service outage is confirmed.",
+    "_raw": "{\n  \"actor_category\": \"External\",\n  \"actor_variety\": [\"Activist\"],\n  \"actor_motive\": [\"Ideology\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Defacement\"],\n  \"action_vector\": [\"Web application\"],\n  \"asset_category\": \"Server\",\n  \"asset_variety\": [\"Web application\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"No\",\n  \"attr_conf_data_variety\": [],\n  \"attr_integrity_present\": \"Yes\",\n  \"attr_integrity_variety\": [\"Defacement\"],\n  \"attr_avail_present\": \"Unknown\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes external activists ('Indonesian Hacker People') defacing government web applications (indonesia.go.id, dprd.mojokertokota.go.id) with political messages and black screens due to ideological opposition to a DPR decision. No data theft or service outage is confirmed.\"\n}",
+    "_latency_s": 3.36
+  },
+  "GS-081": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Other"
+    ],
+    "asset_category": "User Device",
+    "asset_variety": [
+      "Unknown"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes an external actor ('DigitalGhostt') claiming to have hacked and stolen personal data of citizens, which is being offered for sale on the dark web. Although the government denies a breach from their official systems, the incident involves unauthorized access (hacking) by an unknown external party with financial motives.",
+    "_raw": "{\n  \"actor_category\": \"External\",\n  \"actor_variety\": [\"Unknown\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\"],\n  \"action_vector\": [\"Other\"],\n  \"asset_category\": \"User Device\",\n  \"asset_variety\": [\"Unknown\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes an external actor ('DigitalGhostt') claiming to have hacked and stolen personal data of citizens, which is being offered for sale on the dark web. Although the government denies a breach from their official systems, the incident involves unauthorized access (hacking) by an unknown external party with financial motives.\"\n}",
+    "_latency_s": 2.94
+  },
+  "GS-082": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial",
+      "Grudge"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Other"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Credentials",
+      "Internal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes an external actor (WFT/Bjorka) who admitted to hacking systems of banks and government institutions, resulting in the theft and sale of personal data on dark web forums for financial gain.",
+    "_raw": "{\n  \"actor_category\": \"External\",\n  \"actor_variety\": [\"Unknown\"],\n  \"actor_motive\": [\"Financial\", \"Grudge\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\"],\n  \"action_vector\": [\"Other\"],\n  \"asset_category\": \"Server\",\n  \"asset_variety\": [\"Database\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Credentials\", \"Internal\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes an external actor (WFT/Bjorka) who admitted to hacking systems of banks and government institutions, resulting in the theft and sale of personal data on dark web forums for financial gain.\"\n}",
+    "_latency_s": 2.8
+  },
+  "GS-083": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Grudge"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Other"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_category": "User Device",
+    "asset_variety": [
+      "Desktop"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Internal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "_raw": "{\n  \"actor_category\": \"External\",\n  \"actor_variety\": [\"Unknown\"],\n  \"actor_motive\": [\"Grudge\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Other\"],\n  \"action_vector\": [\"Web application\"],\n  \"asset_category\": \"User Device\",\n  \"asset_variety\": [\"Desktop\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Internal\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": The report describes a suspected data breach ('dugaan pembobolan') of police personnel records attributed to an external actor named Bjorka, who disclosed the data in retaliation for their arrest. While the specific hacking technique is not detailed, the context implies unauthorized access and disclosure via digital means.\"\n}",
+    "_latency_s": 2.76,
+    "_salvaged": true
+  },
+  "GS-084": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_category": "User Device",
+    "asset_variety": [
+      "Other"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_present": "Unknown",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\"Other\"],\n  \"actor_motive\": [\"Unknown\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\"],\n  \"action_vector\": [\"Web application\"],\n  \"asset_category\": \"User Device\",\n  \"asset_variety\": [\"Other\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\"],\n  \"attr_integrity_present\": \"Unknown\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": The report describes a data breach where personal student data from universities was allegedly uploaded to the dark web, implying unauthorized access (hacking) via an unknown method. While malware is mentioned as a potential vector for future prevention, the specific incident details point to compromised credentials or system vulnerabilities leading to disclosure.\"\n}",
+    "_latency_s": 2.76,
+    "_salvaged": true
+  },
+  "GS-086": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_category": "Error",
+    "action_variety": [
+      "Misconfiguration"
+    ],
+    "action_vector": [
+      "Inadequate personnel"
+    ],
+    "asset_category": "Database",
+    "asset_variety": [
+      "Other"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Credentials"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report attributes the data leak to human negligence ('kelalaian manusia') by admin staff, which aligns with an Error category and Misconfiguration variety. The disclosure of sensitive personal data (NIK) is suspected but not confirmed as a completed breach event.",
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\n    \"Unknown\"\n  ],\n  \"actor_motive\": [\n    \"Unknown\"\n  ],\n  \"action_category\": \"Error\",\n  \"action_variety\": [\n    \"Misconfiguration\"\n  ],\n  \"action_vector\": [\n    \"Inadequate personnel\"\n  ],\n  \"asset_category\": \"Database\",\n  \"asset_variety\": [\n    \"Other\"\n  ],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\n    \"Personal\",\n    \"Credentials\"\n  ],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report attributes the data leak to human negligence ('kelalaian manusia') by admin staff, which aligns with an Error category and Misconfiguration variety. The disclosure of sensitive personal data (NIK) is suspected but not confirmed as a completed breach event.\"\n}",
+    "_latency_s": 3.01
+  },
+  "GS-087": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Remote access"
+    ],
+    "asset_category": "User Device",
+    "asset_variety": [
+      "Desktop",
+      "Mobile phone"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "_raw": "{\n  \"actor_category\": \"External\",\n  \"actor_variety\": [\"Unknown\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\"],\n  \"action_vector\": [\"Remote access\"],\n  \"asset_category\": \"User Device\",\n  \"asset_variety\": [\"Desktop\", \"Mobile phone\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": The report describes external hackers ('peretas') infiltrating employee devices (BYOD) to steal customer data, indicating a hacking action via remote access on user devices with potential disclosure of personal information.\"\n}",
+    "_latency_s": 2.73,
+    "_salvaged": true
+  },
+  "GS-088": {
+    "actor_category": "Internal",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_category": "Misuse",
+    "action_variety": [
+      "Privilege abuse"
+    ],
+    "action_vector": [
+      "LAN access"
+    ],
+    "asset_category": "User Device",
+    "asset_variety": [
+      "Desktop"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report identifies the actor as an outsourced employee (Internal) who accessed customer data without authorization or proper approval, constituting a misuse of privileges. The asset involved is likely a desktop workstation used to search and open files at the GraPARI location.",
+    "_raw": "{\n  \"actor_category\": \"Internal\",\n  \"actor_variety\": [\"Other\"],\n  \"actor_motive\": [\"Unknown\"],\n  \"action_category\": \"Misuse\",\n  \"action_variety\": [\"Privilege abuse\"],\n  \"action_vector\": [\"LAN access\"],\n  \"asset_category\": \"User Device\",\n  \"asset_variety\": [\"Desktop\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report identifies the actor as an outsourced employee (Internal) who accessed customer data without authorization or proper approval, constituting a misuse of privileges. The asset involved is likely a desktop workstation used to search and open files at the GraPARI location.\"\n}",
+    "_latency_s": 2.89
+  },
+  "GS-090": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Backdoor or C2"
+    ],
+    "asset_category": "User Device",
+    "asset_variety": [
+      "Other"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes a data breach involving customer data (Denny Siregar case) where Telkomsel initiated an investigation and legal action, implying unauthorized access by external actors; however, the specific method is not stated in the text.",
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\"Other\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\"],\n  \"action_vector\": [\"Backdoor or C2\"],\n  \"asset_category\": \"User Device\",\n  \"asset_variety\": [\"Other\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes a data breach involving customer data (Denny Siregar case) where Telkomsel initiated an investigation and legal action, implying unauthorized access by external actors; however, the specific method is not stated in the text.\"\n}",
+    "_latency_s": 2.83
+  },
+  "GS-091": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Backdoor or C2"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Credentials"
+    ],
+    "attr_integrity_present": "Unknown",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes an alleged breach where a third party claims to have accessed the Telkom database via a backdoor/C2 and is selling data on Bjorka.ai, which aligns with Hacking action using Backdoor or C2 vector against Server/Database assets; however, Telkom denies any actual attack occurred.",
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\n    \"Other\"\n  ],\n  \"actor_motive\": [\n    \"Financial\"\n  ],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\n    \"Use of backdoor or C2\"\n  ],\n  \"action_vector\": [\n    \"Backdoor or C2\"\n  ],\n  \"asset_category\": \"Server\",\n  \"asset_variety\": [\n    \"Database\"\n  ],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\n    \"Personal\",\n    \"Credentials\"\n  ],\n  \"attr_integrity_present\": \"Unknown\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes an alleged breach where a third party claims to have accessed the Telkom database via a backdoor/C2 and is selling data on Bjorka.ai, which aligns with Hacking action using Backdoor or C2 vector against Server/Database assets; however, Telkom denies any actual attack occurred.\"\n}",
+    "_latency_s": 3.17
+  },
+  "GS-092": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Backdoor or C2"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Credentials",
+      "Personal"
+    ],
+    "attr_integrity_present": "Unknown",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report describes a suspected hacking incident where an external actor breached Telkomsel's server to access customer data (ICCID, IMSI) which is then sold on the dark web for financial gain. The specific method of entry or integrity impact is not explicitly detailed beyond the breach and sale.",
+    "_raw": "{\n  \"actor_category\": \"External\",\n  \"actor_variety\": [\"Unknown\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\"],\n  \"action_vector\": [\"Backdoor or C2\"],\n  \"asset_category\": \"Server\",\n  \"asset_variety\": [\"Database\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Credentials\", \"Personal\"],\n  \"attr_integrity_present\": \"Unknown\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report describes a suspected hacking incident where an external actor breached Telkomsel's server to access customer data (ICCID, IMSI) which is then sold on the dark web for financial gain. The specific method of entry or integrity impact is not explicitly detailed beyond the breach and sale.\"\n}",
+    "_latency_s": 2.95
+  },
+  "GS-095": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_category": "Other",
+    "asset_variety": [
+      "Unknown"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Credentials",
+      "Personal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "Yes",
+    "attr_avail_variety": [
+      "Destruction"
+    ],
+    "_raw": "{\n  \"actor_category\": \"External\",\n  \"actor_variety\": [\"Organized crime\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\"],\n  \"action_vector\": [\n    \"Web application\"\n  ],\n  \"asset_category\": \"Other\",\n  \"asset_variety\": [\n    \"Unknown\"\n  ],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\n    \"Credentials\",\n    \"Personal\"\n  ],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"Yes\",\n  \"attr_avail_variety\": [\n    \"Destruction\"\n  ],\n  \"rationale\": The report describes a global operation against 'LeakBase', an external organized crime forum where stolen data and credentials were traded, indicating the action of hacking occurred previously. While the specific technical vector for the initial theft is not detailed beyond malware usage mentioned in context, the platform itself functioned as a web application facilitating these crimes.\"\n}",
+    "_latency_s": 2.92,
+    "_salvaged": true
+  },
+  "GS-096": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_category": "Database",
+    "asset_variety": [
+      "Other"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_present": "Unknown",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "rationale": "The report states that 91 million Tokopedia accounts were 'diretas' (hacked) and the data was sold on a dark web forum, indicating an external hacking event targeting user account databases. The motive is inferred as financial due to the sale of data for $5000.",
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\"Other\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\"],\n  \"action_vector\": [\"Web application\"],\n  \"asset_category\": \"Database\",\n  \"asset_variety\": [\"Other\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\"],\n  \"attr_integrity_present\": \"Unknown\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report states that 91 million Tokopedia accounts were 'diretas' (hacked) and the data was sold on a dark web forum, indicating an external hacking event targeting user account databases. The motive is inferred as financial due to the sale of data for $5000.\"\n}",
+    "_latency_s": 2.85
+  },
+  "GS-097": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Other"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of backdoor or C2"
+    ],
+    "action_vector": [
+      "Partner"
+    ],
+    "asset_category": "Database",
+    "asset_variety": [
+      "Other"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Internal"
+    ],
+    "attr_integrity_present": "Unknown",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "No",
+    "attr_avail_variety": [],
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\"Other\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of backdoor or C2\"],\n  \"action_vector\": [\"Partner\"],\n  \"asset_category\": \"Database\",\n  \"asset_variety\": [\"Other\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Internal\"],\n  \"attr_integrity_present\": \"Unknown\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"No\",\n  \"attr_avail_variety\": [],\n  \"rationale\": The report describes a suspected data breach where customer data was sold on the dark web, implying unauthorized access (Hacking) by an unknown actor. While the specific vector is not explicitly stated as 'Partner', selling large datasets often implies supply chain compromise or internal leakage; however, given the lack of explicit method and the nature of 'dark web' sales without a named attacker category like Organized Crime being confirmed in text, Partner/Other variety for Hacking with Unknown motive (Financial inferred from sale) is applied cautiously. Note: The report states it is an allegation ('dugaan') requiring investigation.\"\n}",
+    "_latency_s": 3.23,
+    "_salvaged": true
+  },
+  "GS-099": {
+    "actor_category": "Unknown",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "NA"
+    ],
+    "action_category": "Error",
+    "action_variety": [
+      "Misconfiguration"
+    ],
+    "action_vector": [
+      "Other"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Web application"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "Unknown",
+    "attr_avail_variety": [],
+    "rationale": "The report attributes the incident to a 'technical issue' and 'system anomaly' causing data exposure, which aligns with an Error category involving Misconfiguration. The affected asset is identified as the e-visa system (Web application), resulting in potential disclosure of Personal information.",
+    "_raw": "{\n  \"actor_category\": \"Unknown\",\n  \"actor_variety\": [\n    \"Unknown\"\n  ],\n  \"actor_motive\": [\n    \"NA\"\n  ],\n  \"action_category\": \"Error\",\n  \"action_variety\": [\n    \"Misconfiguration\"\n  ],\n  \"action_vector\": [\n    \"Other\"\n  ],\n  \"asset_category\": \"Server\",\n  \"asset_variety\": [\n    \"Web application\"\n  ],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\n    \"Personal\"\n  ],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"Unknown\",\n  \"attr_avail_variety\": [],\n  \"rationale\": \"The report attributes the incident to a 'technical issue' and 'system anomaly' causing data exposure, which aligns with an Error category involving Misconfiguration. The affected asset is identified as the e-visa system (Web application), resulting in potential disclosure of Personal information.\"\n}",
+    "_latency_s": 3.15
+  },
+  "GS-100": {
+    "actor_category": "External",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_category": "Hacking",
+    "action_variety": [
+      "Use of stolen creds",
+      "SQL injection (SQLi)"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_category": "Server",
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_conf_data_variety": [
+      "Personal",
+      "Credentials"
+    ],
+    "attr_integrity_present": "No",
+    "attr_integrity_variety": [],
+    "attr_avail_present": "Yes",
+    "attr_avail_variety": [
+      "Interruption"
+    ],
+    "rationale": "The report details multiple external hacking incidents (e.g., Tokopedia, PDNS2) where attackers used stolen credentials and exploited vulnerabilities to access databases containing personal data and credentials. While some attacks resulted in ransomware-induced interruptions or potential data disclosure via dark web sales, the primary action is unauthorized access through hacking.",
+    "_raw": "{\n  \"actor_category\": \"External\",\n  \"actor_variety\": [\"Organized crime\"],\n  \"actor_motive\": [\"Financial\"],\n  \"action_category\": \"Hacking\",\n  \"action_variety\": [\"Use of stolen creds\", \"SQL injection (SQLi)\"],\n  \"action_vector\": [\"Web application\"],\n  \"asset_category\": \"Server\",\n  \"asset_variety\": [\"Database\"],\n  \"attr_conf_present\": \"Yes\",\n  \"attr_conf_disclosure\": \"Potentially\",\n  \"attr_conf_data_variety\": [\"Personal\", \"Credentials\"],\n  \"attr_integrity_present\": \"No\",\n  \"attr_integrity_variety\": [],\n  \"attr_avail_present\": \"Yes\",\n  \"attr_avail_variety\": [\"Interruption\"],\n  \"rationale\": \"The report details multiple external hacking incidents (e.g., Tokopedia, PDNS2) where attackers used stolen credentials and exploited vulnerabilities to access databases containing personal data and credentials. While some attacks resulted in ransomware-induced interruptions or potential data disclosure via dark web sales, the primary action is unauthorized access through hacking.\"\n}",
+    "_latency_s": 3.28
+  }
+}

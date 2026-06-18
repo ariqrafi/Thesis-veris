@@ -1,0 +1,233 @@
+{
+  "run_meta": {
+    "model": "qwen3.5:35b",
+    "model_digest": "3460ffeede5453ead027dbd2f821b12ad0aa3de54630971993babdb2165221f7",
+    "ollama_version": "0.30.7",
+    "seed": 42,
+    "temperature": 0,
+    "think": false,
+    "max_chars": 16000,
+    "text_field": "full_content_clean",
+    "n_records": 72,
+    "started_at": "2026-06-13T05:26:08"
+  },
+  "tag": "",
+  "h1_threshold": 0.7,
+  "core_dims": [
+    "actor_category",
+    "action_category",
+    "asset_category",
+    "attr_conf_present",
+    "attr_integrity_present",
+    "attr_avail_present"
+  ],
+  "n_scorable": 72,
+  "per_dimension": {
+    "actor_category": {
+      "accuracy": 0.6944444444444444,
+      "macro_f1_incl_unknown": 0.527329907866761,
+      "macro_f1_excl_unknown": 0.5070281124497992,
+      "per_class": {
+        "External": {
+          "p": 0.9411764705882353,
+          "r": 0.6530612244897959,
+          "f1": 0.7710843373493975,
+          "support": 49
+        },
+        "Internal": {
+          "p": 1.0,
+          "r": 0.6,
+          "f1": 0.7499999999999999,
+          "support": 5
+        },
+        "Partner": {
+          "p": 0.0,
+          "r": 0.0,
+          "f1": 0.0,
+          "support": 2
+        },
+        "Unknown": {
+          "p": 0.42857142857142855,
+          "r": 0.9375,
+          "f1": 0.588235294117647,
+          "support": 16
+        }
+      }
+    },
+    "action_category": {
+      "accuracy": 0.4027777777777778,
+      "macro_f1_incl_unknown": 0.47466130114017446,
+      "macro_f1_excl_unknown": 0.593326626425218,
+      "per_class": {
+        "Error": {
+          "p": 0.16666666666666666,
+          "r": 0.6666666666666666,
+          "f1": 0.26666666666666666,
+          "support": 3
+        },
+        "Hacking": {
+          "p": 0.38,
+          "r": 0.9047619047619048,
+          "f1": 0.5352112676056339,
+          "support": 21
+        },
+        "Malware": {
+          "p": 0.7142857142857143,
+          "r": 0.7142857142857143,
+          "f1": 0.7142857142857143,
+          "support": 7
+        },
+        "Misuse": {
+          "p": 1.0,
+          "r": 0.75,
+          "f1": 0.8571428571428571,
+          "support": 4
+        },
+        "Unknown": {
+          "p": 0.0,
+          "r": 0.0,
+          "f1": 0.0,
+          "support": 37
+        }
+      }
+    },
+    "asset_category": {
+      "accuracy": 0.375,
+      "macro_f1_incl_unknown": 0.2115384615384615,
+      "macro_f1_excl_unknown": 0.282051282051282,
+      "per_class": {
+        "Other": {
+          "p": 0.0,
+          "r": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "Person": {
+          "p": 0.0,
+          "r": 0.0,
+          "f1": 0.0,
+          "support": 2
+        },
+        "Server": {
+          "p": 0.75,
+          "r": 0.5217391304347826,
+          "f1": 0.6153846153846153,
+          "support": 46
+        },
+        "Unknown": {
+          "p": 0.0,
+          "r": 0.0,
+          "f1": 0.0,
+          "support": 19
+        },
+        "User Device": {
+          "p": 0.14285714285714285,
+          "r": 0.6,
+          "f1": 0.23076923076923073,
+          "support": 5
+        }
+      }
+    },
+    "attr_conf_present": {
+      "accuracy": 0.8611111111111112,
+      "macro_f1_incl_unknown": 0.30845771144278605,
+      "macro_f1_excl_unknown": 0.4626865671641791,
+      "per_class": {
+        "No": {
+          "p": 0.0,
+          "r": 0.0,
+          "f1": 0.0,
+          "support": 2
+        },
+        "Unknown": {
+          "p": 0.0,
+          "r": 0.0,
+          "f1": 0.0,
+          "support": 7
+        },
+        "Yes": {
+          "p": 0.8732394366197183,
+          "r": 0.9841269841269841,
+          "f1": 0.9253731343283582,
+          "support": 63
+        }
+      }
+    },
+    "attr_integrity_present": {
+      "accuracy": 0.5972222222222222,
+      "macro_f1_incl_unknown": 0.36110929568873495,
+      "macro_f1_excl_unknown": 0.46474086661002556,
+      "per_class": {
+        "No": {
+          "p": 0.7547169811320755,
+          "r": 0.7407407407407407,
+          "f1": 0.7476635514018692,
+          "support": 54
+        },
+        "Unknown": {
+          "p": 0.1111111111111111,
+          "r": 0.25,
+          "f1": 0.15384615384615383,
+          "support": 8
+        },
+        "Yes": {
+          "p": 1.0,
+          "r": 0.1,
+          "f1": 0.18181818181818182,
+          "support": 10
+        }
+      }
+    },
+    "attr_avail_present": {
+      "accuracy": 0.8194444444444444,
+      "macro_f1_incl_unknown": 0.6538011695906433,
+      "macro_f1_excl_unknown": 0.8473684210526315,
+      "per_class": {
+        "No": {
+          "p": 0.8947368421052632,
+          "r": 0.8947368421052632,
+          "f1": 0.8947368421052632,
+          "support": 57
+        },
+        "Unknown": {
+          "p": 0.2857142857142857,
+          "r": 0.25,
+          "f1": 0.26666666666666666,
+          "support": 8
+        },
+        "Yes": {
+          "p": 0.75,
+          "r": 0.8571428571428571,
+          "f1": 0.7999999999999999,
+          "support": 7
+        }
+      }
+    }
+  },
+  "core_macro_f1_incl_unknown": 0.42281630787792684,
+  "core_macro_f1_excl_unknown": 0.5262003126255226,
+  "bootstrap": {
+    "n_resamples": 1000,
+    "incl_unknown": {
+      "mean": 0.4257556909271612,
+      "ci95": [
+        0.3665378794213846,
+        0.4840719383735105
+      ],
+      "h1_verdict": "NOT SUPPORTED (95% CI entirely below 0.70)"
+    },
+    "excl_unknown": {
+      "mean": 0.538329649050917,
+      "ci95": [
+        0.46047233432390283,
+        0.6284478373964282
+      ],
+      "h1_verdict": "NOT SUPPORTED (95% CI entirely below 0.70)"
+    }
+  },
+  "per_record_macro_f1": {
+    "mean": 0.625,
+    "ttest_t": -3.0469863079013177,
+    "ttest_p": 0.0032442710412766943
+  }
+}

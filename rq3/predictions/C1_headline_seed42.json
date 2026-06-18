@@ -1,0 +1,2368 @@
+{
+  "_run_meta": {
+    "model": "qwen3.5:35b",
+    "model_digest": "3460ffeede5453ead027dbd2f821b12ad0aa3de54630971993babdb2165221f7",
+    "ollama_version": "0.30.7",
+    "prompt_version": "v3_fewshot",
+    "scenario": "C1_headline",
+    "rq3": true,
+    "seed": 42,
+    "temperature": 0,
+    "think": false,
+    "max_chars": 16000,
+    "num_ctx": 32768,
+    "n_records": 72,
+    "n_exemplars": 6,
+    "exemplar_ids": [
+      "FS-01",
+      "FS-02",
+      "FS-04",
+      "FS-05",
+      "FS-06",
+      "FS-07"
+    ],
+    "started_at": "2026-06-16T16:04:26",
+    "finished_at": "2026-06-16T16:06:52"
+  },
+  "GS-002": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.83,
+    "_prompt_eval_count": 8362
+  },
+  "GS-003": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "Unknown",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Offline cracking"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Credentials"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"Unknown\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Organized crime\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Offline cracking\"], \"action_vector\": [\"Web application\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\", \"Credentials\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.86,
+    "_prompt_eval_count": 8318
+  },
+  "GS-004": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Medical"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\", \"Medical\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.83,
+    "_prompt_eval_count": 8341
+  },
+  "GS-005": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.83,
+    "_prompt_eval_count": 8327
+  },
+  "GS-008": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Yes\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.79,
+    "_prompt_eval_count": 8335
+  },
+  "GS-009": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Yes\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.79,
+    "_prompt_eval_count": 8360
+  },
+  "GS-011": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Bank"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\", \"Bank\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.83,
+    "_prompt_eval_count": 8342
+  },
+  "GS-013": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Defacement"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [],
+    "attr_integrity_variety": [
+      "Alter behavior",
+      "Modify data"
+    ],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Defacement\"], \"action_vector\": [\"Web application\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [], \"attr_integrity_variety\": [\"Alter behavior\", \"Modify data\"], \"attr_avail_variety\": []}",
+    "_latency_s": 1.83,
+    "_prompt_eval_count": 8359
+  },
+  "GS-014": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Offline cracking"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Offline cracking\"], \"action_vector\": [\"Web application\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.8,
+    "_prompt_eval_count": 8347
+  },
+  "GS-015": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Offline cracking"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Credentials"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Offline cracking\"], \"action_vector\": [\"Web application\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\", \"Credentials\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.83,
+    "_prompt_eval_count": 8335
+  },
+  "GS-016": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Bank"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\", \"Bank\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.8,
+    "_prompt_eval_count": 8354
+  },
+  "GS-020": {
+    "actor_category": "External",
+    "action_category": "Malware",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "Yes",
+    "attr_avail_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Ransomware"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [
+      "Malware installation",
+      "Modify data"
+    ],
+    "attr_avail_variety": [
+      "Interruption"
+    ],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Malware\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"Yes\", \"attr_avail_present\": \"Yes\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Ransomware\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [\"Malware installation\", \"Modify data\"], \"attr_avail_variety\": [\"Interruption\"]}",
+    "_latency_s": 1.83,
+    "_prompt_eval_count": 8376
+  },
+  "GS-022": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "Unknown",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "SQL injection (SQLi)"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Internal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"Unknown\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Organized crime\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"SQL injection (SQLi)\"], \"action_vector\": [\"Web application\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\", \"Internal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.86,
+    "_prompt_eval_count": 8348
+  },
+  "GS-024": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Bank"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Yes\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\", \"Bank\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.84,
+    "_prompt_eval_count": 8389
+  },
+  "GS-026": {
+    "actor_category": "External",
+    "action_category": "Malware",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "Yes",
+    "attr_avail_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Ransomware"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Internal"
+    ],
+    "attr_integrity_variety": [
+      "Malware installation",
+      "Modify data"
+    ],
+    "attr_avail_variety": [
+      "Encryption"
+    ],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Malware\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"Yes\", \"attr_avail_present\": \"Yes\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Organized crime\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Ransomware\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\", \"Internal\"], \"attr_integrity_variety\": [\"Malware installation\", \"Modify data\"], \"attr_avail_variety\": [\"Encryption\"]}",
+    "_latency_s": 1.82,
+    "_prompt_eval_count": 8312
+  },
+  "GS-027": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.8,
+    "_prompt_eval_count": 8341
+  },
+  "GS-028": {
+    "actor_category": "Unknown",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"Unknown\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Unknown\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.81,
+    "_prompt_eval_count": 8404
+  },
+  "GS-029": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.81,
+    "_prompt_eval_count": 8343
+  },
+  "GS-031": {
+    "actor_category": "Unknown",
+    "action_category": "Error",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "NA"
+    ],
+    "action_variety": [
+      "Misconfiguration"
+    ],
+    "action_vector": [
+      "Inadequate technology"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"Unknown\", \"action_category\": \"Error\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"NA\"], \"action_variety\": [\"Misconfiguration\"], \"action_vector\": [\"Inadequate technology\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.81,
+    "_prompt_eval_count": 8324
+  },
+  "GS-032": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.79,
+    "_prompt_eval_count": 8370
+  },
+  "GS-034": {
+    "actor_category": "Unknown",
+    "action_category": "Error",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "NA"
+    ],
+    "action_variety": [
+      "Misconfiguration"
+    ],
+    "action_vector": [
+      "Inadequate technology"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"Unknown\", \"action_category\": \"Error\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"NA\"], \"action_variety\": [\"Misconfiguration\"], \"action_vector\": [\"Inadequate technology\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.75,
+    "_prompt_eval_count": 8349
+  },
+  "GS-035": {
+    "actor_category": "Unknown",
+    "action_category": "Error",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Misconfiguration"
+    ],
+    "action_vector": [
+      "Inadequate technology"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Medical"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"Unknown\", \"action_category\": \"Error\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Unknown\"], \"action_variety\": [\"Misconfiguration\"], \"action_vector\": [\"Inadequate technology\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\", \"Medical\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.84,
+    "_prompt_eval_count": 8320
+  },
+  "GS-036": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Unknown",
+    "attr_integrity_present": "Yes",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Defacement"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Web application"
+    ],
+    "attr_conf_data_variety": [],
+    "attr_integrity_variety": [
+      "Defacement",
+      "Modify data"
+    ],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Unknown\", \"attr_integrity_present\": \"Yes\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Organized crime\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Defacement\"], \"action_vector\": [\"Web application\"], \"asset_variety\": [\"Web application\"], \"attr_conf_data_variety\": [], \"attr_integrity_variety\": [\"Defacement\", \"Modify data\"], \"attr_avail_variety\": []}",
+    "_latency_s": 1.85,
+    "_prompt_eval_count": 8330
+  },
+  "GS-037": {
+    "actor_category": "Unknown",
+    "action_category": "Error",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "NA"
+    ],
+    "action_variety": [
+      "Misconfiguration"
+    ],
+    "action_vector": [
+      "Inadequate technology"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"Unknown\", \"action_category\": \"Error\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"NA\"], \"action_variety\": [\"Misconfiguration\"], \"action_vector\": [\"Inadequate technology\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.73,
+    "_prompt_eval_count": 8301
+  },
+  "GS-038": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.8,
+    "_prompt_eval_count": 8343
+  },
+  "GS-039": {
+    "actor_category": "Unknown",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"Unknown\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.86,
+    "_prompt_eval_count": 8390
+  },
+  "GS-040": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Bank"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\", \"Bank\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.83,
+    "_prompt_eval_count": 8348
+  },
+  "GS-041": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.84,
+    "_prompt_eval_count": 8349
+  },
+  "GS-043": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Yes",
+    "actor_variety": [
+      "Terrorist"
+    ],
+    "actor_motive": [
+      "Ideology"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Yes\", \"actor_variety\": [\"Terrorist\"], \"actor_motive\": [\"Ideology\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Web application\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.82,
+    "_prompt_eval_count": 8327
+  },
+  "GS-044": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.82,
+    "_prompt_eval_count": 8361
+  },
+  "GS-046": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Medical"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\", \"Medical\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.83,
+    "_prompt_eval_count": 8352
+  },
+  "GS-047": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Medical"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\", \"Medical\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.81,
+    "_prompt_eval_count": 8352
+  },
+  "GS-048": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Bank"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\", \"Bank\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.82,
+    "_prompt_eval_count": 8365
+  },
+  "GS-049": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Bank"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\", \"Bank\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.82,
+    "_prompt_eval_count": 8337
+  },
+  "GS-051": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "Unknown",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"Unknown\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Web application\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.82,
+    "_prompt_eval_count": 8335
+  },
+  "GS-052": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Yes\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.8,
+    "_prompt_eval_count": 8319
+  },
+  "GS-054": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Bank"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Yes\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Web application\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\", \"Bank\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.83,
+    "_prompt_eval_count": 8352
+  },
+  "GS-055": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Internal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\", \"Internal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.81,
+    "_prompt_eval_count": 8360
+  },
+  "GS-056": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.78,
+    "_prompt_eval_count": 8314
+  },
+  "GS-057": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.81,
+    "_prompt_eval_count": 8352
+  },
+  "GS-059": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.76,
+    "_prompt_eval_count": 8307
+  },
+  "GS-060": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.81,
+    "_prompt_eval_count": 8377
+  },
+  "GS-061": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.79,
+    "_prompt_eval_count": 8318
+  },
+  "GS-062": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Organized crime\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.84,
+    "_prompt_eval_count": 8355
+  },
+  "GS-063": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.82,
+    "_prompt_eval_count": 8348
+  },
+  "GS-064": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.79,
+    "_prompt_eval_count": 8348
+  },
+  "GS-065": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.8,
+    "_prompt_eval_count": 8344
+  },
+  "GS-066": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.79,
+    "_prompt_eval_count": 8361
+  },
+  "GS-067": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.8,
+    "_prompt_eval_count": 8365
+  },
+  "GS-068": {
+    "actor_category": "Unknown",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"Unknown\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Unknown\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.77,
+    "_prompt_eval_count": 8342
+  },
+  "GS-069": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Ideology"
+    ],
+    "action_variety": [
+      "Defacement"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [],
+    "attr_integrity_variety": [
+      "Modify data",
+      "Alter behavior"
+    ],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Ideology\"], \"action_variety\": [\"Defacement\"], \"action_vector\": [\"Web application\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [], \"attr_integrity_variety\": [\"Modify data\", \"Alter behavior\"], \"attr_avail_variety\": []}",
+    "_latency_s": 1.83,
+    "_prompt_eval_count": 8327
+  },
+  "GS-070": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Ideology"
+    ],
+    "action_variety": [
+      "Defacement"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Secrets"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Yes\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Ideology\"], \"action_variety\": [\"Defacement\"], \"action_vector\": [\"Web application\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\", \"Secrets\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.84,
+    "_prompt_eval_count": 8372
+  },
+  "GS-071": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Offline cracking"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Offline cracking\"], \"action_vector\": [\"Web application\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.82,
+    "_prompt_eval_count": 8364
+  },
+  "GS-074": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.83,
+    "_prompt_eval_count": 8412
+  },
+  "GS-075": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Yes\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 1.81,
+    "_prompt_eval_count": 8364
+  },
+  "GS-078": {
+    "actor_category": "External",
+    "action_category": "Malware",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Ransomware"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Internal"
+    ],
+    "attr_integrity_variety": [
+      "Malware installation",
+      "Modify data"
+    ],
+    "attr_avail_variety": [
+      "Interruption"
+    ],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Malware\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"Yes\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Organized crime\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Ransomware\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\", \"Internal\"], \"attr_integrity_variety\": [\"Malware installation\", \"Modify data\"], \"attr_avail_variety\": [\"Interruption\"]}",
+    "_latency_s": 1.99,
+    "_prompt_eval_count": 8365
+  },
+  "GS-080": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "No",
+    "attr_integrity_present": "Yes",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Unknown",
+    "actor_variety": [
+      "Activist"
+    ],
+    "actor_motive": [
+      "Ideology"
+    ],
+    "action_variety": [
+      "Defacement"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Web application"
+    ],
+    "attr_conf_data_variety": [],
+    "attr_integrity_variety": [
+      "Defacement",
+      "Modify data"
+    ],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"No\", \"attr_integrity_present\": \"Yes\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Unknown\", \"actor_variety\": [\"Activist\"], \"actor_motive\": [\"Ideology\"], \"action_variety\": [\"Defacement\"], \"action_vector\": [\"Web application\"], \"asset_variety\": [\"Web application\"], \"attr_conf_data_variety\": [], \"attr_integrity_variety\": [\"Defacement\", \"Modify data\"], \"attr_avail_variety\": []}",
+    "_latency_s": 1.91,
+    "_prompt_eval_count": 8318
+  },
+  "GS-081": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 2.73,
+    "_prompt_eval_count": 8358
+  },
+  "GS-082": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Yes",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Yes\", \"actor_variety\": [\"Organized crime\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Web application\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 2.83,
+    "_prompt_eval_count": 8386
+  },
+  "GS-083": {
+    "actor_category": "Unknown",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"Unknown\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 2.74,
+    "_prompt_eval_count": 8365
+  },
+  "GS-084": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Web application\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 2.77,
+    "_prompt_eval_count": 8359
+  },
+  "GS-086": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 2.74,
+    "_prompt_eval_count": 8318
+  },
+  "GS-087": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Web application\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 2.72,
+    "_prompt_eval_count": 8318
+  },
+  "GS-088": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Offline cracking"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Yes\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Offline cracking\"], \"action_vector\": [\"Web application\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 2.77,
+    "_prompt_eval_count": 8317
+  },
+  "GS-090": {
+    "actor_category": "Unknown",
+    "action_category": "Error",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "NA"
+    ],
+    "action_variety": [
+      "Misconfiguration"
+    ],
+    "action_vector": [
+      "Inadequate technology"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"Unknown\", \"action_category\": \"Error\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"NA\"], \"action_variety\": [\"Misconfiguration\"], \"action_vector\": [\"Inadequate technology\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 2.83,
+    "_prompt_eval_count": 8329
+  },
+  "GS-091": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Web application\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 2.8,
+    "_prompt_eval_count": 8348
+  },
+  "GS-092": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Organized crime\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Web application\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 2.78,
+    "_prompt_eval_count": 8336
+  },
+  "GS-095": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Unknown",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Offline cracking"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Unknown\", \"actor_variety\": [\"Organized crime\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Offline cracking\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 2.75,
+    "_prompt_eval_count": 8354
+  },
+  "GS-096": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Offline cracking"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Yes\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Offline cracking\"], \"action_vector\": [\"Web application\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 2.9,
+    "_prompt_eval_count": 8331
+  },
+  "GS-097": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Unknown\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 2.78,
+    "_prompt_eval_count": 8354
+  },
+  "GS-099": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Web application\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 2.78,
+    "_prompt_eval_count": 8329
+  },
+  "GS-100": {
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "_raw": "{\"actor_category\": \"External\", \"action_category\": \"Hacking\", \"asset_category\": \"Server\", \"attr_conf_present\": \"Yes\", \"attr_integrity_present\": \"No\", \"attr_avail_present\": \"No\", \"attr_conf_disclosure\": \"Potentially\", \"actor_variety\": [\"Unknown\"], \"actor_motive\": [\"Financial\"], \"action_variety\": [\"Unknown\"], \"action_vector\": [\"Web application\"], \"asset_variety\": [\"Database\"], \"attr_conf_data_variety\": [\"Personal\"], \"attr_integrity_variety\": [], \"attr_avail_variety\": []}",
+    "_latency_s": 2.89,
+    "_prompt_eval_count": 8348
+  }
+}

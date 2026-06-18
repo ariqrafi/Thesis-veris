@@ -1,0 +1,823 @@
+{
+  "scenario": "A4",
+  "n_records": 72,
+  "n_validity_issues": 51,
+  "validity_issue_records": [
+    {
+      "record_id": "GS-002",
+      "overlap_rate": 0.4230769230769231,
+      "missing_entities": [
+        "Kami",
+        "Humas",
+        "Lembaga",
+        "Selidiki",
+        "Bocor",
+        "Kepala",
+        "Juta",
+        "Saat",
+        "Pada",
+        "Dia"
+      ]
+    },
+    {
+      "record_id": "GS-004",
+      "overlap_rate": 0.38095238095238093,
+      "missing_entities": [
+        "Kelemahan",
+        "Penelitian",
+        "Lembaga",
+        "Studi",
+        "Kebocoran",
+        "Insiden",
+        "Keamanan",
+        "Kasus",
+        "Peristiwa",
+        "Publik"
+      ]
+    },
+    {
+      "record_id": "GS-005",
+      "overlap_rate": 0.24324324324324326,
+      "missing_entities": [
+        "Pasal",
+        "Transaksi",
+        "Jerman",
+        "Undang",
+        "Privasi",
+        "Elektronik",
+        "Perubahan",
+        "Apa",
+        "Tahun",
+        "Lalu"
+      ]
+    },
+    {
+      "record_id": "GS-009",
+      "overlap_rate": 0.4444444444444444,
+      "missing_entities": [
+        "Ramai",
+        "Kamis",
+        "Kebocoran",
+        "Ini",
+        "Soal",
+        "Adapun",
+        "Begitu",
+        "Lebih",
+        "Keterbukaan",
+        "Penjelasan"
+      ]
+    },
+    {
+      "record_id": "GS-011",
+      "overlap_rate": 0.45588235294117646,
+      "missing_entities": [
+        "DPR",
+        "Mulai",
+        "EKG",
+        "Dua",
+        "Lalu",
+        "Rabu",
+        "Pribadi",
+        "Bahwa",
+        "Kebocoran",
+        "Tentu"
+      ]
+    },
+    {
+      "record_id": "GS-013",
+      "overlap_rate": 0.4411764705882353,
+      "missing_entities": [
+        "Ramai",
+        "Kamis",
+        "Kami",
+        "Jadi",
+        "Menanggapi",
+        "Pengguna",
+        "Bocor",
+        "Sistem",
+        "Namun",
+        "Keluhkan"
+      ]
+    },
+    {
+      "record_id": "GS-016",
+      "overlap_rate": 0.39285714285714285,
+      "missing_entities": [
+        "Selasa",
+        "Kami",
+        "Telusuri",
+        "Seluruh",
+        "Menanggapi",
+        "Ditegaskan",
+        "Kebocoran",
+        "Apabila",
+        "Juta",
+        "Ini"
+      ]
+    },
+    {
+      "record_id": "GS-020",
+      "overlap_rate": 0.2638888888888889,
+      "missing_entities": [
+        "Usai",
+        "Pusat",
+        "Politikus",
+        "Hanya",
+        "Pencadangan",
+        "Fraksi",
+        "Imigrasi",
+        "Tentunya",
+        "Karya",
+        "Elektronik"
+      ]
+    },
+    {
+      "record_id": "GS-022",
+      "overlap_rate": 0.39473684210526316,
+      "missing_entities": [
+        "Pusat",
+        "Dirjen",
+        "Instansi",
+        "Bocor",
+        "Informatika",
+        "Aplikasi",
+        "Pemerintah",
+        "Negara",
+        "Sementara",
+        "Kontributor"
+      ]
+    },
+    {
+      "record_id": "GS-024",
+      "overlap_rate": 0.20833333333333334,
+      "missing_entities": [
+        "BUMN",
+        "Kamis",
+        "Menurutnya",
+        "Coreng",
+        "Kepercayaan",
+        "Kebocoran",
+        "Berdampak",
+        "Ini",
+        "Citra",
+        "Ribu"
+      ]
+    },
+    {
+      "record_id": "GS-026",
+      "overlap_rate": 0.35714285714285715,
+      "missing_entities": [
+        "From",
+        "Coordinating",
+        "National",
+        "Services",
+        "Crypto",
+        "Security",
+        "Ministry",
+        "Every",
+        "Applications",
+        "Communications"
+      ]
+    },
+    {
+      "record_id": "GS-027",
+      "overlap_rate": 0.43333333333333335,
+      "missing_entities": [
+        "Selasa",
+        "Dalam",
+        "Senin",
+        "Kebocoran",
+        "Selaku",
+        "Laporkan",
+        "Komunikasi",
+        "Pernyataan",
+        "Juli",
+        "Dugaan"
+      ]
+    },
+    {
+      "record_id": "GS-028",
+      "overlap_rate": 0.25,
+      "missing_entities": [
+        "Kebohongan",
+        "Terbongkar",
+        "Pusat",
+        "Jumlah",
+        "Jumlahnya",
+        "Pengendalian",
+        "Penyakit",
+        "Tujuannya",
+        "Bocor",
+        "Kebijakan"
+      ]
+    },
+    {
+      "record_id": "GS-031",
+      "overlap_rate": 0.24,
+      "missing_entities": [
+        "Anda",
+        "Menjaga",
+        "Pakar",
+        "SeriesAmankanDataPribadi",
+        "Situs",
+        "Masukkan",
+        "Cara",
+        "Kunjungi",
+        "Pribadi",
+        "Jika"
+      ]
+    },
+    {
+      "record_id": "GS-032",
+      "overlap_rate": 0.3684210526315789,
+      "missing_entities": [
+        "Penyelenggara",
+        "Kami",
+        "Sesuai",
+        "Elektronik",
+        "Pasalnya",
+        "Kebocoran",
+        "Agustus",
+        "Juta",
+        "Korporat",
+        "Sistem"
+      ]
+    },
+    {
+      "record_id": "GS-034",
+      "overlap_rate": 0.4189189189189189,
+      "missing_entities": [
+        "Direktorat",
+        "Prioritaskan",
+        "Kamis",
+        "Patuhi",
+        "6,6 juta",
+        "Lembaga",
+        "Segera",
+        "Sekitar",
+        "Tahun",
+        "Apa"
+      ]
+    },
+    {
+      "record_id": "GS-035",
+      "overlap_rate": 0.4166666666666667,
+      "missing_entities": [
+        "Antara",
+        "Hasilnya",
+        "Terbit",
+        "Jumat",
+        "Instansi",
+        "Kebocoran",
+        "Dedi",
+        "Juru",
+        "Bicara",
+        "Investigasi"
+      ]
+    },
+    {
+      "record_id": "GS-036",
+      "overlap_rate": 0.3,
+      "missing_entities": [
+        "Setelah",
+        "Selasa",
+        "Saya",
+        "Okt",
+        "Perwakilan",
+        "Situs",
+        "Berkaca",
+        "Lembaga",
+        "Segera",
+        "Eksekutif"
+      ]
+    },
+    {
+      "record_id": "GS-037",
+      "overlap_rate": 0.26595744680851063,
+      "missing_entities": [
+        "Sejak",
+        "Artikel",
+        "Berikut",
+        "Setidaknya",
+        "Informatika",
+        "Peraturan",
+        "Juru",
+        "Pihak",
+        "Terdapat",
+        "Kartu"
+      ]
+    },
+    {
+      "record_id": "GS-038",
+      "overlap_rate": 0.3829787234042553,
+      "missing_entities": [
+        "Selasa",
+        "Usaha",
+        "Dirjen",
+        "Humas",
+        "Sehubungan",
+        "Milik",
+        "Kebocoran",
+        "Informatika",
+        "Aplikasi",
+        "Agustus"
+      ]
+    },
+    {
+      "record_id": "GS-039",
+      "overlap_rate": 0.35384615384615387,
+      "missing_entities": [
+        "Selasa",
+        "Pusat",
+        "Darurat",
+        "Jatuh",
+        "Pakar",
+        "Humas",
+        "Sedang",
+        "Lembaga",
+        "Kebocoran",
+        "Isi"
+      ]
+    },
+    {
+      "record_id": "GS-041",
+      "overlap_rate": 0.35135135135135137,
+      "missing_entities": [
+        "Setelah",
+        "Pusat",
+        "Saya",
+        "Jadi",
+        "Sekretaris",
+        "Jumat",
+        "Perwakilan",
+        "Undang",
+        "Mengutip",
+        "Enkripsi"
+      ]
+    },
+    {
+      "record_id": "GS-043",
+      "overlap_rate": 0.34285714285714286,
+      "missing_entities": [
+        "Nyawa",
+        "Saya",
+        "Akhirnya",
+        "Bocor",
+        "Duduk",
+        "Kita",
+        "Entah",
+        "Ini",
+        "Sebagai",
+        "Karena"
+      ]
+    },
+    {
+      "record_id": "GS-044",
+      "overlap_rate": 0.2894736842105263,
+      "missing_entities": [
+        "BUMN",
+        "Kami",
+        "Jangan",
+        "Telkomsrl",
+        "Utama",
+        "Koordinator",
+        "Rabu",
+        "Pasalnya",
+        "Pimpinan",
+        "Jika"
+      ]
+    },
+    {
+      "record_id": "GS-046",
+      "overlap_rate": 0.3076923076923077,
+      "missing_entities": [
+        "Penyelenggara",
+        "Sampel",
+        "Jumat",
+        "Pewarta",
+        "Kantor",
+        "Transaksi",
+        "Menkominfo",
+        "Elektronik",
+        "Tahun",
+        "Pribadi"
+      ]
+    },
+    {
+      "record_id": "GS-047",
+      "overlap_rate": 0.4342105263157895,
+      "missing_entities": [
+        "Selasa",
+        "Pusat",
+        "Kami",
+        "Kantor",
+        "Bidang",
+        "Koordinator",
+        "Pihaknya",
+        "Laporan",
+        "Termasuk",
+        "Kebocoran"
+      ]
+    },
+    {
+      "record_id": "GS-052",
+      "overlap_rate": 0.30718954248366015,
+      "missing_entities": [
+        "Surat",
+        "Dalam",
+        "Berbeda",
+        "Sejauh",
+        "Sanksinya",
+        "Regulasi",
+        "Informatika",
+        "Pendiri",
+        "Tentu",
+        "Peraturan"
+      ]
+    },
+    {
+      "record_id": "GS-055",
+      "overlap_rate": 0.35555555555555557,
+      "missing_entities": [
+        "Kamis",
+        "Selesai",
+        "Jadi",
+        "Pihaknya",
+        "Eksekutif",
+        "Belum",
+        "Geng",
+        "Senin",
+        "Tim",
+        "Kebocoran"
+      ]
+    },
+    {
+      "record_id": "GS-056",
+      "overlap_rate": 0.4318181818181818,
+      "missing_entities": [
+        "Setelah",
+        "Kami",
+        "Jadi",
+        "Jumat",
+        "Telusuri",
+        "Mengutip",
+        "Bocor",
+        "Tim",
+        "Kebocoran",
+        "Informatika"
+      ]
+    },
+    {
+      "record_id": "GS-057",
+      "overlap_rate": 0.42857142857142855,
+      "missing_entities": [
+        "Setelah",
+        "Jumat",
+        "Kantor",
+        "Mengutip",
+        "Bocor",
+        "Tentu",
+        "Berdasarkan",
+        "Negara",
+        "Ini",
+        "Itu"
+      ]
+    },
+    {
+      "record_id": "GS-059",
+      "overlap_rate": 0.3125,
+      "missing_entities": [
+        "Penyelenggara",
+        "Kami",
+        "Sesuai",
+        "Elektronik",
+        "Informatika",
+        "Berdasarkan",
+        "Negara",
+        "Juru",
+        "Bicara",
+        "Sistem"
+      ]
+    },
+    {
+      "record_id": "GS-060",
+      "overlap_rate": 0.4418604651162791,
+      "missing_entities": [
+        "Kami",
+        "Hanya",
+        "Sebenarnya",
+        "Peneliti",
+        "Bocor",
+        "Jika",
+        "Koordinasi",
+        "Energi",
+        "Namun",
+        "Sehingga"
+      ]
+    },
+    {
+      "record_id": "GS-061",
+      "overlap_rate": 0.4,
+      "missing_entities": [
+        "Penyelenggara",
+        "Kami",
+        "Sesuai",
+        "Elektronik",
+        "Berdasarkan",
+        "Juru",
+        "Bicara",
+        "Sistem",
+        "Kementerian",
+        "Dengan"
+      ]
+    },
+    {
+      "record_id": "GS-063",
+      "overlap_rate": 0.45535714285714285,
+      "missing_entities": [
+        "Keamanan",
+        "Pihak",
+        "Juru",
+        "Ini",
+        "Misalnya",
+        "Tanpa",
+        "Sandi",
+        "Dari",
+        "Air",
+        "Melalui"
+      ]
+    },
+    {
+      "record_id": "GS-064",
+      "overlap_rate": 0.35294117647058826,
+      "missing_entities": [
+        "Kominfo",
+        "Selanjutnya",
+        "Untuk",
+        "Kementerian",
+        "Jenderal",
+        "Sandi",
+        "Negara",
+        "Badan",
+        "Siber",
+        "Direktorat"
+      ]
+    },
+    {
+      "record_id": "GS-068",
+      "overlap_rate": 0.4375,
+      "missing_entities": [
+        "Telusuri",
+        "Terbaru",
+        "Transaksi",
+        "Menkominfo",
+        "Elektronik",
+        "Atas",
+        "Tahun",
+        "Kebocoran",
+        "Informatika",
+        "Penyelenggaraan"
+      ]
+    },
+    {
+      "record_id": "GS-069",
+      "overlap_rate": 0.3333333333333333,
+      "missing_entities": [
+        "Kelemahan",
+        "Selasa",
+        "Informatika",
+        "Juru",
+        "Ini",
+        "Misalnya",
+        "Sandi",
+        "Kata",
+        "Kementerian",
+        "Kode"
+      ]
+    },
+    {
+      "record_id": "GS-070",
+      "overlap_rate": 0.4406779661016949,
+      "missing_entities": [
+        "BUMN",
+        "Setelah",
+        "Sekretaris",
+        "Fraksi",
+        "Menkominfo",
+        "Menurutnya",
+        "Undang",
+        "Twitternya",
+        "Sebagaimana",
+        "Pribadi"
+      ]
+    },
+    {
+      "record_id": "GS-071",
+      "overlap_rate": 0.39622641509433965,
+      "missing_entities": [
+        "Selasa",
+        "Dukungan",
+        "Menurutnya",
+        "Goverment",
+        "Berikut",
+        "Informatika",
+        "Keamanan",
+        "Ini",
+        "Sebagai",
+        "Penjual"
+      ]
+    },
+    {
+      "record_id": "GS-074",
+      "overlap_rate": 0.4716981132075472,
+      "missing_entities": [
+        "Usut",
+        "Jangan",
+        "Pemilu",
+        "Menurutnya",
+        "Sejauh",
+        "Potensial",
+        "Senin",
+        "Kebocoran",
+        "Akan",
+        "Padahal"
+      ]
+    },
+    {
+      "record_id": "GS-078",
+      "overlap_rate": 0.3380952380952381,
+      "missing_entities": [
+        "Kelemahan",
+        "Tujuan",
+        "Internasional",
+        "Imigrasi",
+        "Penurunan",
+        "Layanan",
+        "Berikut",
+        "Pola",
+        "Pendek",
+        "Regulasi"
+      ]
+    },
+    {
+      "record_id": "GS-080",
+      "overlap_rate": 0.3953488372093023,
+      "missing_entities": [
+        "Saya",
+        "Berbeda",
+        "Situs",
+        "Daftar",
+        "Ini",
+        "Begitu",
+        "Sekjen",
+        "Tidak",
+        "Sandi",
+        "Jenderal"
+      ]
+    },
+    {
+      "record_id": "GS-081",
+      "overlap_rate": 0.41379310344827586,
+      "missing_entities": [
+        "Selasa",
+        "Logo",
+        "Saya",
+        "Jawa",
+        "Pewarta",
+        "Provinsi",
+        "Gubernur",
+        "Undang",
+        "Lembaga",
+        "Kepercayaan"
+      ]
+    },
+    {
+      "record_id": "GS-082",
+      "overlap_rate": 0.3816793893129771,
+      "missing_entities": [
+        "Selasa",
+        "Kabupaten",
+        "Kombes",
+        "Ayat",
+        "Kebanyakan",
+        "4,9 juta",
+        "Senin",
+        "IKP",
+        "Nama",
+        "Kependudukannya"
+      ]
+    },
+    {
+      "record_id": "GS-086",
+      "overlap_rate": 0.3793103448275862,
+      "missing_entities": [
+        "Setelah",
+        "Kamis",
+        "Lantas",
+        "Undang",
+        "Kampus",
+        "Induk",
+        "Pribadi",
+        "Tinggi",
+        "Jika",
+        "Rabu"
+      ]
+    },
+    {
+      "record_id": "GS-087",
+      "overlap_rate": 0.3695652173913043,
+      "missing_entities": [
+        "Manfaat",
+        "Sebuah",
+        "Mengatasi",
+        "Risiko",
+        "Apa",
+        "Berikut",
+        "Bocor",
+        "Kekurangan",
+        "Padahal",
+        "Bila"
+      ]
+    },
+    {
+      "record_id": "GS-095",
+      "overlap_rate": 0.4,
+      "missing_entities": [
+        "Dalam",
+        "Digerebek",
+        "Sejak",
+        "Secara",
+        "Sehari",
+        "Mengutip",
+        "Sedunia",
+        "Hingga",
+        "Forum",
+        "Penyidik"
+      ]
+    },
+    {
+      "record_id": "GS-096",
+      "overlap_rate": 0.3488372093023256,
+      "missing_entities": [
+        "Penyelenggara",
+        "Pusat",
+        "Penelitian",
+        "Undang",
+        "Atas",
+        "Elektronik",
+        "Metode",
+        "Rumusan",
+        "Pribadi",
+        "Pengadilan"
+      ]
+    },
+    {
+      "record_id": "GS-097",
+      "overlap_rate": 0.375,
+      "missing_entities": [
+        "Segera",
+        "Desak",
+        "Bocor",
+        "Anggota",
+        "Investigasi",
+        "Pelanggan",
+        "Belajar",
+        "Agu",
+        "Dengan",
+        "Kalau"
+      ]
+    },
+    {
+      "record_id": "GS-099",
+      "overlap_rate": 0.3125,
+      "missing_entities": [
+        "Faces",
+        "Additionally",
+        "With",
+        "Information",
+        "When",
+        "Immigration",
+        "Chinese",
+        "According",
+        "The",
+        "Meanwhile"
+      ]
+    },
+    {
+      "record_id": "GS-100",
+      "overlap_rate": 0.421875,
+      "missing_entities": [
+        "Merugikan",
+        "Youtube",
+        "6,6 juta",
+        "Tindak",
+        "Ayat",
+        "Berikut",
+        "Negeri",
+        "Kelompok",
+        "Sebagai",
+        "Pencegahan"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "n_outputs": 250,
+  "n_violation_records": 20,
+  "svr": 0.08,
+  "svr_wilson_ci95": [
+    0.052382328372331775,
+    0.12032964320384168
+  ],
+  "h2a_threshold": 0.1,
+  "test_proportions_ztest_two_sided": {
+    "z": -1.05409255338946,
+    "p": 0.29184054514378843
+  },
+  "test_proportions_ztest_smaller": {
+    "z": -1.05409255338946,
+    "p": 0.14592027257189422,
+    "alt": "SVR < 0.10"
+  },
+  "test_binomtest_two_sided_p": 0.3423340642120506,
+  "h2a_verdict": "NOT SUPPORTED",
+  "h2a_rule": "SUPPORTED iff Wilson upper bound < 0.10",
+  "cause_breakdown_records": {
+    "missing": 15,
+    "vocabulary": 10
+  },
+  "cause_sole_records": {
+    "missing": 10,
+    "vocabulary": 5
+  },
+  "field_completeness_rate": 0.9946666666666667,
+  "n_present_fields": 3730,
+  "n_required_fields": 3750,
+  "vocabulary_conformance_rate": 0.9970501474926253,
+  "n_value_cells": 3390,
+  "n_invocab_cells": 3380,
+  "per_field_off_vocab": {
+    "actor_category": {
+      "values": 250,
+      "off": 0,
+      "rate": 0.0,
+      "examples": []
+    },
+    "action_category": {
+      "values": 250,
+      "off": 0,
+      "rate": 0.0,
+      "examples": []
+    },
+    "asset_category": {
+      "values": 250,
+      "off": 0,
+      "rate": 0.0,
+      "examples": []
+    },
+    "attr_conf_present": {
+      "values": 250,
+      "off": 0,
+      "rate": 0.0,
+      "examples": []
+    },
+    "attr_integrity_present": {
+      "values": 250,
+      "off": 0,
+      "rate": 0.0,
+      "examples": []
+    },
+    "attr_avail_present": {
+      "values": 250,
+      "off": 0,
+      "rate": 0.0,
+      "examples": []
+    },
+    "attr_conf_disclosure": {
+      "values": 250,
+      "off": 0,
+      "rate": 0.0,
+      "examples": []
+    },
+    "actor_variety": {
+      "values": 250,
+      "off": 0,
+      "rate": 0.0,
+      "examples": []
+    },
+    "actor_motive": {
+      "values": 225,
+      "off": 0,
+      "rate": 0.0,
+      "examples": []
+    },
+    "action_variety": {
+      "values": 255,
+      "off": 5,
+      "rate": 0.0196078431372549,
+      "examples": [
+        [
+          "Defacement",
+          5
+        ]
+      ]
+    },
+    "action_vector": {
+      "values": 255,
+      "off": 0,
+      "rate": 0.0,
+      "examples": []
+    },
+    "asset_variety": {
+      "values": 260,
+      "off": 0,
+      "rate": 0.0,
+      "examples": []
+    },
+    "attr_conf_data_variety": {
+      "values": 340,
+      "off": 0,
+      "rate": 0.0,
+      "examples": []
+    },
+    "attr_integrity_variety": {
+      "values": 40,
+      "off": 5,
+      "rate": 0.125,
+      "examples": [
+        [
+          "Obscuration",
+          5
+        ]
+      ]
+    },
+    "attr_avail_variety": {
+      "values": 15,
+      "off": 0,
+      "rate": 0.0,
+      "examples": []
+    }
+  },
+  "_xcheck_svr_temp0_matches_task6": true
+}

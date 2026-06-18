@@ -1,0 +1,1912 @@
+{
+  "h3_hypothesis": "Degradation F1 <= 0.15 across all stress-test scenarios",
+  "h3_rule": "SUPPORTED iff upper bound of 95% CI(ΔF1) < 0.15 for each scenario",
+  "h3_per_scenario": {
+    "A1": true,
+    "A2": true,
+    "A3": true,
+    "A4": true,
+    "C1_headline": true,
+    "C1_25pct": true,
+    "C1_50pct": true,
+    "C2_actor": true,
+    "C2_action": true,
+    "C2_asset": true
+  },
+  "h3_aggregate": "SUPPORTED (10/10 scenarios: CI upper < 0.15)",
+  "n_scenarios_evaluated": 10,
+  "n_scenarios_h3_supported": 10,
+  "bonferroni": {
+    "n_mcnemar_comparisons": 150,
+    "alpha_adjusted": 0.000333,
+    "n_reject_raw_alpha05": 3,
+    "n_reject_bonferroni": 0,
+    "per_comparison": {
+      "A1__actor_category": {
+        "p": 0.47950012218695337,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A1__action_category": {
+        "p": 0.47950012218695337,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A1__asset_category": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A1__attr_conf_present": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A1__attr_integrity_present": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A1__attr_avail_present": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A1__attr_conf_disclosure": {
+        "p": 0.47950012218695337,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A1__actor_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A1__actor_motive": {
+        "p": 0.6170750774519739,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A1__action_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A1__action_vector": {
+        "p": 0.3864762307712325,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A1__asset_variety": {
+        "p": 0.47950012218695337,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A1__attr_conf_data_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A1__attr_integrity_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A1__attr_avail_variety": {
+        "p": 0.47950012218695337,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A2__actor_category": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A2__action_category": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A2__asset_category": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A2__attr_conf_present": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A2__attr_integrity_present": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A2__attr_avail_present": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A2__attr_conf_disclosure": {
+        "p": 0.24821307898992026,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A2__actor_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A2__actor_motive": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A2__action_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A2__action_vector": {
+        "p": 0.5790997419539188,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A2__asset_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A2__attr_conf_data_variety": {
+        "p": 0.37109336952269756,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A2__attr_integrity_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A2__attr_avail_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A3__actor_category": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A3__action_category": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A3__asset_category": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A3__attr_conf_present": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A3__attr_integrity_present": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A3__attr_avail_present": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A3__attr_conf_disclosure": {
+        "p": 0.47950012218695337,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A3__actor_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A3__actor_motive": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A3__action_variety": {
+        "p": 0.4496917979688908,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A3__action_vector": {
+        "p": 0.2888443663464818,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A3__asset_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A3__attr_conf_data_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A3__attr_integrity_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A3__attr_avail_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A4__actor_category": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A4__action_category": {
+        "p": 0.47950012218695337,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A4__asset_category": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A4__attr_conf_present": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A4__attr_integrity_present": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A4__attr_avail_present": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A4__attr_conf_disclosure": {
+        "p": 0.13361440253771584,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A4__actor_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A4__actor_motive": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A4__action_variety": {
+        "p": 0.6055766163353462,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A4__action_vector": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A4__asset_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A4__attr_conf_data_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A4__attr_integrity_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "A4__attr_avail_variety": {
+        "p": 0.47950012218695337,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_headline__actor_category": {
+        "p": 0.12133525035848208,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_headline__action_category": {
+        "p": 0.04550026389635857,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_headline__asset_category": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_headline__attr_conf_present": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_headline__attr_integrity_present": {
+        "p": 0.22067136191984324,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_headline__attr_avail_present": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_headline__attr_conf_disclosure": {
+        "p": 0.7518296340458492,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_headline__actor_variety": {
+        "p": 0.38273308888522595,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_headline__actor_motive": {
+        "p": 0.015861332739773026,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_headline__action_variety": {
+        "p": 0.2864220227778557,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_headline__action_vector": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_headline__asset_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_headline__attr_conf_data_variety": {
+        "p": 0.6170750774519739,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_headline__attr_integrity_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_headline__attr_avail_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_25pct__actor_category": {
+        "p": 0.026500280602491884,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_25pct__action_category": {
+        "p": 0.07363827012030258,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_25pct__asset_category": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_25pct__attr_conf_present": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_25pct__attr_integrity_present": {
+        "p": 0.6170750774519739,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_25pct__attr_avail_present": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_25pct__attr_conf_disclosure": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_25pct__actor_variety": {
+        "p": 0.4532547047537363,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_25pct__actor_motive": {
+        "p": 0.2888443663464818,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_25pct__action_variety": {
+        "p": 0.2385928293164321,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_25pct__action_vector": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_25pct__asset_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_25pct__attr_conf_data_variety": {
+        "p": 0.22067136191984324,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_25pct__attr_integrity_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_25pct__attr_avail_variety": {
+        "p": 0.47950012218695337,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_50pct__actor_category": {
+        "p": 0.6830913983096086,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_50pct__action_category": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_50pct__asset_category": {
+        "p": 0.47950012218695337,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_50pct__attr_conf_present": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_50pct__attr_integrity_present": {
+        "p": 0.47950012218695337,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_50pct__attr_avail_present": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_50pct__attr_conf_disclosure": {
+        "p": 0.24821307898992026,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_50pct__actor_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_50pct__actor_motive": {
+        "p": 0.6830913983096086,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_50pct__action_variety": {
+        "p": 0.6276258050283593,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_50pct__action_vector": {
+        "p": 0.7003113729368903,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_50pct__asset_variety": {
+        "p": 0.47950012218695337,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_50pct__attr_conf_data_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_50pct__attr_integrity_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C1_50pct__attr_avail_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_actor__actor_category": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_actor__action_category": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_actor__asset_category": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_actor__attr_conf_present": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_actor__attr_integrity_present": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_actor__attr_avail_present": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_actor__attr_conf_disclosure": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_actor__actor_variety": {
+        "p": 0.6170750774519739,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_actor__actor_motive": {
+        "p": 0.6170750774519739,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_actor__action_variety": {
+        "p": 0.7518296340458492,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_actor__action_vector": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_actor__asset_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_actor__attr_conf_data_variety": {
+        "p": 0.47950012218695337,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_actor__attr_integrity_variety": {
+        "p": 0.47950012218695337,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_actor__attr_avail_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_action__actor_category": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_action__action_category": {
+        "p": 0.47950012218695337,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_action__asset_category": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_action__attr_conf_present": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_action__attr_integrity_present": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_action__attr_avail_present": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_action__attr_conf_disclosure": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_action__actor_variety": {
+        "p": 0.5464935954065822,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_action__actor_motive": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_action__action_variety": {
+        "p": 0.14891467317876161,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_action__action_vector": {
+        "p": 0.0613688291394023,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_action__asset_variety": {
+        "p": 0.47950012218695337,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_action__attr_conf_data_variety": {
+        "p": 0.47950012218695337,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_action__attr_integrity_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_action__attr_avail_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_asset__actor_category": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_asset__action_category": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_asset__asset_category": {
+        "p": 0.47950012218695337,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_asset__attr_conf_present": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_asset__attr_integrity_present": {
+        "p": 0.47950012218695337,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_asset__attr_avail_present": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_asset__attr_conf_disclosure": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_asset__actor_variety": {
+        "p": 0.47950012218695337,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_asset__actor_motive": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_asset__action_variety": {
+        "p": 0.3864762307712325,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_asset__action_vector": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_asset__asset_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_asset__attr_conf_data_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_asset__attr_integrity_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      },
+      "C2_asset__attr_avail_variety": {
+        "p": 1.0,
+        "bonferroni_threshold": 0.0003333333333333334,
+        "reject": false
+      }
+    }
+  },
+  "c3_natural_short_report": {
+    "q25_length_threshold": 1717,
+    "n_short": 18,
+    "n_long": 54,
+    "short_mean_f1": 0.7074,
+    "long_mean_f1": 0.6764,
+    "delta_long_minus_short": -0.031,
+    "bootstrap_ci95_delta": [
+      -0.1259,
+      0.0696
+    ],
+    "note": "C3 is a natural cross-check (not a perturbed scenario); delta is long-doc F1 minus short-doc F1 (positive = long docs score better). Not directly used for H3 verdict (no paired baseline-scenario comparison)."
+  },
+  "per_scenario": {
+    "A1": {
+      "overall_delta": {
+        "delta_mean": -0.0076,
+        "ci95_lo": -0.0268,
+        "ci95_hi": 0.0081,
+        "h3_supported": true,
+        "h3_note": "SUPPORTED iff CI upper < 0.15"
+      },
+      "core_a4_delta": {
+        "delta_mean": -0.016203703703703703,
+        "ci95_lo": -0.037037037037037035,
+        "ci95_hi": -0.0023148148148148143,
+        "h3_supported": true
+      },
+      "svr": 0.0,
+      "svr_wilson_ci95": [
+        0.0,
+        0.0507
+      ],
+      "mcnemar_per_dim": {
+        "actor_category": {
+          "b": 0,
+          "c": 2,
+          "chi2": 0.5,
+          "p_value": 0.47950012218695337
+        },
+        "action_category": {
+          "b": 0,
+          "c": 2,
+          "chi2": 0.5,
+          "p_value": 0.47950012218695337
+        },
+        "asset_category": {
+          "b": 0,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_conf_present": {
+          "b": 0,
+          "c": 0,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_integrity_present": {
+          "b": 0,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_avail_present": {
+          "b": 0,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_conf_disclosure": {
+          "b": 0,
+          "c": 2,
+          "chi2": 0.5,
+          "p_value": 0.47950012218695337
+        },
+        "actor_variety": {
+          "b": 1,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "actor_motive": {
+          "b": 1,
+          "c": 3,
+          "chi2": 0.25,
+          "p_value": 0.6170750774519739
+        },
+        "action_variety": {
+          "b": 7,
+          "c": 6,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "action_vector": {
+          "b": 8,
+          "c": 4,
+          "chi2": 0.75,
+          "p_value": 0.3864762307712325
+        },
+        "asset_variety": {
+          "b": 0,
+          "c": 2,
+          "chi2": 0.5,
+          "p_value": 0.47950012218695337
+        },
+        "attr_conf_data_variety": {
+          "b": 0,
+          "c": 0,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_integrity_variety": {
+          "b": 2,
+          "c": 3,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_avail_variety": {
+          "b": 0,
+          "c": 2,
+          "chi2": 0.5,
+          "p_value": 0.47950012218695337
+        }
+      }
+    },
+    "A2": {
+      "overall_delta": {
+        "delta_mean": 0.0056,
+        "ci95_lo": -0.0082,
+        "ci95_hi": 0.018,
+        "h3_supported": true,
+        "h3_note": "SUPPORTED iff CI upper < 0.15"
+      },
+      "core_a4_delta": {
+        "delta_mean": -0.00462962962962963,
+        "ci95_lo": -0.023148148148148147,
+        "ci95_hi": 0.009259259259259262,
+        "h3_supported": true
+      },
+      "svr": 0.0,
+      "svr_wilson_ci95": [
+        0.0,
+        0.0507
+      ],
+      "mcnemar_per_dim": {
+        "actor_category": {
+          "b": 1,
+          "c": 2,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "action_category": {
+          "b": 1,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "asset_category": {
+          "b": 0,
+          "c": 0,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_conf_present": {
+          "b": 0,
+          "c": 0,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_integrity_present": {
+          "b": 1,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_avail_present": {
+          "b": 0,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_conf_disclosure": {
+          "b": 3,
+          "c": 0,
+          "chi2": 1.3333333333333333,
+          "p_value": 0.24821307898992026
+        },
+        "actor_variety": {
+          "b": 2,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "actor_motive": {
+          "b": 2,
+          "c": 2,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "action_variety": {
+          "b": 5,
+          "c": 5,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "action_vector": {
+          "b": 8,
+          "c": 5,
+          "chi2": 0.3076923076923077,
+          "p_value": 0.5790997419539188
+        },
+        "asset_variety": {
+          "b": 0,
+          "c": 0,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_conf_data_variety": {
+          "b": 4,
+          "c": 1,
+          "chi2": 0.8,
+          "p_value": 0.37109336952269756
+        },
+        "attr_integrity_variety": {
+          "b": 1,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_avail_variety": {
+          "b": 1,
+          "c": 2,
+          "chi2": 0.0,
+          "p_value": 1.0
+        }
+      }
+    },
+    "A3": {
+      "overall_delta": {
+        "delta_mean": 0.0071,
+        "ci95_lo": -0.0076,
+        "ci95_hi": 0.0196,
+        "h3_supported": true,
+        "h3_note": "SUPPORTED iff CI upper < 0.15"
+      },
+      "core_a4_delta": {
+        "delta_mean": -0.006944444444444444,
+        "ci95_lo": -0.01851851851851852,
+        "ci95_hi": 0.0,
+        "h3_supported": true
+      },
+      "svr": 0.0,
+      "svr_wilson_ci95": [
+        0.0,
+        0.0507
+      ],
+      "mcnemar_per_dim": {
+        "actor_category": {
+          "b": 0,
+          "c": 0,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "action_category": {
+          "b": 0,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "asset_category": {
+          "b": 0,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_conf_present": {
+          "b": 0,
+          "c": 0,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_integrity_present": {
+          "b": 0,
+          "c": 0,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_avail_present": {
+          "b": 0,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_conf_disclosure": {
+          "b": 2,
+          "c": 0,
+          "chi2": 0.5,
+          "p_value": 0.47950012218695337
+        },
+        "actor_variety": {
+          "b": 0,
+          "c": 0,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "actor_motive": {
+          "b": 3,
+          "c": 2,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "action_variety": {
+          "b": 5,
+          "c": 2,
+          "chi2": 0.5714285714285714,
+          "p_value": 0.4496917979688908
+        },
+        "action_vector": {
+          "b": 6,
+          "c": 2,
+          "chi2": 1.125,
+          "p_value": 0.2888443663464818
+        },
+        "asset_variety": {
+          "b": 0,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_conf_data_variety": {
+          "b": 0,
+          "c": 0,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_integrity_variety": {
+          "b": 2,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_avail_variety": {
+          "b": 1,
+          "c": 2,
+          "chi2": 0.0,
+          "p_value": 1.0
+        }
+      }
+    },
+    "A4": {
+      "overall_delta": {
+        "delta_mean": -0.001,
+        "ci95_lo": -0.0164,
+        "ci95_hi": 0.0138,
+        "h3_supported": true,
+        "h3_note": "SUPPORTED iff CI upper < 0.15"
+      },
+      "core_a4_delta": {
+        "delta_mean": -0.006944444444444446,
+        "ci95_lo": -0.03009259259259259,
+        "ci95_hi": 0.011574074074074073,
+        "h3_supported": true
+      },
+      "svr": 0.0,
+      "svr_wilson_ci95": [
+        0.0,
+        0.0507
+      ],
+      "mcnemar_per_dim": {
+        "actor_category": {
+          "b": 2,
+          "c": 2,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "action_category": {
+          "b": 0,
+          "c": 2,
+          "chi2": 0.5,
+          "p_value": 0.47950012218695337
+        },
+        "asset_category": {
+          "b": 0,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_conf_present": {
+          "b": 0,
+          "c": 0,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_integrity_present": {
+          "b": 2,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_avail_present": {
+          "b": 0,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_conf_disclosure": {
+          "b": 0,
+          "c": 4,
+          "chi2": 2.25,
+          "p_value": 0.13361440253771584
+        },
+        "actor_variety": {
+          "b": 2,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "actor_motive": {
+          "b": 3,
+          "c": 2,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "action_variety": {
+          "b": 9,
+          "c": 6,
+          "chi2": 0.26666666666666666,
+          "p_value": 0.6055766163353462
+        },
+        "action_vector": {
+          "b": 6,
+          "c": 6,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "asset_variety": {
+          "b": 0,
+          "c": 0,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_conf_data_variety": {
+          "b": 1,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_integrity_variety": {
+          "b": 2,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_avail_variety": {
+          "b": 0,
+          "c": 2,
+          "chi2": 0.5,
+          "p_value": 0.47950012218695337
+        }
+      }
+    },
+    "C1_headline": {
+      "overall_delta": {
+        "delta_mean": 0.0374,
+        "ci95_lo": 0.004,
+        "ci95_hi": 0.0701,
+        "h3_supported": true,
+        "h3_note": "SUPPORTED iff CI upper < 0.15"
+      },
+      "core_a4_delta": {
+        "delta_mean": 0.04398148148148148,
+        "ci95_lo": 0.013888888888888895,
+        "ci95_hi": 0.07407407407407408,
+        "h3_supported": true
+      },
+      "svr": 0.0,
+      "svr_wilson_ci95": [
+        0.0,
+        0.0507
+      ],
+      "mcnemar_per_dim": {
+        "actor_category": {
+          "b": 11,
+          "c": 4,
+          "chi2": 2.4,
+          "p_value": 0.12133525035848208
+        },
+        "action_category": {
+          "b": 8,
+          "c": 1,
+          "chi2": 4.0,
+          "p_value": 0.04550026389635857
+        },
+        "asset_category": {
+          "b": 1,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_conf_present": {
+          "b": 1,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_integrity_present": {
+          "b": 5,
+          "c": 1,
+          "chi2": 1.5,
+          "p_value": 0.22067136191984324
+        },
+        "attr_avail_present": {
+          "b": 1,
+          "c": 0,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_conf_disclosure": {
+          "b": 4,
+          "c": 6,
+          "chi2": 0.1,
+          "p_value": 0.7518296340458492
+        },
+        "actor_variety": {
+          "b": 13,
+          "c": 8,
+          "chi2": 0.7619047619047619,
+          "p_value": 0.38273308888522595
+        },
+        "actor_motive": {
+          "b": 10,
+          "c": 1,
+          "chi2": 5.818181818181818,
+          "p_value": 0.015861332739773026
+        },
+        "action_variety": {
+          "b": 14,
+          "c": 8,
+          "chi2": 1.1363636363636365,
+          "p_value": 0.2864220227778557
+        },
+        "action_vector": {
+          "b": 16,
+          "c": 16,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "asset_variety": {
+          "b": 1,
+          "c": 0,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_conf_data_variety": {
+          "b": 3,
+          "c": 1,
+          "chi2": 0.25,
+          "p_value": 0.6170750774519739
+        },
+        "attr_integrity_variety": {
+          "b": 2,
+          "c": 2,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_avail_variety": {
+          "b": 2,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        }
+      }
+    },
+    "C1_25pct": {
+      "overall_delta": {
+        "delta_mean": 0.0313,
+        "ci95_lo": 0.0009,
+        "ci95_hi": 0.0612,
+        "h3_supported": true,
+        "h3_note": "SUPPORTED iff CI upper < 0.15"
+      },
+      "core_a4_delta": {
+        "delta_mean": 0.03703703703703704,
+        "ci95_lo": 0.011574074074074077,
+        "ci95_hi": 0.0625,
+        "h3_supported": true
+      },
+      "svr": 0.0,
+      "svr_wilson_ci95": [
+        0.0,
+        0.0507
+      ],
+      "mcnemar_per_dim": {
+        "actor_category": {
+          "b": 11,
+          "c": 2,
+          "chi2": 4.923076923076923,
+          "p_value": 0.026500280602491884
+        },
+        "action_category": {
+          "b": 5,
+          "c": 0,
+          "chi2": 3.2,
+          "p_value": 0.07363827012030258
+        },
+        "asset_category": {
+          "b": 0,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_conf_present": {
+          "b": 1,
+          "c": 0,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_integrity_present": {
+          "b": 3,
+          "c": 1,
+          "chi2": 0.25,
+          "p_value": 0.6170750774519739
+        },
+        "attr_avail_present": {
+          "b": 1,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_conf_disclosure": {
+          "b": 5,
+          "c": 4,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "actor_variety": {
+          "b": 10,
+          "c": 6,
+          "chi2": 0.5625,
+          "p_value": 0.4532547047537363
+        },
+        "actor_motive": {
+          "b": 6,
+          "c": 2,
+          "chi2": 1.125,
+          "p_value": 0.2888443663464818
+        },
+        "action_variety": {
+          "b": 12,
+          "c": 6,
+          "chi2": 1.3888888888888888,
+          "p_value": 0.2385928293164321
+        },
+        "action_vector": {
+          "b": 12,
+          "c": 12,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "asset_variety": {
+          "b": 0,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_conf_data_variety": {
+          "b": 5,
+          "c": 1,
+          "chi2": 1.5,
+          "p_value": 0.22067136191984324
+        },
+        "attr_integrity_variety": {
+          "b": 2,
+          "c": 2,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_avail_variety": {
+          "b": 2,
+          "c": 0,
+          "chi2": 0.5,
+          "p_value": 0.47950012218695337
+        }
+      }
+    },
+    "C1_50pct": {
+      "overall_delta": {
+        "delta_mean": 0.0009,
+        "ci95_lo": -0.019,
+        "ci95_hi": 0.0217,
+        "h3_supported": true,
+        "h3_note": "SUPPORTED iff CI upper < 0.15"
+      },
+      "core_a4_delta": {
+        "delta_mean": 0.002314814814814815,
+        "ci95_lo": -0.013888888888888886,
+        "ci95_hi": 0.018518518518518514,
+        "h3_supported": true
+      },
+      "svr": 0.0,
+      "svr_wilson_ci95": [
+        0.0,
+        0.0507
+      ],
+      "mcnemar_per_dim": {
+        "actor_category": {
+          "b": 4,
+          "c": 2,
+          "chi2": 0.16666666666666666,
+          "p_value": 0.6830913983096086
+        },
+        "action_category": {
+          "b": 1,
+          "c": 2,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "asset_category": {
+          "b": 0,
+          "c": 2,
+          "chi2": 0.5,
+          "p_value": 0.47950012218695337
+        },
+        "attr_conf_present": {
+          "b": 1,
+          "c": 0,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_integrity_present": {
+          "b": 2,
+          "c": 0,
+          "chi2": 0.5,
+          "p_value": 0.47950012218695337
+        },
+        "attr_avail_present": {
+          "b": 1,
+          "c": 2,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_conf_disclosure": {
+          "b": 3,
+          "c": 0,
+          "chi2": 1.3333333333333333,
+          "p_value": 0.24821307898992026
+        },
+        "actor_variety": {
+          "b": 6,
+          "c": 5,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "actor_motive": {
+          "b": 4,
+          "c": 2,
+          "chi2": 0.16666666666666666,
+          "p_value": 0.6830913983096086
+        },
+        "action_variety": {
+          "b": 7,
+          "c": 10,
+          "chi2": 0.23529411764705882,
+          "p_value": 0.6276258050283593
+        },
+        "action_vector": {
+          "b": 12,
+          "c": 15,
+          "chi2": 0.14814814814814814,
+          "p_value": 0.7003113729368903
+        },
+        "asset_variety": {
+          "b": 0,
+          "c": 2,
+          "chi2": 0.5,
+          "p_value": 0.47950012218695337
+        },
+        "attr_conf_data_variety": {
+          "b": 1,
+          "c": 0,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_integrity_variety": {
+          "b": 2,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_avail_variety": {
+          "b": 2,
+          "c": 2,
+          "chi2": 0.0,
+          "p_value": 1.0
+        }
+      }
+    },
+    "C2_actor": {
+      "overall_delta": {
+        "delta_mean": -0.0016,
+        "ci95_lo": -0.0141,
+        "ci95_hi": 0.0104,
+        "h3_supported": true,
+        "h3_note": "SUPPORTED iff CI upper < 0.15"
+      },
+      "core_a4_delta": {
+        "delta_mean": -0.002314814814814815,
+        "ci95_lo": -0.011574074074074075,
+        "ci95_hi": 0.006944444444444443,
+        "h3_supported": true
+      },
+      "svr": 0.0139,
+      "svr_wilson_ci95": [
+        0.0025,
+        0.0746
+      ],
+      "mcnemar_per_dim": {
+        "actor_category": {
+          "b": 1,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "action_category": {
+          "b": 0,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "asset_category": {
+          "b": 1,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_conf_present": {
+          "b": 0,
+          "c": 0,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_integrity_present": {
+          "b": 0,
+          "c": 0,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_avail_present": {
+          "b": 0,
+          "c": 0,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_conf_disclosure": {
+          "b": 2,
+          "c": 2,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "actor_variety": {
+          "b": 3,
+          "c": 1,
+          "chi2": 0.25,
+          "p_value": 0.6170750774519739
+        },
+        "actor_motive": {
+          "b": 1,
+          "c": 3,
+          "chi2": 0.25,
+          "p_value": 0.6170750774519739
+        },
+        "action_variety": {
+          "b": 4,
+          "c": 6,
+          "chi2": 0.1,
+          "p_value": 0.7518296340458492
+        },
+        "action_vector": {
+          "b": 6,
+          "c": 7,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "asset_variety": {
+          "b": 0,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_conf_data_variety": {
+          "b": 2,
+          "c": 0,
+          "chi2": 0.5,
+          "p_value": 0.47950012218695337
+        },
+        "attr_integrity_variety": {
+          "b": 2,
+          "c": 0,
+          "chi2": 0.5,
+          "p_value": 0.47950012218695337
+        },
+        "attr_avail_variety": {
+          "b": 1,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        }
+      }
+    },
+    "C2_action": {
+      "overall_delta": {
+        "delta_mean": 0.0206,
+        "ci95_lo": 0.0056,
+        "ci95_hi": 0.0367,
+        "h3_supported": true,
+        "h3_note": "SUPPORTED iff CI upper < 0.15"
+      },
+      "core_a4_delta": {
+        "delta_mean": 0.00925925925925926,
+        "ci95_lo": -0.002314814814814816,
+        "ci95_hi": 0.023148148148148143,
+        "h3_supported": true
+      },
+      "svr": 0.0,
+      "svr_wilson_ci95": [
+        0.0,
+        0.0507
+      ],
+      "mcnemar_per_dim": {
+        "actor_category": {
+          "b": 2,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "action_category": {
+          "b": 2,
+          "c": 0,
+          "chi2": 0.5,
+          "p_value": 0.47950012218695337
+        },
+        "asset_category": {
+          "b": 0,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_conf_present": {
+          "b": 1,
+          "c": 0,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_integrity_present": {
+          "b": 1,
+          "c": 0,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_avail_present": {
+          "b": 0,
+          "c": 0,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_conf_disclosure": {
+          "b": 1,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "actor_variety": {
+          "b": 7,
+          "c": 4,
+          "chi2": 0.36363636363636365,
+          "p_value": 0.5464935954065822
+        },
+        "actor_motive": {
+          "b": 2,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "action_variety": {
+          "b": 9,
+          "c": 3,
+          "chi2": 2.0833333333333335,
+          "p_value": 0.14891467317876161
+        },
+        "action_vector": {
+          "b": 11,
+          "c": 3,
+          "chi2": 3.5,
+          "p_value": 0.0613688291394023
+        },
+        "asset_variety": {
+          "b": 0,
+          "c": 2,
+          "chi2": 0.5,
+          "p_value": 0.47950012218695337
+        },
+        "attr_conf_data_variety": {
+          "b": 2,
+          "c": 0,
+          "chi2": 0.5,
+          "p_value": 0.47950012218695337
+        },
+        "attr_integrity_variety": {
+          "b": 2,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_avail_variety": {
+          "b": 1,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        }
+      }
+    },
+    "C2_asset": {
+      "overall_delta": {
+        "delta_mean": -0.0034,
+        "ci95_lo": -0.0196,
+        "ci95_hi": 0.0133,
+        "h3_supported": true,
+        "h3_note": "SUPPORTED iff CI upper < 0.15"
+      },
+      "core_a4_delta": {
+        "delta_mean": -0.004629629629629627,
+        "ci95_lo": -0.02083333333333333,
+        "ci95_hi": 0.011574074074074077,
+        "h3_supported": true
+      },
+      "svr": 0.0,
+      "svr_wilson_ci95": [
+        0.0,
+        0.0507
+      ],
+      "mcnemar_per_dim": {
+        "actor_category": {
+          "b": 2,
+          "c": 3,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "action_category": {
+          "b": 1,
+          "c": 2,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "asset_category": {
+          "b": 0,
+          "c": 2,
+          "chi2": 0.5,
+          "p_value": 0.47950012218695337
+        },
+        "attr_conf_present": {
+          "b": 1,
+          "c": 0,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_integrity_present": {
+          "b": 2,
+          "c": 0,
+          "chi2": 0.5,
+          "p_value": 0.47950012218695337
+        },
+        "attr_avail_present": {
+          "b": 0,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_conf_disclosure": {
+          "b": 3,
+          "c": 2,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "actor_variety": {
+          "b": 2,
+          "c": 0,
+          "chi2": 0.5,
+          "p_value": 0.47950012218695337
+        },
+        "actor_motive": {
+          "b": 3,
+          "c": 4,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "action_variety": {
+          "b": 4,
+          "c": 8,
+          "chi2": 0.75,
+          "p_value": 0.3864762307712325
+        },
+        "action_vector": {
+          "b": 7,
+          "c": 8,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "asset_variety": {
+          "b": 1,
+          "c": 0,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_conf_data_variety": {
+          "b": 1,
+          "c": 0,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_integrity_variety": {
+          "b": 1,
+          "c": 2,
+          "chi2": 0.0,
+          "p_value": 1.0
+        },
+        "attr_avail_variety": {
+          "b": 1,
+          "c": 1,
+          "chi2": 0.0,
+          "p_value": 1.0
+        }
+      }
+    }
+  }
+}
