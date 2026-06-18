@@ -29,25 +29,49 @@ Penelitian ini menguji apakah LLM lokal dapat mengklasifikasikan laporan insiden
 | v2 | Perbaikan struktural prompt | 0.573 | NOT SUPPORTED |
 | **v3** | **Few-shot 6 exemplar** | **0.684** | **INCONCLUSIVE** |
 
-## Setup
+## Setup & Reproduksi
 
 ### Prasyarat
 
-- [Ollama](https://ollama.ai/) dengan model `qwen3.5:35b` terunduh
-- Python 3.9+ dengan environment aktif
+- Python 3.9+
+- [Ollama](https://ollama.ai/) terinstall di mesin
 
-### Instalasi dependensi
+### 1. Clone repo
 
 ```bash
-pip install flask numpy scipy
+git clone https://github.com/ariqrafi/Thesis.git
+cd Thesis
 ```
 
-### Jalankan Ollama
+### 2. Install dependensi Python
 
 ```bash
+pip install -r requirements.txt
+```
+
+**Package yang dibutuhkan:**
+| Package | Kegunaan |
+|---|---|
+| `flask` | Dashboard web (`webapp.py`) |
+| `numpy` | Komputasi statistik scorer |
+| `scipy` | Bootstrap CI, uji-t, proporsi |
+| `statsmodels` | Fleiss' κ, Wilson CI, McNemar |
+
+### 3. Siapkan Ollama & model
+
+```bash
+# Install Ollama (https://ollama.ai/download)
 ollama serve
+
+# Pull model (±20GB)
 ollama pull qwen3.5:35b
+
+# Verifikasi digest model (penting untuk reproduktibilitas)
+ollama show qwen3.5:35b --modelfile | grep FROM
+# Harus: 3460ffeede54
 ```
+
+> **Catatan:** Ollama default berjalan di `http://localhost:11434`. Jika port berbeda, sesuaikan variabel `OLLAMA_URL` di tiap script extractor.
 
 ## Struktur Proyek
 
