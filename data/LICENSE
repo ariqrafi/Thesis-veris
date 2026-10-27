@@ -1,0 +1,37 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Thariq Rafi Azany
+
+The contents of this directory, together with the derived result files under
+rq1/, rq2/ and rq3/, are licensed under the Creative Commons Attribution 4.0
+International License.
+
+You are free to share and adapt this material for any purpose, including
+commercially, provided that you give appropriate credit, link to the license,
+and indicate if changes were made.
+
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+Summary:         https://creativecommons.org/licenses/by/4.0/
+
+ATTRIBUTION
+
+  T. R. Azany, Y. Nugraha, and M. E. Aminanto, "Automatic Construction of
+  VERIS A4-Aligned Cyber Incident Records from Indonesian Data Breach
+  Narratives Using Large Language Models," in Proc. Workshop on Adversarial
+  and Robust Threat Management (ARTMAN), co-located with the 42nd Annual
+  Computer Security Applications Conference (ACSAC), 2026.
+
+PROVENANCE AND LIMITS
+
+  The incident narratives were collected from publicly available sources:
+  news media, security vendor reporting, regulatory disclosures and other
+  open-source intelligence. No non-public material is included, and no
+  attempt was made to re-identify any individual beyond what the public
+  sources had already disclosed.
+
+  The gold-standard annotations are human judgements about public reports.
+  They record what a report asserted, not an adjudicated finding of fact
+  about any named organisation, and should not be cited as one.
+
+  Code in this repository is licensed separately under the MIT License; see
+  the LICENSE file at the repository root.

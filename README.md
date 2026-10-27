@@ -1,25 +1,47 @@
-# Evaluasi LLM Lokal untuk Ekstraksi Struktur Insiden VERIS A4 dari Laporan Insiden Siber Berbahasa Indonesia
+# VERIS A4 Extraction from Indonesian Data Breach Narratives
+
+Code and data artifact for:
+
+> T. R. Azany, Y. Nugraha, and M. E. Aminanto, "Automatic Construction of
+> VERIS A4-Aligned Cyber Incident Records from Indonesian Data Breach
+> Narratives Using Large Language Models," in *Proc. Workshop on Adversarial
+> and Robust Threat Management (ARTMAN)*, co-located with the 42nd Annual
+> Computer Security Applications Conference (ACSAC), 2026.
+
+Every figure and table in that paper is reproducible from this repository.
+The three baselines that the paper's central result rests on live in
+[`baselines/`](baselines/), together with the expected output values.
+
+**Licensing.** Code is MIT ([`LICENSE`](LICENSE)). Data and derived result
+files are CC BY 4.0 ([`data/LICENSE`](data/LICENSE)), which also records the
+provenance of the corpus and the limits on how the annotations may be cited.
+
+The detailed documentation below is in Indonesian.
+
+---
+
+## Evaluasi LLM Lokal untuk Ekstraksi Struktur Insiden VERIS A4
 
 Repositori kode dan data untuk skripsi/tesis yang mengevaluasi kemampuan model bahasa lokal (`qwen3.5:35b` via Ollama) dalam mengekstraksi struktur insiden VERIS A4 dari laporan insiden siber berbahasa Indonesia.
 
 ## Gambaran Umum
 
-Penelitian ini menguji apakah LLM lokal dapat mengklasifikasikan laporan insiden siber ke dalam skema **VERIS (Vocabulary for Event Recording and Incident Sharing) A4** secara akurat, konsisten, dan robust — tanpa bergantung pada layanan cloud.
+Penelitian ini menguji apakah LLM lokal dapat mengklasifikasikan laporan insiden siber ke dalam skema **VERIS (Vocabulary for Event Recording and Incident Sharing) A4** secara akurat, konsisten, dan robust, tanpa bergantung pada layanan cloud.
 
 **Skema A4 yang diekstraksi (15 dimensi):**
-- **Actor** — kategori, variety, motive
-- **Action** — kategori, variety, vector
-- **Asset** — kategori, variety
-- **Attribute** — confidentiality, integrity, availability (presence + variety/disclosure)
+- **Actor**: kategori, variety, motive
+- **Action**: kategori, variety, vector
+- **Asset**: kategori, variety
+- **Attribute**: confidentiality, integrity, availability (presence + variety/disclosure)
 
 ## Pertanyaan Penelitian & Hasil
 
 | RQ | Hipotesis | Verdict |
 |---|---|---|
-| **RQ1** — Akurasi ekstraksi A4 | H1: Macro-F1 ≥ 0.70 | **INCONCLUSIVE** (F1=0.684, CI [0.645, 0.719]) |
-| **RQ2** — Schema compliance | H2a: Schema Violation Rate < 10% | **INCONCLUSIVE** (SVR=8.00%, CI [5.24%, 12.03%]) |
-| **RQ2** — Reproducibility | H2b: Mean agreement ≥ 0.85 | **SUPPORTED** (agreement=1.000) |
-| **RQ3** — Robustness (10 skenario) | H3: ΔF1 ≤ 0.15 di semua skenario | **SUPPORTED** (semua CI upper < 0.15) |
+| **RQ1**: Akurasi ekstraksi A4 | H1: Macro-F1 ≥ 0.70 | **INCONCLUSIVE** (F1=0.684, CI [0.645, 0.719]) |
+| **RQ2**: Schema compliance | H2a: Schema Violation Rate < 10% | **INCONCLUSIVE** (SVR=8.00%, CI [5.24%, 12.03%]) |
+| **RQ2**: Reproducibility | H2b: Mean agreement ≥ 0.85 | **SUPPORTED** (agreement=1.000) |
+| **RQ3**: Robustness (10 skenario) | H3: ΔF1 ≤ 0.15 di semua skenario | **SUPPORTED** (semua CI upper < 0.15) |
 
 ### Perkembangan RQ1 (tiga versi prompt)
 
@@ -39,8 +61,8 @@ Penelitian ini menguji apakah LLM lokal dapat mengklasifikasikan laporan insiden
 ### 1. Clone repo
 
 ```bash
-git clone https://github.com/ariqrafi/Thesis.git
-cd Thesis
+git clone https://github.com/ariqrafi/Thesis-veris.git
+cd Thesis-veris
 ```
 
 ### 2. Install dependensi Python
@@ -115,6 +137,8 @@ Thesis-gpu/
 │
 ├── webapp.py                       # Dashboard Flask (port 16006)
 │
+├── baselines/                      # Baseline B0/B1/B2 + scorer prior-aware (lihat baselines/README.md)
+│
 ├── rq1/                            # Hasil & laporan RQ1
 ├── rq2/                            # Hasil & laporan RQ2
 └── rq3/                            # Hasil, perturbasi & prediksi RQ3
@@ -122,7 +146,7 @@ Thesis-gpu/
 
 ## Menjalankan Evaluasi
 
-### RQ1 — Akurasi Ekstraksi
+### RQ1, Akurasi Ekstraksi
 
 ```bash
 # v1: zero-shot
@@ -138,7 +162,7 @@ python extract_qwen_fewshot.py
 python score_rq1.py
 ```
 
-### RQ2 — Konsistensi & Schema Compliance
+### RQ2, Konsistensi & Schema Compliance
 
 ```bash
 python rq2_run.py        # jalankan 5 run × 3 temperatur
@@ -146,12 +170,22 @@ python rq2_analyze.py    # analisis hasil
 python rq2_summary.py    # ringkasan
 ```
 
-### RQ3 — Robustness
+### RQ3, Robustness
 
 ```bash
 bash rq3_run_all.sh      # jalankan semua 10 skenario
 python rq3_stats.py      # statistik & H3 verdict
 ```
+
+### Baseline & Evaluasi Prior-Aware
+
+```bash
+python baselines/baselines.py           # B0a, B0b, B1, framework, tabel per-dimensi
+python baselines/rulebased.py           # B2 lexicon non-LLM
+python baselines/baseline_robustness.py # degradasi 10 skenario, konstan vs framework
+```
+
+Angka yang diharapkan ada di [`baselines/README.md`](baselines/README.md).
 
 ### Dashboard Web
 

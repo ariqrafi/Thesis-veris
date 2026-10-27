@@ -1,0 +1,107 @@
+[
+ {
+  "dim": "actor_category",
+  "entropy": 1.2709,
+  "top_share": 0.6806,
+  "framework": 0.75,
+  "majority": 0.6806
+ },
+ {
+  "dim": "action_category",
+  "entropy": 1.7617,
+  "top_share": 0.5139,
+  "framework": 0.4167,
+  "majority": 0.5139
+ },
+ {
+  "dim": "asset_category",
+  "entropy": 1.331,
+  "top_share": 0.6389,
+  "framework": 0.6389,
+  "majority": 0.6389
+ },
+ {
+  "dim": "attr_conf_present",
+  "entropy": 0.6391,
+  "top_share": 0.875,
+  "framework": 0.9028,
+  "majority": 0.875
+ },
+ {
+  "dim": "attr_integrity_present",
+  "entropy": 1.059,
+  "top_share": 0.75,
+  "framework": 0.8194,
+  "majority": 0.75
+ },
+ {
+  "dim": "attr_avail_present",
+  "entropy": 0.9459,
+  "top_share": 0.7917,
+  "framework": 0.8472,
+  "majority": 0.7917
+ },
+ {
+  "dim": "attr_conf_disclosure",
+  "entropy": 1.3067,
+  "top_share": 0.7083,
+  "framework": 0.3056,
+  "majority": 0.7083
+ },
+ {
+  "dim": "actor_variety",
+  "entropy": 2.1624,
+  "top_share": 0.4583,
+  "framework": 0.5532,
+  "majority": 0.4676
+ },
+ {
+  "dim": "actor_motive",
+  "entropy": 1.5818,
+  "top_share": 0.5417,
+  "framework": 0.6778,
+  "majority": 0.5671
+ },
+ {
+  "dim": "action_variety",
+  "entropy": 1.7264,
+  "top_share": 0.7222,
+  "framework": 0.6537,
+  "majority": 0.7222
+ },
+ {
+  "dim": "action_vector",
+  "entropy": 0.9992,
+  "top_share": 0.8194,
+  "framework": 0.5667,
+  "majority": 0.8194
+ },
+ {
+  "dim": "asset_variety",
+  "entropy": 2.2489,
+  "top_share": 0.4583,
+  "framework": 0.5796,
+  "majority": 0.538
+ },
+ {
+  "dim": "attr_conf_data_variety",
+  "entropy": 2.8305,
+  "top_share": 0.4861,
+  "framework": 0.7661,
+  "majority": 0.6917
+ },
+ {
+  "dim": "attr_integrity_variety",
+  "entropy": 0.9767,
+  "top_share": 0.8611,
+  "framework": 0.8861,
+  "majority": 0.8611
+ },
+ {
+  "dim": "attr_avail_variety",
+  "entropy": 0.8565,
+  "top_share": 0.875,
+  "framework": 0.8981,
+  "majority": 0.875
+ }
+]
