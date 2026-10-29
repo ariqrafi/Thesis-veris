@@ -93,14 +93,15 @@ def main():
             "accuracy": round(correct/n, 4) if n else 0,
             "n": n,
         }
-        # Macro vs micro (treating Unknown as a class)
-        # per_class from score_rq1 has {p, r, f1, support} (no tp/fp/fn)
-        pc_stats = {k: {"tp": int(v["support"]*v["r"]),
-                        "fp": max(0, int(v["support"]/max(v["r"],1e-9)*v["p"]) - int(v["support"]*v["r"])) if v["p"] else 0,
-                        "fn": int(v["support"]*(1-v["r"])),
-                        "f1": v["f1"], "support": v["support"]}
-                    for k, v in pc.items()}
-        mac, mic, gap = macro_micro_f1_gap(pc_stats)
+        # Macro vs micro (treating Unknown as a class).
+        # Fix 2026-10-29: the earlier version rebuilt TP/FP/FN from rounded
+        # precision/recall with an incorrect FP formula (e.g. FP for "Server"
+        # came out as 0 instead of 25), which inflated micro-F1. For a
+        # single-label field every record has exactly one gold and one
+        # predicted value, so micro-F1 equals accuracy.
+        mac = float(np.mean([v["f1"] for v in pc.values() if v["support"] > 0]))
+        mic = correct / n if n else 0.0
+        gap = mac - mic
         b1_single[f]["macro_f1_unweighted"] = round(mac, 4)
         b1_single[f]["micro_f1"]            = round(mic, 4)
         b1_single[f]["macro_micro_gap"]      = round(gap, 4)
@@ -108,13 +109,17 @@ def main():
     b1_multi = {}
     for f in MULTI_FIELDS:
         pc = multi_class_stats(f, preds, gold)
-        mac, mic, gap = macro_micro_f1_gap(pc)
+        mac, _, _ = macro_micro_f1_gap(pc)
         res = sc.multi_label_metrics(f, preds, gold)
+        # Fix 2026-10-29: the gap previously used a micro-F1 recomputed only
+        # over values with gold support, which drops false positives on
+        # values the gold never uses. Use the scorer's full micro-F1 instead,
+        # the same value reported in "micro_f1".
         b1_multi[f] = {
             "per_value": pc,
             "macro_f1_by_record": round(res["macro_f1"], 4),
             "micro_f1": round(res["micro_f1"], 4),
-            "macro_micro_gap": round(mac - mic, 4),
+            "macro_micro_gap": round(mac - res["micro_f1"], 4),
             "macro_f1_by_value": round(mac, 4),
         }
 

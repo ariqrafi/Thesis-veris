@@ -16,6 +16,28 @@ The three baselines that the paper's central result rests on live in
 files are CC BY 4.0 ([`data/LICENSE`](data/LICENSE)), which also records the
 provenance of the corpus and the limits on how the annotations may be cited.
 
+**Constructed dataset.** The 637-record VERIS A4-aligned dataset produced by
+applying the v3 configuration to every canonical corpus record is
+[`rq1/corpus_veris_labeled_fixed.csv`](rq1/corpus_veris_labeled_fixed.csv)
+(summary in `rq1/corpus_veris_summary_fixed.json`). It is a silver-standard
+resource: see the paper for why it should not be used for prevalence estimates.
+To rebuild it: `extract_corpus_fewshot.py` on `data/corpus_canonical.jsonl`
+(the 637 canonical records of `data/dataset_clean.jsonl`, extracted from
+uncleaned article text), then `fix_offvocab.py`, then `summarize_corpus.py`.
+Running the last two on the released raw predictions reproduces the CSV
+byte for byte.
+
+**Annotations.** [`data/annotations/`](data/annotations/) holds the per-field
+draft annotations produced by Claude Sonnet 4.6 (`draft_annotations_claude.json`),
+both human annotators' corrected labels (`annotator1.json`, `annotator2.json`),
+the inter-annotator agreement report and the 542 field-level disagreements that
+the adjudicator resolved into `data/gold_standard.json`.
+
+**Correction (29 Oct 2026).** `rq3_analyze_B.py` previously over-stated micro-F1
+in the class-imbalance analysis, which inflated the macro/micro gaps (for
+`asset_category`, micro-F1 0.7188 instead of 0.6389). The script is fixed and
+`rq3/rq3_scenarioB.json` regenerated; no other figure changed.
+
 The detailed documentation below is in Indonesian.
 
 ---

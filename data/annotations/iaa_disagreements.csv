@@ -1,0 +1,543 @@
+record_id,field,annotator1,annotator2
+GS-001,action_category,Malware,Social
+GS-001,action_variety,Ransomware;Unknown,Phishing
+GS-001,action_vector,Other;Unknown,Unknown
+GS-001,actor_motive,Unknown,Financial
+GS-001,asset_category,Unknown,Server
+GS-001,asset_variety,Unknown,Database;Web application
+GS-001,attr_avail_present,Unknown,Yes
+GS-001,attr_avail_variety,,Interruption;Loss
+GS-001,attr_conf_data_variety,Other;Personal,Medical;Personal
+GS-001,attr_conf_disclosure,Potentially,Yes
+GS-001,confidence,Medium,High
+GS-002,actor_category,Unknown,External
+GS-002,actor_motive,Unknown,Financial
+GS-002,actor_variety,Unknown,Organized crime
+GS-002,asset_variety,Customer;Database;File;Mobile phone,Database
+GS-003,action_variety,Unknown;Use of stolen creds,Unknown
+GS-003,action_vector,Unknown;Web application,Unknown
+GS-003,actor_variety,Unaffiliated;Unknown,Organized crime
+GS-004,actor_motive,Fear;Other,Unknown
+GS-004,asset_category,Person,Server
+GS-004,asset_variety,Customer;End-user;Other,Database
+GS-004,attr_conf_data_variety,,Medical;Personal
+GS-004,attr_conf_disclosure,(none),Potentially
+GS-004,attr_conf_present,Unknown,Yes
+GS-004,attr_integrity_present,Yes,Unknown
+GS-004,attr_integrity_variety,Alter behavior,
+GS-004,confidence,Medium,High
+GS-004,in_scope,No,Yes
+GS-005,action_category,Hacking,Unknown
+GS-005,action_variety,Other;Unknown,Unknown
+GS-005,action_vector,Unknown;Web application,Unknown
+GS-005,actor_variety,Organized crime;Unaffiliated,Organized crime
+GS-005,confidence,Medium,High
+GS-006,action_category,Unknown,Hacking
+GS-006,action_variety,Unknown,Other
+GS-006,action_vector,Unknown,Other
+GS-006,actor_category,Unknown,External
+GS-006,actor_motive,Fear;Ideology,Ideology
+GS-006,actor_variety,Unknown,Organized crime
+GS-006,asset_category,Unknown,Server
+GS-006,asset_variety,Unknown,Database;Web application
+GS-006,attr_avail_present,Unknown,No
+GS-006,attr_conf_data_variety,,Unknown
+GS-006,attr_conf_disclosure,(none),Unknown
+GS-006,attr_conf_present,Unknown,Yes
+GS-006,attr_integrity_present,Unknown,No
+GS-006,in_scope,No,Yes
+GS-007,asset_category,Unknown,Server
+GS-007,asset_variety,Unknown,Database
+GS-007,multi_incident,No,Yes
+GS-008,actor_category,Internal,Partner
+GS-008,actor_variety,Call center;Helpdesk;Other,Partner (third party / supply chain)
+GS-008,asset_category,Person,Server
+GS-008,asset_variety,Customer,Database;Web application
+GS-008,incomplete_info_flag,Yes,No
+GS-009,actor_variety,Call center;End-user;Helpdesk,Call center;Helpdesk
+GS-009,incomplete_info_flag,Yes,No
+GS-010,action_category,Unknown,Error
+GS-010,action_variety,Unknown,Misconfiguration;Phishing;Privilege abuse
+GS-010,attr_conf_data_variety,Credentials;Personal,
+GS-010,attr_conf_disclosure,Potentially,(none)
+GS-010,attr_conf_present,Yes,Unknown
+GS-010,confidence,High,Low
+GS-011,incomplete_info_flag,Yes,No
+GS-012,actor_motive,Unknown,Financial;Unknown
+GS-012,attr_conf_data_variety,Credentials;Internal;Other,
+GS-012,attr_conf_disclosure,Potentially,(none)
+GS-012,attr_conf_present,Yes,Unknown
+GS-012,confidence,High,Medium
+GS-013,attr_conf_present,Unknown,No
+GS-013,confidence,Low,High
+GS-014,confidence,High,Medium
+GS-015,actor_variety,Organized crime,Unaffiliated
+GS-015,attr_conf_data_variety,Credentials;Personal,Personal
+GS-016,action_category,Hacking,Malware
+GS-016,action_variety,Use of stolen creds,Spyware/Keylogger
+GS-016,action_vector,LAN access,Unknown
+GS-016,confidence,Medium,High
+GS-016,incomplete_info_flag,Yes,No
+GS-017,actor_motive,Financial,Financial;Unknown
+GS-017,actor_variety,Organized crime,Partner (third party / supply chain);State-affiliated
+GS-017,attr_avail_present,No,Unknown
+GS-017,attr_integrity_present,No,Unknown
+GS-018,action_category,Hacking,Error
+GS-018,action_variety,Unknown,Misconfiguration;Unknown
+GS-018,actor_category,External,Unknown
+GS-018,actor_variety,Organized crime,Unknown
+GS-018,asset_category,Server,User Device
+GS-018,asset_variety,Database,Database;Desktop;Laptop
+GS-018,attr_avail_present,No,Unknown
+GS-018,attr_conf_data_variety,Unknown,
+GS-018,attr_conf_disclosure,Potentially,(none)
+GS-018,attr_conf_present,Yes,Unknown
+GS-018,attr_integrity_present,No,Unknown
+GS-019,action_category,Unknown,Hacking
+GS-019,action_variety,Unknown,Privilege abuse;Unknown
+GS-019,actor_category,Unknown,External
+GS-019,actor_motive,Unknown,Financial
+GS-019,asset_category,Unknown,Server
+GS-019,asset_variety,Unknown,Database
+GS-019,attr_conf_data_variety,Personal,
+GS-019,attr_conf_disclosure,Yes,(none)
+GS-019,attr_conf_present,Yes,Unknown
+GS-019,confidence,High,Medium
+GS-020,action_category,Malware,Unknown
+GS-020,action_variety,Ransomware,Unknown
+GS-020,actor_category,External,Unknown
+GS-020,asset_variety,Database;Other,Database
+GS-020,confidence,Medium,Low
+GS-021,attr_conf_data_variety,Personal,
+GS-021,attr_conf_disclosure,Potentially,(none)
+GS-021,attr_conf_present,Yes,Unknown
+GS-022,attr_conf_data_variety,Internal;Unknown,Unknown
+GS-022,attr_conf_disclosure,Yes,Potentially
+GS-022,attr_integrity_variety,Other,Malware installation
+GS-023,action_variety,Other;Unknown,Unknown
+GS-023,actor_variety,Organized crime,Unaffiliated
+GS-023,asset_category,Server,User Device
+GS-023,asset_variety,Database;Web application,Database;Desktop;Laptop;Web application
+GS-023,attr_avail_present,No,Unknown
+GS-023,attr_integrity_present,No,Unknown
+GS-023,confidence,High,Medium
+GS-024,attr_conf_data_variety,Credentials;Personal,
+GS-024,attr_conf_disclosure,Yes,(none)
+GS-024,attr_conf_present,Yes,Unknown
+GS-024,confidence,Medium,High
+GS-024,in_scope,No,Yes
+GS-025,actor_category,Unknown,External
+GS-025,actor_variety,Unknown,Organized crime
+GS-025,confidence,High,Medium
+GS-026,action_category,Malware,Hacking
+GS-026,action_variety,Ransomware,Ransomware;Use of stolen creds
+GS-026,action_vector,Other,Unknown
+GS-026,attr_conf_disclosure,Potentially,Yes
+GS-027,attr_integrity_present,Yes,Unknown
+GS-027,attr_integrity_variety,Unknown,
+GS-027,confidence,High,Medium
+GS-027,in_scope,No,Yes
+GS-028,asset_category,Server,Unknown
+GS-028,asset_variety,Database,Unknown
+GS-028,attr_avail_present,No,Unknown
+GS-028,attr_conf_data_variety,Unknown,Personal
+GS-028,in_scope,No,Yes
+GS-029,action_category,Hacking,Unknown
+GS-029,actor_variety,Organized crime,Unaffiliated
+GS-029,asset_category,Server,Unknown
+GS-029,asset_variety,Database,Unknown
+GS-030,action_category,Malware,Unknown
+GS-030,actor_category,External,Unknown
+GS-030,actor_motive,Financial,Unknown
+GS-030,actor_variety,Organized crime,Unknown
+GS-030,asset_category,Server,Unknown
+GS-030,asset_variety,Database,Unknown
+GS-030,attr_avail_present,No,Unknown
+GS-030,attr_conf_data_variety,Personal,
+GS-030,attr_conf_disclosure,Yes,(none)
+GS-030,attr_conf_present,Yes,Unknown
+GS-030,attr_integrity_present,No,Unknown
+GS-031,attr_conf_data_variety,Personal,
+GS-031,attr_conf_disclosure,Yes,(none)
+GS-031,attr_conf_present,Yes,Unknown
+GS-031,confidence,High,Medium
+GS-031,in_scope,No,Yes
+GS-031,multi_incident,Yes,No
+GS-032,action_category,Hacking,Unknown
+GS-032,action_vector,Web application,Unknown
+GS-032,actor_variety,Unknown,Unaffiliated
+GS-032,asset_variety,Database,Database;Web application
+GS-032,attr_conf_disclosure,Potentially,Yes
+GS-033,attr_avail_present,No,Unknown
+GS-033,attr_conf_data_variety,Personal,
+GS-033,attr_conf_disclosure,Yes,(none)
+GS-033,attr_conf_present,Yes,Unknown
+GS-033,in_scope,No,Yes
+GS-033,multi_incident,Yes,No
+GS-034,action_category,Hacking,Unknown
+GS-034,action_variety,Other,Unknown
+GS-034,action_vector,Web application,Unknown
+GS-034,actor_variety,Organized crime,Unaffiliated
+GS-034,confidence,Medium,High
+GS-034,in_scope,No,Yes
+GS-035,action_category,Hacking,Unknown
+GS-035,action_vector,Web application,Unknown
+GS-035,actor_category,External,Unknown
+GS-035,actor_variety,Organized crime,Unknown
+GS-035,attr_conf_data_variety,Personal,Unknown
+GS-035,confidence,High,Medium
+GS-035,in_scope,Yes,No
+GS-036,action_category,Hacking,Unknown
+GS-036,action_variety,Other,Unknown
+GS-036,action_vector,Web application,Unknown
+GS-036,actor_category,External,Unknown
+GS-036,actor_variety,Other;Unaffiliated,Unknown
+GS-036,attr_conf_present,No,Unknown
+GS-036,attr_integrity_present,Yes,Unknown
+GS-036,attr_integrity_variety,Defacement,Unknown
+GS-037,in_scope,Yes,No
+GS-037,multi_incident,No,Yes
+GS-038,action_category,Hacking,Unknown
+GS-038,action_vector,Web application,Unknown
+GS-038,asset_category,Server,Unknown
+GS-038,asset_variety,Database,Unknown
+GS-038,attr_avail_present,No,Unknown
+GS-038,attr_conf_data_variety,Personal,
+GS-038,attr_conf_disclosure,Yes,(none)
+GS-038,attr_conf_present,Yes,Unknown
+GS-038,confidence,Medium,High
+GS-038,in_scope,Yes,No
+GS-039,action_category,Hacking,Unknown
+GS-039,action_vector,Web application,Unknown
+GS-039,actor_variety,Unknown,Unaffiliated
+GS-039,confidence,Medium,(none)
+GS-040,action_category,Hacking,Unknown
+GS-040,action_variety,Other;Unknown,Unknown
+GS-040,action_vector,LAN access;Unknown,Unknown
+GS-040,actor_variety,Organized crime,Unknown
+GS-040,asset_category,User Device,Unknown
+GS-040,asset_variety,Desktop;Laptop,Unknown
+GS-040,attr_conf_data_variety,Bank;Internal;Medical;Personal,Unknown
+GS-040,attr_conf_disclosure,Yes,Potentially
+GS-040,confidence,High,Medium
+GS-041,action_category,Hacking,Unknown
+GS-041,action_variety,Use of stolen creds,Unknown
+GS-041,action_vector,Web application,Unknown
+GS-041,actor_variety,Organized crime,Unaffiliated
+GS-041,attr_conf_disclosure,Potentially,Yes
+GS-041,confidence,Medium,High
+GS-042,action_category,Malware,Unknown
+GS-042,action_variety,Ransomware,Unknown
+GS-042,action_vector,Other,Unknown
+GS-042,asset_category,Server,Unknown
+GS-042,asset_variety,Other,Unknown
+GS-042,attr_avail_present,Yes,Unknown
+GS-042,attr_avail_variety,Interruption,
+GS-042,attr_integrity_present,Yes,Unknown
+GS-042,attr_integrity_variety,Modify configuration,
+GS-042,confidence,High,Medium
+GS-042,in_scope,Yes,No
+GS-042,incomplete_info_flag,No,Yes
+GS-043,action_category,Hacking,Unknown
+GS-043,action_variety,Other,Unknown
+GS-043,actor_category,External,Unknown
+GS-043,actor_motive,Ideology,Unknown
+GS-043,actor_variety,Organized crime,Unknown
+GS-043,asset_category,Server,Unknown
+GS-043,asset_variety,Database,Unknown
+GS-043,attr_conf_data_variety,Personal,Unknown
+GS-043,attr_conf_disclosure,Yes,Unknown
+GS-043,attr_conf_present,Yes,Unknown
+GS-043,confidence,Medium,Low
+GS-044,asset_category,Server,Unknown
+GS-044,asset_variety,Database,Unknown
+GS-044,attr_conf_data_variety,Personal,Unknown
+GS-044,confidence,Low,Medium
+GS-044,in_scope,No,Yes
+GS-045,asset_category,Server,Unknown
+GS-045,asset_variety,Database,Unknown
+GS-045,attr_avail_present,No,Unknown
+GS-045,attr_integrity_present,No,Unknown
+GS-046,action_category,Hacking,Unknown
+GS-046,action_variety,Other,Unknown
+GS-046,action_vector,Web application,Unknown
+GS-046,actor_variety,Organized crime,Unaffiliated
+GS-046,in_scope,Yes,No
+GS-047,action_category,Hacking,Unknown
+GS-047,action_variety,Other,Unknown
+GS-047,action_vector,Web application,Unknown
+GS-047,actor_category,External,Unknown
+GS-047,actor_motive,Financial,Unknown
+GS-047,actor_variety,Organized crime,Unknown
+GS-047,asset_category,Server,Unknown
+GS-047,asset_variety,Database,Unknown
+GS-047,attr_conf_disclosure,Potentially,Unknown
+GS-047,attr_conf_present,Yes,Unknown
+GS-047,confidence,High,Medium
+GS-047,in_scope,Yes,No
+GS-048,action_category,Hacking,Malware
+GS-048,action_variety,Use of stolen creds,Spyware/Keylogger
+GS-048,actor_variety,Organized crime,Unaffiliated
+GS-048,asset_variety,Desktop,Desktop;Laptop
+GS-049,asset_category,Server,Unknown
+GS-049,asset_variety,Database,Unknown
+GS-049,attr_conf_data_variety,Internal;Medical;Personal,Medical;Personal
+GS-049,attr_conf_disclosure,Potentially,Yes
+GS-049,confidence,Low,High
+GS-050,action_variety,,Unknown
+GS-050,action_vector,,Unknown
+GS-050,actor_motive,,Financial
+GS-050,actor_variety,,Unknown
+GS-050,asset_variety,,Unknown
+GS-050,attr_conf_data_variety,,Personal
+GS-050,attr_conf_disclosure,(none),Yes
+GS-050,attr_conf_present,Unknown,Yes
+GS-050,confidence,High,Medium
+GS-051,action_category,Error,Malware
+GS-051,action_variety,Misconfiguration,Exploit vuln
+GS-051,action_vector,Unknown,Software update
+GS-051,asset_variety,Database;Web application,Web application
+GS-052,action_vector,Inadequate technology;Other,Inadequate technology
+GS-052,attr_conf_data_variety,Credentials;Medical;Personal,Medical;Personal
+GS-052,attr_conf_disclosure,Potentially,Yes
+GS-052,confidence,High,Medium
+GS-052,incomplete_info_flag,No,Yes
+GS-053,actor_category,Unknown,External
+GS-053,actor_motive,Unknown,Financial
+GS-053,attr_avail_present,No,Unknown
+GS-053,attr_conf_data_variety,Medical;Personal,
+GS-053,attr_conf_disclosure,Yes,(none)
+GS-053,attr_conf_present,Yes,Unknown
+GS-053,attr_integrity_present,No,Unknown
+GS-053,confidence,Medium,Low
+GS-054,action_variety,Export data;Ransomware;Scan network,Export data;Ransomware
+GS-054,incomplete_info_flag,No,Yes
+GS-055,action_vector,Network propagation,Unknown
+GS-055,asset_category,Server,User Device
+GS-055,asset_variety,Database,Desktop
+GS-055,incomplete_info_flag,No,Yes
+GS-056,action_category,Hacking,Unknown
+GS-056,action_vector,Other,Unknown
+GS-056,actor_category,External,Unknown
+GS-056,actor_variety,Organized crime,Unknown
+GS-056,asset_category,Server,Unknown
+GS-056,asset_variety,Database,Unknown
+GS-056,attr_conf_disclosure,Potentially,Yes
+GS-057,asset_category,Server,Unknown
+GS-057,asset_variety,Database,Unknown
+GS-057,attr_conf_disclosure,Potentially,Yes
+GS-057,confidence,Medium,Low
+GS-058,action_category,Hacking,Malware
+GS-058,action_variety,Unknown,Exploit vuln
+GS-058,actor_variety,Unaffiliated;Unknown,Unaffiliated
+GS-058,asset_variety,Database;Web application,Database
+GS-058,confidence,Medium,High
+GS-058,in_scope,Yes,No
+GS-058,multi_incident,No,Yes
+GS-059,actor_category,External,Unknown
+GS-059,asset_category,Server,Unknown
+GS-059,asset_variety,Database;Web application,Unknown
+GS-059,attr_conf_present,No,Yes
+GS-059,confidence,Medium,Low
+GS-060,action_category,Hacking,Unknown
+GS-060,attr_conf_disclosure,Potentially,Yes
+GS-060,attr_conf_present,No,Yes
+GS-061,actor_category,External,Unknown
+GS-061,confidence,Medium,Low
+GS-062,action_variety,Unknown,SQL injection (SQLi)
+GS-062,actor_variety,Organized crime,Unaffiliated
+GS-062,asset_category,Server,Unknown
+GS-062,asset_variety,Database,Unknown
+GS-062,attr_conf_disclosure,Potentially,Yes
+GS-062,confidence,Medium,High
+GS-063,action_variety,Unknown,SQL injection (SQLi)
+GS-063,actor_variety,Organized crime,Unaffiliated
+GS-063,asset_category,Server,Unknown
+GS-063,asset_variety,Database,Unknown
+GS-063,attr_conf_disclosure,Potentially,Yes
+GS-064,actor_category,External,Unknown
+GS-064,asset_category,Server,Unknown
+GS-064,asset_variety,Database,Unknown
+GS-064,incomplete_info_flag,No,Yes
+GS-065,action_variety,Unknown,SQL injection (SQLi)
+GS-065,actor_variety,Unaffiliated;Unknown,Unaffiliated
+GS-066,actor_variety,Unaffiliated;Unknown,Unaffiliated
+GS-066,confidence,Medium,High
+GS-067,confidence,Medium,High
+GS-068,actor_variety,Unknown,Unaffiliated
+GS-068,asset_variety,Database;Unknown,Database
+GS-068,attr_conf_disclosure,Yes,Potentially
+GS-069,asset_variety,Database;Unknown;Web application,Database;Web application
+GS-069,multi_incident,No,Yes
+GS-070,action_category,Hacking,Unknown
+GS-070,asset_category,Server,Unknown
+GS-071,action_category,Hacking,Unknown
+GS-071,actor_motive,Financial;Ideology,Financial;Unknown
+GS-071,actor_variety,Organized crime;Unaffiliated,Unaffiliated
+GS-071,asset_category,Server,Unknown
+GS-071,asset_variety,Database;Web application,Unknown
+GS-071,confidence,High,Medium
+GS-072,action_category,Hacking,Unknown
+GS-072,actor_motive,Financial;Ideology,Unknown
+GS-072,actor_variety,Organized crime;Unaffiliated,Unaffiliated
+GS-072,asset_category,Server,Unknown
+GS-072,asset_variety,Database,Unknown
+GS-072,attr_integrity_present,Unknown,No
+GS-072,confidence,High,Medium
+GS-072,in_scope,Yes,No
+GS-073,action_category,Hacking,Social
+GS-073,action_variety,Unknown,Exploit vuln;Phishing
+GS-073,actor_variety,Organized crime,Unaffiliated
+GS-073,asset_category,Unknown,Server
+GS-073,asset_variety,Unknown,Database
+GS-073,attr_conf_data_variety,Personal,Unknown
+GS-073,attr_conf_disclosure,Yes,Potentially
+GS-073,in_scope,Yes,No
+GS-074,asset_category,Server,Unknown
+GS-074,asset_variety,Database,Unknown
+GS-074,confidence,Medium,Low
+GS-075,action_category,Hacking,Unknown
+GS-075,actor_variety,Unknown,Unaffiliated
+GS-075,attr_conf_disclosure,Yes,Potentially
+GS-075,attr_integrity_present,Unknown,No
+GS-075,confidence,High,Medium
+GS-075,in_scope,Yes,No
+GS-076,confidence,Low,High
+GS-077,action_category,Hacking,Unknown
+GS-077,actor_category,External,Unknown
+GS-077,actor_motive,Financial;Ideology,Unknown
+GS-077,asset_category,Server,Unknown
+GS-077,asset_variety,Database,Unknown
+GS-077,attr_conf_data_variety,Personal,
+GS-077,attr_conf_disclosure,Yes,(none)
+GS-077,attr_conf_present,Yes,Unknown
+GS-077,confidence,Medium,High
+GS-079,actor_category,External,Unknown
+GS-079,actor_motive,Financial,Unknown
+GS-079,attr_conf_data_variety,Personal,
+GS-079,attr_conf_disclosure,Yes,(none)
+GS-079,attr_conf_present,Yes,Unknown
+GS-079,confidence,Medium,High
+GS-079,in_scope,Yes,No
+GS-079,multi_incident,No,Yes
+GS-080,action_variety,Defacement;Unknown,Defacement
+GS-080,confidence,Medium,High
+GS-080,in_scope,Yes,No
+GS-081,action_category,Hacking,Unknown
+GS-081,actor_motive,Financial;Unknown,Financial
+GS-081,in_scope,Yes,No
+GS-082,action_category,Hacking,Unknown
+GS-082,actor_motive,Financial;Ideology,Financial
+GS-082,actor_variety,Organized crime,Unaffiliated
+GS-082,asset_variety,Database;Web application,Database
+GS-083,action_category,Hacking,Unknown
+GS-083,actor_motive,Financial;Grudge;Ideology,Ideology
+GS-083,actor_variety,Organized crime,Unaffiliated
+GS-083,confidence,Medium,High
+GS-084,actor_motive,Financial,Unknown
+GS-084,actor_variety,Organized crime;Unknown,Unknown
+GS-084,asset_category,Server,Unknown
+GS-084,asset_variety,Database,Unknown
+GS-085,action_category,Hacking,Unknown
+GS-085,actor_category,External,Unknown
+GS-085,actor_motive,Financial,Unknown
+GS-085,actor_variety,Organized crime,Unknown
+GS-085,asset_category,User Device,Unknown
+GS-085,asset_variety,Desktop,Unknown
+GS-085,attr_conf_data_variety,Classified;Internal,
+GS-085,attr_conf_disclosure,Yes,(none)
+GS-085,attr_conf_present,Yes,Unknown
+GS-085,confidence,Medium,High
+GS-085,multi_incident,No,Yes
+GS-086,asset_category,Server,Unknown
+GS-086,asset_variety,Database,Unknown
+GS-086,attr_conf_disclosure,Potentially,Yes
+GS-086,in_scope,Yes,No
+GS-087,action_category,Hacking,Unknown
+GS-087,actor_category,External,Unknown
+GS-087,actor_motive,Financial,Unknown
+GS-087,asset_category,User Device,Unknown
+GS-088,actor_category,Internal,Partner
+GS-088,actor_motive,Other;Unknown,Unknown
+GS-088,actor_variety,End-user,Partner (third party / supply chain)
+GS-090,action_category,Misuse,Unknown
+GS-090,action_variety,Privilege abuse,Unknown
+GS-090,action_vector,LAN access,Unknown
+GS-090,actor_category,Internal,Unknown
+GS-090,actor_variety,End-user,Unknown
+GS-090,asset_category,Server,Unknown
+GS-090,asset_variety,Database,Unknown
+GS-090,attr_conf_disclosure,Yes,Potentially
+GS-090,confidence,High,Low
+GS-091,action_category,Hacking,Unknown
+GS-091,asset_variety,Database;Web application,Database
+GS-091,confidence,Medium,High
+GS-092,action_category,Hacking,Unknown
+GS-092,actor_variety,Organized crime,Unaffiliated
+GS-092,confidence,Medium,High
+GS-092,multi_incident,No,Yes
+GS-093,action_category,Hacking,Unknown
+GS-093,action_variety,Phishing,Unknown
+GS-093,action_vector,Desktop sharing software,Unknown
+GS-093,actor_category,External,Unknown
+GS-093,actor_motive,Financial,Unknown
+GS-093,asset_category,User Device,Unknown
+GS-093,asset_variety,Mobile phone,Unknown
+GS-093,attr_avail_present,No,Unknown
+GS-093,attr_conf_data_variety,Personal,
+GS-093,attr_conf_disclosure,Potentially,(none)
+GS-093,attr_conf_present,Yes,Unknown
+GS-093,attr_integrity_present,No,Unknown
+GS-093,in_scope,Yes,No
+GS-093,multi_incident,Yes,No
+GS-094,action_category,Hacking,Unknown
+GS-094,actor_category,External,Unknown
+GS-094,actor_motive,Financial,Unknown
+GS-094,actor_variety,Organized crime,Unknown
+GS-094,attr_avail_present,No,Unknown
+GS-094,attr_conf_data_variety,Personal,
+GS-094,attr_conf_disclosure,Yes,(none)
+GS-094,attr_conf_present,Yes,Unknown
+GS-094,attr_integrity_present,No,Unknown
+GS-094,confidence,Medium,High
+GS-094,in_scope,Yes,No
+GS-094,multi_incident,Yes,No
+GS-095,action_category,Malware,Unknown
+GS-095,action_variety,Export data;Spyware/Keylogger,Unknown
+GS-095,actor_variety,Organized crime;Unaffiliated,Organized crime
+GS-095,asset_category,Server,Unknown
+GS-095,asset_variety,Database;Web application,Unknown
+GS-095,attr_avail_present,No,Yes
+GS-095,attr_conf_present,Yes,Unknown
+GS-095,attr_integrity_present,No,Yes
+GS-095,attr_integrity_variety,,Defacement
+GS-095,confidence,High,Medium
+GS-096,attr_conf_data_variety,Credentials;Personal,Personal
+GS-096,in_scope,Yes,No
+GS-097,actor_category,External,Unknown
+GS-097,asset_category,Server,Unknown
+GS-097,asset_variety,Database,Unknown
+GS-098,action_category,Hacking,Unknown
+GS-098,action_variety,Use of stolen creds,Unknown
+GS-098,actor_category,External,Unknown
+GS-098,actor_motive,Financial,Unknown
+GS-098,asset_category,Server,Unknown
+GS-098,asset_variety,Database,Unknown
+GS-098,attr_conf_data_variety,Credentials;Personal,
+GS-098,attr_conf_disclosure,Yes,(none)
+GS-098,attr_conf_present,Yes,Unknown
+GS-098,confidence,Medium,High
+GS-098,in_scope,Yes,No
+GS-099,actor_category,Unknown,Internal
+GS-099,actor_variety,Unknown,Developer
+GS-099,asset_variety,Web application,Database;Web application
+GS-100,action_category,Malware,Hacking
+GS-100,action_variety,Ransomware,Other;Ransomware;SQL injection (SQLi)
+GS-100,action_vector,Other,Web application
+GS-100,actor_motive,Espionage;Fear;Financial,Financial
+GS-100,actor_variety,Unknown,Organized crime;Unaffiliated
+GS-100,asset_variety,Database,Database;Web application
+GS-100,attr_avail_variety,Interruption,Outage
+GS-100,attr_conf_disclosure,Yes,Potentially
+GS-100,attr_integrity_variety,Other,Modify data
+GS-100,in_scope,Yes,No

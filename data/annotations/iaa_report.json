@@ -1,0 +1,225 @@
+{
+  "annotator_1": "annotator1",
+  "annotator_2": "annotator2",
+  "n_reviewed_a1": 100,
+  "n_reviewed_a2": 100,
+  "n_both_reviewed": 100,
+  "records": [
+    "GS-001",
+    "GS-002",
+    "GS-003",
+    "GS-004",
+    "GS-005",
+    "GS-006",
+    "GS-007",
+    "GS-008",
+    "GS-009",
+    "GS-010",
+    "GS-011",
+    "GS-012",
+    "GS-013",
+    "GS-014",
+    "GS-015",
+    "GS-016",
+    "GS-017",
+    "GS-018",
+    "GS-019",
+    "GS-020",
+    "GS-021",
+    "GS-022",
+    "GS-023",
+    "GS-024",
+    "GS-025",
+    "GS-026",
+    "GS-027",
+    "GS-028",
+    "GS-029",
+    "GS-030",
+    "GS-031",
+    "GS-032",
+    "GS-033",
+    "GS-034",
+    "GS-035",
+    "GS-036",
+    "GS-037",
+    "GS-038",
+    "GS-039",
+    "GS-040",
+    "GS-041",
+    "GS-042",
+    "GS-043",
+    "GS-044",
+    "GS-045",
+    "GS-046",
+    "GS-047",
+    "GS-048",
+    "GS-049",
+    "GS-050",
+    "GS-051",
+    "GS-052",
+    "GS-053",
+    "GS-054",
+    "GS-055",
+    "GS-056",
+    "GS-057",
+    "GS-058",
+    "GS-059",
+    "GS-060",
+    "GS-061",
+    "GS-062",
+    "GS-063",
+    "GS-064",
+    "GS-065",
+    "GS-066",
+    "GS-067",
+    "GS-068",
+    "GS-069",
+    "GS-070",
+    "GS-071",
+    "GS-072",
+    "GS-073",
+    "GS-074",
+    "GS-075",
+    "GS-076",
+    "GS-077",
+    "GS-078",
+    "GS-079",
+    "GS-080",
+    "GS-081",
+    "GS-082",
+    "GS-083",
+    "GS-084",
+    "GS-085",
+    "GS-086",
+    "GS-087",
+    "GS-088",
+    "GS-089",
+    "GS-090",
+    "GS-091",
+    "GS-092",
+    "GS-093",
+    "GS-094",
+    "GS-095",
+    "GS-096",
+    "GS-097",
+    "GS-098",
+    "GS-099",
+    "GS-100"
+  ],
+  "scalar": {
+    "in_scope": {
+      "n": 100,
+      "raw_agreement": 0.72,
+      "cohen_kappa": 0.3639254884143571
+    },
+    "multi_incident": {
+      "n": 100,
+      "raw_agreement": 0.89,
+      "cohen_kappa": 0.7358309317963497
+    },
+    "actor_category": {
+      "n": 100,
+      "raw_agreement": 0.72,
+      "cohen_kappa": 0.4688922610015174
+    },
+    "action_category": {
+      "n": 100,
+      "raw_agreement": 0.53,
+      "cohen_kappa": 0.31165787932044525
+    },
+    "asset_category": {
+      "n": 100,
+      "raw_agreement": 0.59,
+      "cohen_kappa": 0.26457399103139007
+    },
+    "attr_conf_present": {
+      "n": 100,
+      "raw_agreement": 0.73,
+      "cohen_kappa": 0.29833679833679855
+    },
+    "attr_conf_disclosure": {
+      "n": 100,
+      "raw_agreement": 0.59,
+      "cohen_kappa": 0.3160967472894078
+    },
+    "attr_integrity_present": {
+      "n": 100,
+      "raw_agreement": 0.84,
+      "cohen_kappa": 0.7049059387679822
+    },
+    "attr_avail_present": {
+      "n": 100,
+      "raw_agreement": 0.85,
+      "cohen_kappa": 0.7032640949554895
+    },
+    "confidence": {
+      "n": 100,
+      "raw_agreement": 0.48,
+      "cohen_kappa": 0.10683613878392301,
+      "weighted_kappa_linear": 0.132665832290363
+    },
+    "incomplete_info_flag": {
+      "n": 100,
+      "raw_agreement": 0.91,
+      "cohen_kappa": 0.2598684210526321
+    }
+  },
+  "array": {
+    "actor_variety": {
+      "n": 100,
+      "mean_jaccard": 0.5766666666666667,
+      "exact_set_match": 0.53,
+      "mean_label_kappa": 0.36592668389678634,
+      "n_labels_seen": 11
+    },
+    "actor_motive": {
+      "n": 100,
+      "mean_jaccard": 0.77,
+      "exact_set_match": 0.73,
+      "mean_label_kappa": 0.3433198429003741,
+      "n_labels_seen": 7
+    },
+    "action_variety": {
+      "n": 100,
+      "mean_jaccard": 0.71,
+      "exact_set_match": 0.66,
+      "mean_label_kappa": 0.4344450072342306,
+      "n_labels_seen": 15
+    },
+    "action_vector": {
+      "n": 100,
+      "mean_jaccard": 0.775,
+      "exact_set_match": 0.75,
+      "mean_label_kappa": 0.4930203135429487,
+      "n_labels_seen": 11
+    },
+    "asset_variety": {
+      "n": 100,
+      "mean_jaccard": 0.5475,
+      "exact_set_match": 0.48,
+      "mean_label_kappa": 0.35258486977421055,
+      "n_labels_seen": 11
+    },
+    "attr_conf_data_variety": {
+      "n": 100,
+      "mean_jaccard": 0.7116666666666667,
+      "exact_set_match": 0.68,
+      "mean_label_kappa": 0.7876195114279189,
+      "n_labels_seen": 10
+    },
+    "attr_integrity_variety": {
+      "n": 100,
+      "mean_jaccard": 0.93,
+      "exact_set_match": 0.93,
+      "mean_label_kappa": 0.5378650212764189,
+      "n_labels_seen": 9
+    },
+    "attr_avail_variety": {
+      "n": 100,
+      "mean_jaccard": 0.97,
+      "exact_set_match": 0.97,
+      "mean_label_kappa": 0.8820008256501995,
+      "n_labels_seen": 6
+    }
+  }
+}

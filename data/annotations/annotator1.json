@@ -1,0 +1,4368 @@
+{
+  "GS-001": {
+    "in_scope": "No",
+    "multi_incident": "Yes",
+    "actor_category": "Unknown",
+    "action_category": "Malware",
+    "asset_category": "Unknown",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_integrity_present": "Unknown",
+    "attr_avail_present": "Unknown",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Unknown",
+      "Ransomware"
+    ],
+    "action_vector": [
+      "Unknown",
+      "Other"
+    ],
+    "asset_variety": [
+      "Unknown"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Other"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "This report is a general opinion/legal commentary piece titled \"Personal Data Protection as a Constitutional Right of Citizens Amid Globalization and Digitalization,\" discussing Indonesian law (UU PDP No. 27/2022) and broadly referencing multiple past incidents (e.g., BPJS Kesehatan, IndiHome, PDN) without describing any single specific breach in actionable detail. It does not document a specific, discrete data-breach incident and is therefore out of scope for VERIS annotation.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "education_healthcare",
+      "language": "id",
+      "corrected_at": "2026-06-09T05:58:28"
+    }
+  },
+  "GS-002": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "Unknown",
+    "action_category": "Unknown",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database",
+      "File",
+      "Customer",
+      "Mobile phone"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "A user with the handle \"kotz\" posted on Raid Forum claiming 279 million Indonesian residents' personal data (linked to BPJS Kesehatan's server) was leaked; BPJS Kesehatan states it is still investigating (\"sedang melakukan penelusuran lebih lanjut untuk memastikan apakah data tersebut berasal dari BPJS Kesehatan atau bukan\"), so the breach source, actor, and action method are all unconfirmed, warranting action.category = Unknown and attr_conf_disclosure = Potentially.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "education_healthcare",
+      "language": "id",
+      "corrected_at": "2026-06-09T06:01:58"
+    }
+  },
+  "GS-003": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unaffiliated",
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown",
+      "Use of stolen creds"
+    ],
+    "action_vector": [
+      "Unknown",
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Credentials",
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes an \"internal database breached by an as-yet unidentified party\" at Tokopedia in March 2020, resulting in 91 million records (email addresses, password hashes, names) being put up for sale on the dark web for $5,000; the specific hacking technique is not disclosed, so action variety is Unknown, but the actor motive is clearly Financial given the sale listing.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "education_healthcare",
+      "language": "en",
+      "corrected_at": "2026-06-09T06:05:29"
+    }
+  },
+  "GS-004": {
+    "in_scope": "No",
+    "multi_incident": "No",
+    "actor_category": "Unknown",
+    "action_category": "Unknown",
+    "asset_category": "Person",
+    "attr_conf_present": "Unknown",
+    "attr_conf_disclosure": null,
+    "attr_integrity_present": "Yes",
+    "attr_avail_present": "Unknown",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Fear",
+      "Other"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Customer",
+      "End-user",
+      "Other"
+    ],
+    "attr_conf_data_variety": [],
+    "attr_integrity_variety": [
+      "Alter behavior"
+    ],
+    "attr_avail_variety": [],
+    "rationale": "The report is an academic literature-review and policy analysis paper (\"Penelitian ini bertujuan untuk melakukan analisis komprehensif... melalui pendekatan studi literatur dan analisis konten kritis\"), not a factual account of a specific incident. It references the BPJS Kesehatan data-leak event only as a case-study framing device and provides no primary incident details (actor, action method, affected assets, or confirmed data attributes) that can be reliably annotated in VERIS.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "education_healthcare",
+      "language": "mixed",
+      "corrected_at": "2026-06-09T06:09:19"
+    }
+  },
+  "GS-005": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unaffiliated",
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown",
+      "Other"
+    ],
+    "action_vector": [
+      "Unknown",
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes 279 million Indonesian residents' personal data (NIK, phone number, email, address, salary, photos) being sold on Raid Forum by a user \"Kotz,\" confirming confidentiality breach with data disclosure. However, the attack method/vector is never described — only the outcome (data sold on a forum) is stated — so action category and variety remain Unknown.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "education_healthcare",
+      "language": "id",
+      "corrected_at": "2026-06-09T06:14:17"
+    }
+  },
+  "GS-006": {
+    "in_scope": "No",
+    "multi_incident": "No",
+    "actor_category": "Unknown",
+    "action_category": "Unknown",
+    "asset_category": "Unknown",
+    "attr_conf_present": "Unknown",
+    "attr_conf_disclosure": null,
+    "attr_integrity_present": "Unknown",
+    "attr_avail_present": "Unknown",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Fear",
+      "Ideology"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Unknown"
+    ],
+    "attr_conf_data_variety": [],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "This report is an opinion/commentary piece from Universitas Airlangga's website featuring a cybersecurity law expert (Masitoh Indriani) discussing the Bjorka hacker phenomenon and the need for better cyber security governance and data protection legislation (RUU PDP) in Indonesia. It does not describe a specific, discrete data-breach incident with identifiable victim, actor actions, or affected assets; it is a general expert commentary and policy discussion, not an incident report.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "education_healthcare",
+      "language": "id",
+      "corrected_at": "2026-06-09T06:17:36"
+    }
+  },
+  "GS-007": {
+    "in_scope": "No",
+    "multi_incident": "No",
+    "actor_category": "Unknown",
+    "action_category": "Unknown",
+    "asset_category": "Unknown",
+    "attr_conf_present": "Unknown",
+    "attr_conf_disclosure": null,
+    "attr_integrity_present": "Unknown",
+    "attr_avail_present": "Unknown",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Unknown"
+    ],
+    "attr_conf_data_variety": [],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report is an opinion/commentary piece discussing the general regulatory inadequacy around personal data breaches in Indonesia (\"Perangkat Regulasi Belum Memadai\"), featuring quotes from ELSAM and APJII representatives. It does not describe a specific, discrete data-breach incident with identifiable actor, action, or asset details, making it out of scope for VERIS incident annotation.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "financial",
+      "language": "id",
+      "corrected_at": "2026-06-09T06:19:00"
+    }
+  },
+  "GS-008": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "Internal",
+    "action_category": "Misuse",
+    "asset_category": "Person",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Other",
+      "Call center",
+      "Helpdesk"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Privilege abuse"
+    ],
+    "action_vector": [
+      "LAN access"
+    ],
+    "asset_variety": [
+      "Customer"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "Telkom explicitly states \"tidak ada pembobolan sistem maupun peretasan\" and attributes the incident to \"penyebaran data pelanggan yang tidak diotorisasi oleh satu oknum tidak bertanggung jawab yang bekerja sebagai tenaga alih daya customer service di GraPARI Rungkut,\" confirming an insider misuse (privilege abuse) by a contracted customer-service worker who unauthorisedly disseminated customer personal data. Motive and exact data volume are not disclosed, hence incomplete_info_flag = Yes.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "financial",
+      "language": "id",
+      "corrected_at": "2026-06-09T06:23:26"
+    }
+  },
+  "GS-009": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "Internal",
+    "action_category": "Misuse",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "End-user",
+      "Call center",
+      "Helpdesk"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Privilege abuse"
+    ],
+    "action_vector": [
+      "LAN access"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report states \"penyebaran data pelanggan yang tidak diotorisasi oleh oknum yang tak bertanggung jawab yang bekerja sebagai tenaga alih daya customer service di GraPARI Rungkut\" — an unauthorized disclosure of customer data by a contracted (outsourced) internal worker, mapping to Misuse / Privilege abuse by an internal actor. Motive and specific data types beyond customer personal data are not stated, so incomplete_info_flag is set to Yes.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "financial",
+      "language": "id",
+      "corrected_at": "2026-06-09T06:25:59"
+    }
+  },
+  "GS-010": {
+    "in_scope": "No",
+    "multi_incident": "Yes",
+    "actor_category": "Unknown",
+    "action_category": "Unknown",
+    "asset_category": "Unknown",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_integrity_present": "Unknown",
+    "attr_avail_present": "Unknown",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Unknown"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Credentials"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "This report is a general explainer / opinion piece on the financial impact of data breaches, citing academic literature (Li et al. 2025, Wheatley et al. 2016) and discussing risk modeling, cyber insurance, and mitigation strategies. It does not describe any specific, real data-breach incident and therefore falls outside VERIS scope.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "financial",
+      "language": "id",
+      "corrected_at": "2026-06-09T06:30:32"
+    }
+  },
+  "GS-011": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "SQL injection (SQLi)"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database",
+      "Web application"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Medical",
+      "Bank",
+      "Credentials",
+      "Payment"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The cybersecurity expert states \"sumber kebocoran data adalah akibat peretasan\" (source of data leak is hacking/website breach) and speculates \"apakah dari sisi SQL sehingga diekspos SQL Injection atau ada celah keamanan lain,\" with data on 2 million BRI Life insurance customers (KTP, KK, NPWP, medical records, bank account mutations, credentials) sold for US$7,000 in bitcoin on raidforums. The exact hacking vector is unconfirmed pending forensic investigation, hence Medium confidence and incomplete_info_flag=Yes.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "financial",
+      "language": "id",
+      "corrected_at": "2026-06-09T06:32:45"
+    }
+  },
+  "GS-012": {
+    "in_scope": "No",
+    "multi_incident": "Yes",
+    "actor_category": "Unknown",
+    "action_category": "Unknown",
+    "asset_category": "Unknown",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_integrity_present": "Unknown",
+    "attr_avail_present": "Unknown",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Unknown"
+    ],
+    "attr_conf_data_variety": [
+      "Credentials",
+      "Internal",
+      "Other"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "This report is a general educational/explainer article by CyberArmyID titled \"Dark Web Monitoring: Why It Is Important for Business Security & Digital Data.\" It describes what the dark web is, what dark web monitoring entails, and best practices — it does not describe any specific real data-breach or security incident, making it out of scope for VERIS annotation.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "financial",
+      "language": "mixed",
+      "corrected_at": "2026-06-09T06:39:41"
+    }
+  },
+  "GS-013": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Unknown",
+    "attr_conf_disclosure": "Unknown",
+    "attr_integrity_present": "Yes",
+    "attr_avail_present": "No",
+    "confidence": "Low",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Web application"
+    ],
+    "attr_conf_data_variety": [
+      "Unknown"
+    ],
+    "attr_integrity_variety": [
+      "Misrepresentation"
+    ],
+    "attr_avail_variety": [],
+    "rationale": "The report describes an anomalous unauthorized push notification (\"NO SYSTEM IS SAFE\") sent to Telkomsel customers via the MyTelkomsel app on 4 September 2025, with netizens alleging the app was \"dijebol hacker\" (breached by a hacker); however, Telkomsel's VP Corporate Communications denied any cybersecurity issue or data impact, leaving the actor, method, and confidentiality impact unconfirmed. Integrity is flagged as affected (Misrepresentation) because an unauthorized message was delivered through the official app channel, but key VERIS dimensions remain unknown.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "financial",
+      "language": "id",
+      "corrected_at": "2026-06-09T06:42:51"
+    }
+  },
+  "GS-014": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Credentials"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes \"an attempt to steal data from Tokopedia users\" during a \"March 2020 hack,\" with a hacker claiming possession of personal details (names, emails, birthdays) and hashed passwords of up to 91 million users offered for sale on the Darknet; the specific hacking technique and vector are not disclosed, and Tokopedia's investigation was still ongoing at time of publication.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "financial",
+      "language": "en",
+      "corrected_at": "2026-06-09T06:48:00"
+    }
+  },
+  "GS-015": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Credentials"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes \"an attempt to steal data from Tokopedia users\" during a \"March 2020 hack,\" with a hacker claiming possession of personal details (names, emails, birthdays) and hashed passwords of up to 91 million users offered for sale on the Darknet; the specific hacking technique and vector are not disclosed, so action variety and vector are marked Unknown.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "financial",
+      "language": "en",
+      "corrected_at": "2026-06-09T06:49:45"
+    }
+  },
+  "GS-016": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Use of stolen creds"
+    ],
+    "action_vector": [
+      "LAN access"
+    ],
+    "asset_variety": [
+      "Desktop",
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Medical",
+      "Bank",
+      "Internal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes external hackers (\"peretas\") compromising employee computers at BRI Life and Bank BRI (\"beberapa komputer karyawan BRI Life dan Bank Rakyat Indonesia yang dikompromikan\") to gain initial access, exfiltrating ~250 GB of data belonging to ~2 million policyholders including KTP photos, bank account details, tax numbers, birth certificates, and medical records. The specific hacking technique and delivery vector are not stated, warranting incomplete_info_flag=Yes.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "financial",
+      "language": "id",
+      "corrected_at": "2026-06-09T06:55:57"
+    }
+  },
+  "GS-017": {
+    "in_scope": "No",
+    "multi_incident": "Yes",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database",
+      "Web application"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Credentials",
+      "Payment"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes multiple distinct e-commerce breach incidents in Indonesia (2019: \"upaya peretasan 13 juta akun oleh hacker asal Pakistan\"; July 2020: jual beli data pengguna; October 2020: \"1,1 juta data pengguna diretas\" including \"nama, nomor telepon, e-mail, alamat, password, hingga nomor kartu kredit\" from a third-party provider's database), but names no specific platforms and provides no technical detail on attack methods, warranting Low confidence and incomplete_info_flag.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "financial",
+      "language": "id",
+      "corrected_at": "2026-06-09T07:01:46"
+    }
+  },
+  "GS-018": {
+    "in_scope": "No",
+    "multi_incident": "Yes",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Unknown"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report is a general opinion/explainer article asking \"Apa yang bikin negara kita sering banget kebobolan?\" and discussing broad trends (WFH risks, low cybersecurity awareness, absence of a Personal Data Protection Law) rather than describing a specific, discrete data-breach incident. Multiple incidents are referenced only in passing (e.g., \"21.000 perusahaan,\" \"Dukcapil hingga BPJS\") without sufficient detail to annotate any single event under VERIS A4.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-09T07:04:56"
+    }
+  },
+  "GS-019": {
+    "in_scope": "No",
+    "multi_incident": "Yes",
+    "actor_category": "Unknown",
+    "action_category": "Unknown",
+    "asset_category": "Unknown",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "Unknown",
+    "attr_avail_present": "Unknown",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Unknown"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "This article is a general explainer and opinion piece about the causes of data breaches in Indonesia, featuring commentary from a CEO promoting a data security product (ESE 11DB/PostgresTM) and a minister discussing the Personal Data Protection Law (UU PDP). While it briefly references past incidents (e.g., \"dugaan kebocoran data 337 juta penduduk\" at Dukcapil), it does not report on any single specific, confirmed data-breach incident with actionable VERIS dimensions; it is primarily a product launch and regulatory awareness article.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-09T07:07:28"
+    }
+  },
+  "GS-020": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Malware",
+    "asset_category": "Server",
+    "attr_conf_present": "Unknown",
+    "attr_conf_disclosure": "Unknown",
+    "attr_integrity_present": "Yes",
+    "attr_avail_present": "Yes",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Ransomware"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database",
+      "Other"
+    ],
+    "attr_conf_data_variety": [
+      "Unknown"
+    ],
+    "attr_integrity_variety": [
+      "Destroy data",
+      "Malware installation"
+    ],
+    "attr_avail_variety": [
+      "Loss",
+      "Outage"
+    ],
+    "rationale": "The report describes a cyberattack (\"serangan siber\") against Indonesia's National Data Center PDNS 2, consistent with a ransomware incident (implied by data loss, only 44 of 282 agencies able to recover, and references to the well-known Brain Cipher ransomware attack on PDN). Availability was severely impacted (\"hanya 44 yang diprediksi pulih\"), while confidentiality impact is explicitly disputed by BSSN (\"tidak adanya kebocoran data\"); the actor identity and attack vector are not specified in this article, which focuses on parliamentary criticism of BSSN's governance failures including the near-total absence of data backups (only 2% backed up).",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-09T07:09:30"
+    }
+  },
+  "GS-021": {
+    "in_scope": "No",
+    "multi_incident": "Yes",
+    "actor_category": "Unknown",
+    "action_category": "Unknown",
+    "asset_category": "Unknown",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_integrity_present": "Unknown",
+    "attr_avail_present": "Unknown",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Unknown"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report is a general opinion/analysis article discussing the effectiveness and limitations of Indonesia's Personal Data Protection Law (UU PDP), as evidenced by its title \"UU PDP: Apakah Cukup untuk Melindungi Data Pribadi di Indonesia?\" and its content, which covers regulatory challenges, public education, and policy recommendations. It does not describe any specific, real data-breach or security incident and therefore falls outside VERIS scope.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-09T07:17:04"
+    }
+  },
+  "GS-022": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Malware",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "Yes",
+    "attr_avail_present": "Yes",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Ransomware"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database",
+      "Other"
+    ],
+    "attr_conf_data_variety": [
+      "Unknown",
+      "Internal"
+    ],
+    "attr_integrity_variety": [
+      "Other"
+    ],
+    "attr_avail_variety": [
+      "Interruption"
+    ],
+    "rationale": "The report states \"serangan siber dalam bentuk Ransomware dengan nama Brain Chipper Ransomware\" targeting the Pusat Data Nasional Sementara (PDNS), causing 210 central and regional government agencies to be disrupted and requiring data migration. The attack vector and specific data types exfiltrated are not described, and while \"kebocoran\" (leak/breach) is mentioned, confirmed data disclosure is not explicitly confirmed, hence Potentially.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-09T07:20:05"
+    }
+  },
+  "GS-023": {
+    "in_scope": "No",
+    "multi_incident": "Yes",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown",
+      "Other"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database",
+      "Web application"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Medical",
+      "Internal",
+      "Credentials"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "This article is a roundup of multiple distinct data-breach incidents in Indonesia throughout 2022 (Bank Indonesia, Pertamina, PLN, hospitals, Indihome, Jasa Marga), covering diverse sectors and victims; no attack method or threat actor is described for any incident — only outcomes (data sold/leaked on breached.to, documents exposed). Because the report covers more than one incident and omits actor, action method, and vector details across all cases, confidence is Low and incomplete_info_flag is Yes.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-09T07:26:36"
+    }
+  },
+  "GS-024": {
+    "in_scope": "No",
+    "multi_incident": "No",
+    "actor_category": "Unknown",
+    "action_category": "Unknown",
+    "asset_category": "Unknown",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "Unknown",
+    "attr_avail_present": "Unknown",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Unknown"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Credentials"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report is an opinion/commentary piece by economic analyst Febrian Wishnu discussing the reputational and financial impact of an alleged Bank Mandiri data breach (\"kebocoran data nasabah di bank Mandiri ini dapat membuat nasabah merasa tidak aman\"), but it contains no factual description of the incident itself — no actor, no attack method, no affected asset, and no confirmed data disclosure. It is an expert commentary, not an incident report, and therefore out of scope for VERIS annotation.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-09T07:30:37"
+    }
+  },
+  "GS-025": {
+    "in_scope": "No",
+    "multi_incident": "No",
+    "actor_category": "Unknown",
+    "action_category": "Unknown",
+    "asset_category": "Unknown",
+    "attr_conf_present": "Unknown",
+    "attr_conf_disclosure": null,
+    "attr_integrity_present": "Unknown",
+    "attr_avail_present": "Unknown",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Unknown"
+    ],
+    "attr_conf_data_variety": [],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report is a brief government policy/response announcement — \"Pemerintah membentuk tim khusus untuk menangani kasus kebocoran data\" — describing the formation of a task force in reaction to hacker Bjorka's activities, not a factual account of a specific, discrete data-breach incident with actionable VERIS dimensions.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "mixed",
+      "corrected_at": "2026-06-09T07:31:16"
+    }
+  },
+  "GS-026": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Malware",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_integrity_present": "Yes",
+    "attr_avail_present": "Yes",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Ransomware"
+    ],
+    "action_vector": [
+      "Other"
+    ],
+    "asset_variety": [
+      "Database",
+      "Other"
+    ],
+    "attr_conf_data_variety": [
+      "Internal",
+      "Unknown"
+    ],
+    "attr_integrity_variety": [
+      "Malware installation",
+      "Modify data"
+    ],
+    "attr_avail_variety": [
+      "Encryption",
+      "Loss"
+    ],
+    "rationale": "The report clearly describes a ransomware attack by hacker group Brain Cipher on Indonesia's Temporary National Data Centre (PDN-2) on June 20, with data encrypted and held for US$8 million ransom; the government also attributed initial access to negligent password sharing (\"negligently shared his password\"), though the specific malware delivery vector is not stated. Data exfiltration is threatened but not confirmed (\"we will publish the data\"), so confidentiality disclosure is marked Potentially.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "en",
+      "corrected_at": "2026-06-09T07:34:08"
+    }
+  },
+  "GS-027": {
+    "in_scope": "No",
+    "multi_incident": "No",
+    "actor_category": "Unknown",
+    "action_category": "Unknown",
+    "asset_category": "Unknown",
+    "attr_conf_present": "Unknown",
+    "attr_conf_disclosure": null,
+    "attr_integrity_present": "Yes",
+    "attr_avail_present": "Unknown",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Unknown"
+    ],
+    "attr_conf_data_variety": [],
+    "attr_integrity_variety": [
+      "Unknown"
+    ],
+    "attr_avail_variety": [],
+    "rationale": "The report is a press-response article in which Telkomsel issues a public statement reacting to a Twitter complaint by Denny Siregar about a suspected data leak (\"dugaan kebocoran data\"); no confirmed incident, actor, method, or affected asset is described. The article covers only Telkomsel's PR response and its security certifications, not a specific, verified data-breach incident.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-09T07:36:36"
+    }
+  },
+  "GS-028": {
+    "in_scope": "No",
+    "multi_incident": "No",
+    "actor_category": "Unknown",
+    "action_category": "Unknown",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_integrity_present": "Unknown",
+    "attr_avail_present": "No",
+    "confidence": "Low",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Unknown"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "This report is an opinion/news commentary piece about alleged Chinese government underreporting of COVID-19 case counts, referencing a leaked database from a Chinese university. It does not describe a specific, attributable cybersecurity or data-breach incident with identifiable threat actors, attack methods, or victims in the VERIS sense; the \"bocor\" (leak) refers to data becoming publicly available to journalists, not a security intrusion or breach event.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-09T07:43:33"
+    }
+  },
+  "GS-029": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes an account (@loliyta) selling alleged data of 17 million PLN customers — including names, addresses, meter numbers, and billing info — on the Breached.to hacker forum; the method of exfiltration is not described, so action category and variety remain Unknown. The data fields listed (\"Name, Consumer Name, Address, Meter No,\" etc.) map to Personal data on what is most likely a database server.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "mixed",
+      "corrected_at": "2026-06-09T07:46:25"
+    }
+  },
+  "GS-030": {
+    "in_scope": "No",
+    "multi_incident": "Yes",
+    "actor_category": "External",
+    "action_category": "Malware",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "This report is a regulatory/policy explainer about Indonesia's personal data protection framework (referencing the Minister of Communication Regulation No. 20/2016 and the pending RUU PDP bill) and guidance on Data Breach Management Policy (DTMP); it is not an investigation or account of a specific, discrete security incident. The brief mentions of the 1.3 billion SIM card breach and the KPU breach are used only as contextual motivation, not as the subject of detailed incident reporting.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "en",
+      "corrected_at": "2026-06-09T07:49:39"
+    }
+  },
+  "GS-031": {
+    "in_scope": "No",
+    "multi_incident": "Yes",
+    "actor_category": "Unknown",
+    "action_category": "Unknown",
+    "asset_category": "Unknown",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "Unknown",
+    "attr_avail_present": "Unknown",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Unknown"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "This report is a general awareness/advisory article (\"Cara Mengetahui Jika Informasi Data Pribadi Anda Telah Terkena Breach\") that references the PDN data leak only in passing as context, without providing specific incident details (actor, action method, affected assets, or confirmed data attributes). The body is primarily a how-to guide directing readers to tools like Mozilla Monitor and Have I Been Pwned, making it an opinion/explainer piece rather than a specific data-breach incident report.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-09T07:52:04"
+    }
+  },
+  "GS-032": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes 17 million PLN customer records allegedly leaked and sold on the forum \"breached.to\" by a user named 'loliyta', containing names, addresses, KWh, and meter types. However, PLN states its systems show no signs of intrusion and the data may originate from a public dashboard application, leaving the breach method and actor entirely unconfirmed; data disclosure is therefore annotated as \"Potentially.\"",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-09T08:02:32"
+    }
+  },
+  "GS-033": {
+    "in_scope": "No",
+    "multi_incident": "Yes",
+    "actor_category": "Unknown",
+    "action_category": "Unknown",
+    "asset_category": "Unknown",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "Unknown",
+    "attr_avail_present": "No",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Unknown"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report is an opinion/commentary piece by M. Iqsan Sirie discussing business opportunities for Indonesian lawyers following the enactment of the Personal Data Protection Law (UU PDP); it does not describe any specific data-breach or security incident. References to past data-breach cases (e.g., \"kebocoran data nasabah perbankan\") are used only as general illustrative context, not as accounts of a specific incident.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-09T08:05:54"
+    }
+  },
+  "GS-034": {
+    "in_scope": "No",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Other"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Credentials"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes ~6.6 million NPWP records (NIK, address, phone, email) offered for sale on Breach Forums by actor \"Bjorka\" for USD 10,000, confirming confidentiality impact with personal data. The root cause is unconfirmed — the text only speculates \"kelalaian manajemen kata sandi hingga kesalahan prosedur penyimpanan data\" (password management negligence or data storage procedural errors) — so action category and variety cannot be determined with confidence and are marked Unknown; the article also has a promotional/advisory tone in its latter half but is grounded in a specific real incident.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-09T08:08:47"
+    }
+  },
+  "GS-035": {
+    "in_scope": "Yes",
+    "multi_incident": "Yes",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "Kominfo confirmed that \"sampel data diduga kuat identik dengan data BPJS Kesehatan\" (personal data including card numbers, family data, and payment status), and the data was sold by an account named \"Kotz\" acting as a reseller on file-sharing sites. The root cause/attack method is not described in the report, only the outcome (data sold/leaked), so action category and variety remain Unknown.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-09T08:11:32"
+    }
+  },
+  "GS-036": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "No",
+    "attr_conf_disclosure": "Unknown",
+    "attr_integrity_present": "Yes",
+    "attr_avail_present": "Unknown",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unaffiliated",
+      "Other"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Other"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Web application"
+    ],
+    "attr_conf_data_variety": [
+      "Unknown"
+    ],
+    "attr_integrity_variety": [
+      "Defacement"
+    ],
+    "attr_avail_variety": [
+      "Unknown"
+    ],
+    "rationale": "The report describes the hacking of the BSSN (Indonesia's national cybersecurity agency) website (\"situs BSSN mengalami peretasan\") by a group of hackers claiming to be from Brazil, confirming an external actor and hacking action targeting a web asset. Key VERIS dimensions — specific hacking technique, data disclosure, and integrity/availability impacts — are not described; the article is primarily a policy commentary piece responding to the incident rather than a technical incident report.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-09T08:15:06"
+    }
+  },
+  "GS-037": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "Unknown",
+    "action_category": "Unknown",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Medical"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes a suspected leak of 279 million Indonesian residents' personal data from BPJS Kesehatan (\"data milik 279 juta penduduk di Indonesia bocor dan dijual di forum online\"), with sample data confirmed to match BPJS Kesehatan's structure (noka, kode kantor, data keluarga, status pembayaran); however, the attack method and threat actor are not described, so action and actor dimensions default to Unknown.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-09T08:21:27"
+    }
+  },
+  "GS-038": {
+    "in_scope": "Yes",
+    "multi_incident": "Yes",
+    "actor_category": "Unknown",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "Unknown",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "This report is a government press release describing Kominfo's regulatory response (\"sedang melakukan pendalaman terhadap dugaan insiden\") to alleged data leaks at Indihome/Telkom and PLN — it does not document a confirmed, specific incident with actor, action, or asset details. The incidents themselves are only referred to as unverified allegations (\"dugaan kebocoran\"), making this an administrative/policy article rather than a breach report.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-09T08:25:05"
+    }
+  },
+  "GS-039": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "An anonymous threat actor \"TopiAx\" is reported to have offered 4,759,218 rows of data claimed to be from BKN (Badan Kepegawaian Negara) on BreachForums, containing personal information of civil servants (NIP, SK numbers, dates of birth, job titles, email addresses); the specific hacking method/vector is not described in the text, and BKN was still investigating authenticity at time of publication.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-09T08:43:13"
+    }
+  },
+  "GS-040": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "User Device",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Other",
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown",
+      "LAN access"
+    ],
+    "asset_variety": [
+      "Desktop",
+      "Laptop"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Bank",
+      "Medical",
+      "Internal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes an unidentified hacker (\"hacker yang hingga saat ini belum teridentifikasi\") stealing and selling 2 million BRI Life customer records (KTP, NPWP, KK, health documents, etc.) on a hacker forum; Hudson Rock identified the method as infiltrating employee computers (\"menyusup ke sejumlah komputer karyawan BRI Life\"), supporting Hacking as the action category with employee User Devices as the primary asset, though the specific hacking technique is not stated. Motive is Financial given the data was sold for ~Rp 101 million.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-09T08:46:01"
+    }
+  },
+  "GS-041": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Use of stolen creds"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "A Twitter user reported alleged sale of over 17 million PLN customer records (ID pelanggan, nama, alamat, nomor meteran, etc.) on breached.to by account \"loliyta\"; however, Kominfo and BSSN were still investigating (\"sedang mendalami terkait dengan dugaan kebocoran data\") at time of publication, so the breach is unconfirmed and the attack method is entirely unstated. Actor motive inferred as Financial given the data is being sold.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-09T08:49:32"
+    }
+  },
+  "GS-042": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Malware",
+    "asset_category": "Server",
+    "attr_conf_present": "Unknown",
+    "attr_conf_disclosure": null,
+    "attr_integrity_present": "Yes",
+    "attr_avail_present": "Yes",
+    "confidence": "High",
+    "incomplete_info_flag": "No",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Ransomware"
+    ],
+    "action_vector": [
+      "Other"
+    ],
+    "asset_variety": [
+      "Other"
+    ],
+    "attr_conf_data_variety": [],
+    "attr_integrity_variety": [
+      "Modify configuration"
+    ],
+    "attr_avail_variety": [
+      "Interruption"
+    ],
+    "rationale": "Although the report briefly references the Indonesia ransomware attack on a government data center as context, the primary purpose of the article is a vendor-oriented opinion/advisory piece promoting Salesforce backup solutions (\"Selecting the right vendor to backup and restore your Salesforce data\"). It does not provide a dedicated, factual account of a specific incident sufficient for standalone VERIS annotation; it is a general explainer and product advertisement using the incident as a hook.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "en",
+      "corrected_at": "2026-06-09T08:52:35"
+    }
+  },
+  "GS-043": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Ideology"
+    ],
+    "action_variety": [
+      "Other"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes a data breach of Telkomsel's subscriber registration system in which personal data (NIK/national ID and KK/family card) was accessed by unauthorized parties — \"sistem kita sangat rentan, sehingga data diri kita bisa diambil oleh orang lain.\" The actor, specific hacking method, and vector are not described; the term \"cyber teroris\" is used rhetorically by the victim (Denny Siregar) rather than as a confirmed attribution, so actor category and action variety remain Unknown.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "mixed",
+      "corrected_at": "2026-06-09T08:55:05"
+    }
+  },
+  "GS-044": {
+    "in_scope": "No",
+    "multi_incident": "No",
+    "actor_category": "Unknown",
+    "action_category": "Unknown",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Low",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report covers a civil-society group (GMPN) pressuring Telkomsel to respond to an alleged (\"dugaan\") customer data leak and possible sale of personal data (\"data warga (diduga) diperjual-belikan\"), but the breach is unconfirmed and no attack method, actor, or affected asset is described, leaving nearly all VERIS dimensions unsupported.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-09T08:55:58"
+    }
+  },
+  "GS-045": {
+    "in_scope": "No",
+    "multi_incident": "No",
+    "actor_category": "Unknown",
+    "action_category": "Unknown",
+    "asset_category": "Server",
+    "attr_conf_present": "Unknown",
+    "attr_conf_disclosure": null,
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "This report is an official press statement from Indonesia's Ministry of Communications and Information Technology (Kominfo) stating that as of the time of writing \"BELUM dapat disimpulkan bahwa telah terjadi kebocoran data pribadi\" (it CANNOT YET be concluded that a personal data breach has occurred), making it a public advisory/statement rather than a confirmed incident report. No actor, action method, affected asset, or confirmed data disclosure is described, so no VERIS dimensions can be meaningfully encoded.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-09T08:57:59"
+    }
+  },
+  "GS-046": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Other"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Medical"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes an account named \"Kotz\" selling personal data of 279 million Indonesian citizens on Raid Forums, with a sample of 100,002 records \"diduga kuat identik dengan data BPJS Kesehatan\" (strongly suspected to be identical to BPJS Kesehatan data), including card numbers, office codes, family/dependent data, and payment status. The method of initial exfiltration is not described, so action category and variety are Unknown; the actor is classified as External/Unaffiliated with Financial motive based on the reseller activity.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-09T09:00:07"
+    }
+  },
+  "GS-047": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Other"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Medical"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes BPJS Kesehatan filing a police report over \"dugaan kemiripan data peserta\" (alleged similarity of member data) being offered on an online forum, with the organization acknowledging \"masih dimungkinkan terjadinya peretasan\" (hacking remains possible) as the cause; however, no specific attack method, actor, or confirmed data exfiltration is established, making key VERIS dimensions unknown and confidence low.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-09T09:02:56"
+    }
+  },
+  "GS-048": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "User Device",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Use of stolen creds"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Desktop"
+    ],
+    "attr_conf_data_variety": [
+      "Medical",
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes an external threat actor (\"pelaku peretas\") who allegedly breached BRI Life systems — with Hudson Rock noting \"beberapa komputer karyawan BRI Life dan Bank Rakyat Indonesia yang disusupi\" as the likely initial access vector — and is selling ~250 GB of sensitive customer data (lab results, KTP/national ID cards) while demanding a US$7,000 ransom. The specific hacking technique is not stated, so action variety is Unknown; data types disclosed map to Medical and Personal.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-09T09:05:04"
+    }
+  },
+  "GS-049": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Unknown",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Low",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Medical",
+      "Internal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes an alleged breach of BRI Life customer data (\"dugaan kebocoran data pribadi BRI Life\") involving ~2 million records and ~250 GB of sensitive data including KTP and medical records (\"mulai dari KTP hingga rekam medis\") reportedly sold online; however, the attack method is entirely unstated and the investigation is still ongoing (\"investigasi masih terus berjalan dan hasil belum dapat disimpulkan\"), so action category and variety cannot be determined. Disclosure is marked \"Potentially\" as the breach is still alleged/unconfirmed at time of reporting.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-09T09:06:51"
+    }
+  },
+  "GS-050": {
+    "in_scope": "No",
+    "multi_incident": "No",
+    "actor_category": "Unknown",
+    "action_category": "Unknown",
+    "asset_category": "Unknown",
+    "attr_conf_present": "Unknown",
+    "attr_conf_disclosure": null,
+    "attr_integrity_present": "Unknown",
+    "attr_avail_present": "Unknown",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [],
+    "actor_motive": [],
+    "action_variety": [],
+    "action_vector": [],
+    "asset_variety": [],
+    "attr_conf_data_variety": [],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report is a policy/opinion piece calling for the establishment of a Personal Data Protection authority in Indonesia, using the BKN data leak as a backdrop; it does not describe a specific incident in sufficient detail to annotate as a discrete breach event. The BKN incident is only briefly referenced (\"data milik Badan Kepegawaian Nasional dibocorkan dan diperjualbelikan di dark web\") without actionable VERIS dimensions, and the bulk of the article covers regulatory commentary and government process.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-09T09:07:03"
+    }
+  },
+  "GS-051": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "Partner",
+    "action_category": "Error",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Partner (third party / supply chain)"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Misconfiguration"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database",
+      "Web application"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Medical"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes a \"security flaw\" (misconfiguration) in the eHAC COVID-19 app that \"left exposed personal information and the health status of 1.3 million people\"; the official stated \"the breach might have originated from a partner,\" pointing to a Partner actor. Key dimensions such as specific misconfiguration type and full actor details are not elaborated, hence incomplete_info_flag is set to Yes.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "en",
+      "corrected_at": "2026-06-10T04:37:41"
+    }
+  },
+  "GS-052": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "Partner",
+    "action_category": "Error",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "High",
+    "incomplete_info_flag": "No",
+    "actor_variety": [
+      "Partner (third party / supply chain)"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Misconfiguration"
+    ],
+    "action_vector": [
+      "Inadequate technology",
+      "Other"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Medical",
+      "Credentials"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes how VPN Mentor discovered that the eHAC application's Elasticsearch database was \"tidak dienskripsi dan tidak memiliki tingkat keamanan yang rumit\" and \"publicly accessible\" — a clear misconfiguration error — exposing ~1.3 million users' personal data from July to August 2021; no specific external threat actor is identified as having exfiltrated data, and the government disputes whether actual data theft occurred, hence actor is Unknown and disclosure is Potentially.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T04:39:08"
+    }
+  },
+  "GS-053": {
+    "in_scope": "No",
+    "multi_incident": "Yes",
+    "actor_category": "Unknown",
+    "action_category": "Unknown",
+    "asset_category": "Unknown",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Unknown"
+    ],
+    "attr_conf_data_variety": [
+      "Medical",
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "This report is an opinion/analysis piece authored by an academic (\"Ketua Departemen Manajemen Rumah Sakit, Universitas Hasanuddin\") discussing general trends in Indonesian health data breaches, policy gaps, and recommendations — it is not a report of a single specific incident. Multiple incidents are referenced in passing (eHAC, BPJS, 2017 ransomware, etc.) but none is described with sufficient detail to annotate as a discrete VERIS record.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T04:41:13"
+    }
+  },
+  "GS-054": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Malware",
+    "asset_category": "User Device",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "Yes",
+    "attr_avail_present": "Unknown",
+    "confidence": "High",
+    "incomplete_info_flag": "No",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Ransomware",
+      "Export data",
+      "Scan network"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Desktop"
+    ],
+    "attr_conf_data_variety": [
+      "Internal",
+      "Personal"
+    ],
+    "attr_integrity_variety": [
+      "Malware installation"
+    ],
+    "attr_avail_variety": [],
+    "rationale": "The report confirms a ransomware attack by the Conti gang (\"geng ransomware Conti\") on Bank Indonesia's Bengkulu branch on 17 January 2022, affecting 16 PCs (\"ada 16 PC yang terkena dampak\") and resulting in exfiltration of 838 files (487.09 MB) of personal/internal work data; the infection vector is not stated in the text.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T04:42:55"
+    }
+  },
+  "GS-055": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Malware",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "Yes",
+    "attr_avail_present": "Unknown",
+    "confidence": "High",
+    "incomplete_info_flag": "No",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Ransomware",
+      "Export data"
+    ],
+    "action_vector": [
+      "Network propagation"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Internal"
+    ],
+    "attr_integrity_variety": [
+      "Malware installation"
+    ],
+    "attr_avail_variety": [
+      "Unknown"
+    ],
+    "rationale": "The report explicitly identifies the Conti ransomware gang (\"geng ransomware Conti\") as the threat actor, with 237 internal PCs compromised and 74GB of Bank Indonesia internal data exfiltrated and published. The infection vector into the organisation is not specified beyond a reference to \"the weakest link\" (likely phishing/social engineering), so action.vector is marked Unknown.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T05:04:17"
+    }
+  },
+  "GS-056": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Other"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes an alleged sale of over 17 million PLN customer records (ID pelanggan, nama, alamat, nomor meteran, etc.) on breached.to by an account named \"loliyta,\" but Kominfo states it is still investigating (\"masih menelusuri dan mendalami\"). The breach method, actor identity, and confirmation of actual exfiltration are all unknown, warranting Low confidence and an incomplete_info_flag.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T05:06:36"
+    }
+  },
+  "GS-057": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Unknown",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unaffiliated"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes an alleged sale of over 17 million PLN customer records (ID pelanggan, nama, alamat, nomor meteran, etc.) on breached.to by an account named \"loliyta,\" but the breach method is entirely unstated and Kominfo is still investigating (\"sedang mendalami terkait dengan dugaan kebocoran data\"). Confidence is Low because the incident is unconfirmed (\"dugaan\") and no actor type, attack vector, or technical detail is provided.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T05:08:39"
+    }
+  },
+  "GS-058": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unaffiliated",
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database",
+      "Web application"
+    ],
+    "attr_conf_data_variety": [
+      "Internal",
+      "Personal",
+      "Bank",
+      "Other"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes two distinct alleged breaches sold on the dark web: (1) actor \"toshikana\" selling 374 GB of confidential documents from 21,000 Indonesian companies (KTP, NPWP, financial records, etc.) for US$50,000, and (2) actor \"loliyta\" selling 17 million PLN customer records; a cybersecurity expert speculates the method may be a zero-day exploit or cloud misconfiguration (\"kemungkinan peretasan data sensitif ini menggunakan pola zero day exploit\"), but no confirmed attack vector is established, so action variety and vector are marked Unknown. Motive is Financial given the data is being sold.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T05:10:21"
+    }
+  },
+  "GS-059": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Unknown",
+    "asset_category": "Server",
+    "attr_conf_present": "No",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database",
+      "Web application"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes suspected exposure of PLN customer data circulating on the internet (\"dugaan bocornya data pelanggan... data pelanggan yang beredar di internet\"), with PLN stating the data is believed to have been taken from a customer data analytics dashboard application (\"diambil dari aplikasi dashboard data pelanggan untuk keperluan data analitik\"). However, the threat actor, attack method, and vector are not identified — PLN's investigation was still ongoing and the main data center was reported as uncompromised, leaving key VERIS dimensions unsupported by the text.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T05:12:17"
+    }
+  },
+  "GS-060": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "No",
+    "attr_conf_disclosure": "Potentially",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes an alleged breach of PLN customer data (including \"Jenis Energi, kWh, Alamat, No Meter\") being sold online, attributed to an unidentified external actor (\"si peretas\"); however, PLN states the data is not current and authenticity of the claimed 17 million records is disputed, making disclosure only \"Potentially\" confirmed. The attack method and vector are not described, so action variety and vector remain Unknown.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T05:13:24"
+    }
+  },
+  "GS-061": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Unknown",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database",
+      "Web application"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes customer data from PLN circulating on the internet (\"data pelanggan yang beredar di internet\"), suspected to have been taken from a customer data analytics dashboard application (\"diambil dari aplikasi dashboard data pelanggan untuk keperluan data analitik\"), but PLN states its main systems were not breached; the threat actor, attack method, and vector are entirely unstated, warranting Unknown across actor and action dimensions.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T05:37:13"
+    }
+  },
+  "GS-062": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "A threat actor posted on a forum claiming to sell \"17 MILLION++\" PLN customer records (ID, name, address, meter number, etc.), suggesting an external hacking-type breach of a customer database; however, the cybersecurity expert quoted notes the 10-sample evidence is insufficient to confirm the breach (\"belum bisa membuktikan datanya bocor\"), and the attack vector is unconfirmed though SQL injection is speculated (\"apakah dari sisi SQL sehingga diekspos SQL Injection\"). Confidence is Low due to unverified claims and missing actor/vector details.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "mixed",
+      "corrected_at": "2026-06-10T05:40:19"
+    }
+  },
+  "GS-063": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "A threat actor using the handle 'Loliyta' on Breach Forums claimed to be selling over 17 million PLN customer records (name, ID, address, meter info) allegedly taken from a customer data analytics dashboard application; PLN stated its main systems appeared uncompromised and the data may be a replica, so disclosure is marked 'Potentially'. The attack vector and specific hacking technique are unconfirmed — the expert speculates SQL injection but no method is established — leaving action variety and vector as Unknown.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "mixed",
+      "corrected_at": "2026-06-10T05:49:07"
+    }
+  },
+  "GS-064": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Unknown",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "High",
+    "incomplete_info_flag": "No",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes an alleged leak of data belonging to 17 million PLN customers (\"Data 17 Juta Pelanggan PLN Diduga Bocor\"), with Kominfo issuing technical recommendations to improve personal data protection; however, no threat actor, attack method, or confirmed disclosure is described — only that PLN's systems are stated to still be \"dalam kondisi aman\" and an ongoing cybersecurity evaluation is underway.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T06:05:31"
+    }
+  },
+  "GS-065": {
+    "in_scope": "Yes",
+    "multi_incident": "Yes",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unaffiliated",
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Credentials",
+      "Internal",
+      "Bank"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report covers three distinct alleged breaches: (1) 17 million PLN customer records sold on Breach Forum by account 'Loliyta'; (2) 347GB of confidential documents from ~21,700 Indonesian companies sold on a dark-web forum by account 'Toshikana'; and (3) 26 million IndiHome browsing histories with personal data (name, gender, NIK, email) sold on the Bjorka site. All incidents involve data being sold on hacking/dark-web forums (financial motive), but the specific intrusion methods are not confirmed — an expert mentions possible SQL injection for the 347GB case but no method is confirmed for any incident. Hacking is selected as the primary action category as the data is described as having been stolen/breached ('diretas', 'dibobol hacker'), though specific variety and vector remain unknown.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T06:07:12"
+    }
+  },
+  "GS-066": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Unknown",
+    "asset_category": "Unknown",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unaffiliated",
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial",
+      "Unknown"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Unknown"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes a suspected data breach (\"dugaan kebocoran data\") in which 87 GB of SIM card registration data containing NIK and phone numbers was allegedly sold by actor \"Bjorka,\" confirmed valid by Vaksincom; however, the source institution, attack method, and affected asset remain unconfirmed, with both Telkomsel and Kominfo denying the data originated from their systems.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T06:10:43"
+    }
+  },
+  "GS-067": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Unknown",
+    "asset_category": "Unknown",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unaffiliated"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Unknown"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes 1.3 billion SIM card subscriber records (NIK, phone number, operator name, registration date) allegedly sold on a dark market by actor \"Bjorka\" for $50,000 USD, with 2 million free samples publicly available. However, Telkomsel denies the data originated from its systems, and no attack method or compromised asset is identified in the text, making action category and asset category unresolvable.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T06:15:24"
+    }
+  },
+  "GS-068": {
+    "in_scope": "Yes",
+    "multi_incident": "Yes",
+    "actor_category": "External",
+    "action_category": "Unknown",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database",
+      "Unknown"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Credentials",
+      "Classified",
+      "Internal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report is a roundup article covering multiple alleged data-breach incidents (Indihome browsing history, PLN customer data, SIM card registration data, KPU voter data, and BIN classified letters leaked by \"Bjorka\" on Breached Forums), all described as \"dugaan kebocoran data\" (alleged data leaks). No specific attack method or vector is described for any incident, so action.category and varieties default to Unknown; data types span personal, credentials, and classified information.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T06:24:38"
+    }
+  },
+  "GS-069": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unaffiliated"
+    ],
+    "actor_motive": [
+      "Financial",
+      "Ideology",
+      "Other"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database",
+      "Web application",
+      "Unknown"
+    ],
+    "attr_conf_data_variety": [
+      "Internal",
+      "Personal",
+      "Medical",
+      "Other"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report centres on hacker \"Bjorka\" who \"mengklaim meretas dokumen milik Presiden Joko Widodo\" and uploaded 679,180 documents, with additional incidents including Conti ransomware stealing 228 GB from Bank Indonesia and 17 million PLN customer records sold on breached.to; the government acknowledges multiple data-breach cases but no specific technical attack vector is described, and motives are characterised as \"gado-gado, motif politik, motif ekonomi, motif jual-beli.\" The report covers multiple distinct incidents (multi_incident=Yes) and key VERIS dimensions (attack vector, specific hacking variety) are absent from the text.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T06:30:51"
+    }
+  },
+  "GS-070": {
+    "in_scope": "Yes",
+    "multi_incident": "Yes",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unaffiliated"
+    ],
+    "actor_motive": [
+      "Ideology"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Unknown"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Internal",
+      "Classified"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes hacker \"Bjorka\" who \"berhasil diretas dan diekspos\" (successfully hacked and exposed) data from multiple Indonesian government institutions including BIN, KPU, and personal data of senior officials and President Jokowi, posted on breached.to; the specific hacking technique and vector are not stated. Motive is attributed to ideology/political protest linked to Indonesia's Personal Data Protection Bill (RUU PDP), per the statement \"motif di balik serangan Bjorka berhubungan dengan isu otoritas perlindungan data pribadi Indonesia.\"",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T06:32:11"
+    }
+  },
+  "GS-071": {
+    "in_scope": "Yes",
+    "multi_incident": "Yes",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unaffiliated",
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial",
+      "Ideology"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database",
+      "Web application"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Credentials",
+      "Other"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report is a retrospective news roundup covering multiple alleged data breaches attributed to threat actor \"Bjorka,\" who claimed to sell data from Indonesian government sites (PLN, Indihome, Kominfo SIM card registrations with 1.3 billion records, KPU with 105 million records), involving personal data such as NIK and phone numbers; however, no specific attack method or vector is described, only that \"celah-celah keamanan\" (security gaps) were exploited, making key VERIS dimensions (action variety/vector) unknown. The report also covers the legislative passage of the PDP law, making it a multi-incident/mixed-content piece.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T06:33:33"
+    }
+  },
+  "GS-072": {
+    "in_scope": "Yes",
+    "multi_incident": "Yes",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "Unknown",
+    "attr_avail_present": "No",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unaffiliated",
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Ideology",
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report centers on a user \"Bjorka\" posting 1.3 billion SIM card registration details on Breached Forums (August 31), attributed to Kominfo's database; the attack method is not described, so action variety is Unknown. The article also references multiple prior incidents (Tokopedia, Bukalapak leaks), making this a multi-incident report, and key VERIS dimensions (attack vector, specific hacking technique) are absent.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "en",
+      "corrected_at": "2026-06-10T06:38:05"
+    }
+  },
+  "GS-073": {
+    "in_scope": "Yes",
+    "multi_incident": "Yes",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Unknown",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "Unknown",
+    "attr_avail_present": "Unknown",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Ideology",
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Unknown"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "This report is a general threat-actor profile (\"Dark Web Profile: Bjorka\") that surveys Bjorka's history, methods, social media habits, and security recommendations in aggregate; it does not document a single specific, discrete data-breach incident. Because it covers multiple loosely described events without providing the structured facts needed to annotate any one incident under VERIS A4, it is out of scope.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "en",
+      "corrected_at": "2026-06-10T06:42:01"
+    }
+  },
+  "GS-074": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "Unknown",
+    "action_category": "Unknown",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report covers an alleged voter data leak (\"dugaan kebocoran data pemilih\") from KPU's DPT database, with Bawaslu's chairman denying it originated from data shared with Bawaslu and urging KPU to investigate the source. No threat actor, attack method, or confirmed disclosure is established — the incident remains an unconfirmed allegation (\"dugaan\"), so action category, actor, and disclosure are all Unknown/Potentially.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T06:43:05"
+    }
+  },
+  "GS-075": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "Unknown",
+    "attr_avail_present": "No",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes a data breach of KPU's permanent voter list (DPT Pemilu 2024), where BSSN detected on 27 November 2023 that a threat actor with the account identity \"Jimbo\" published voter data on BreachForums (\"aktivitas publikasi data yang dilakukan oleh pelaku kejahatan dengan identitas akun Jimbo pada Breachforums yang diduga terkait data pemilih\"). The specific hacking method used to exfiltrate the data is not stated, so action variety and vector are marked Unknown; the asset is inferred to be a database given the nature of the voter registry data.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T06:44:05"
+    }
+  },
+  "GS-076": {
+    "in_scope": "No",
+    "multi_incident": "No",
+    "actor_category": "Unknown",
+    "action_category": "Unknown",
+    "asset_category": "Unknown",
+    "attr_conf_present": "Unknown",
+    "attr_conf_disclosure": null,
+    "attr_integrity_present": "Unknown",
+    "attr_avail_present": "Unknown",
+    "confidence": "Low",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Unknown"
+    ],
+    "attr_conf_data_variety": [],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "This report is a summary of a webinar (Webinar Series ke-42) organized by Magnitude Indonesia focused on educating public agency staff about data security and preventing data leaks; it is a general awareness/educational piece, not a report of a specific data-breach incident. The only incident reference is a passing mention of \"kebocoran data PDN beberapa minggu lalu\" (PDN data leak a few weeks ago), which is not described in sufficient detail to annotate as a distinct incident.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T06:45:18"
+    }
+  },
+  "GS-077": {
+    "in_scope": "No",
+    "multi_incident": "Yes",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "Unknown",
+    "attr_avail_present": "Unknown",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Ideology",
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "This report is a general overview/explainer article summarising five separate Indonesian data-breach incidents (Tokopedia 2020, BPJS Kesehatan 2021, KPU 2019, education sector, e-HAC 2021) with only surface-level detail on each; it is not a dedicated report on a single specific incident. Because it covers multiple distinct incidents at a high level and functions as an awareness/opinion piece rather than a detailed incident report, it is out of scope for a single VERIS A4 annotation.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T06:48:14"
+    }
+  },
+  "GS-078": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Malware",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "Yes",
+    "attr_avail_present": "Yes",
+    "confidence": "High",
+    "incomplete_info_flag": "No",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Ransomware",
+      "Disable controls",
+      "Destroy data",
+      "Export data"
+    ],
+    "action_vector": [
+      "Email attachment",
+      "Web application - drive-by",
+      "Web download"
+    ],
+    "asset_variety": [
+      "Database",
+      "VM host",
+      "File",
+      "Web application"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Internal",
+      "Credentials",
+      "Other"
+    ],
+    "attr_integrity_variety": [
+      "Malware installation",
+      "Modify data",
+      "Alter behavior"
+    ],
+    "attr_avail_variety": [
+      "Outage",
+      "Interruption",
+      "Loss",
+      "Destruction"
+    ],
+    "rationale": "The report describes a confirmed ransomware attack on 20 June 2024 by the Brain Cipher group (a LockBit 3.0 variant) against Indonesia's PDNS, which \"mulai menginstal file berbahaya, menghapus file penting, dan menonaktifkan layanan operasional\" including Windows Defender and VSS, causing outages across 282 government agencies and data leakage of strategic/personal data found sold on the dark web. Motive is financial (ransom demand implied by the ransomware model and tebusan stage described).",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T06:49:47"
+    }
+  },
+  "GS-079": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Unknown",
+    "asset_category": "Unknown",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "Unknown",
+    "attr_avail_present": "Unknown",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Unknown"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "This report is a general opinion/policy commentary piece listing five digital-governance challenges facing Indonesia's Komdigi ministry (online gambling, data leaks, recycled phone numbers, spam, internet equity). While it references past incidents (e.g., the June 2024 PDNS ransomware attack by LockBit), it does not document a single specific data-breach incident; it is an editorial/explainer, not an incident report.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T06:53:43"
+    }
+  },
+  "GS-080": {
+    "in_scope": "Yes",
+    "multi_incident": "Yes",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "No",
+    "attr_conf_disclosure": "No",
+    "attr_integrity_present": "Yes",
+    "attr_avail_present": "Yes",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Activist",
+      "Unaffiliated"
+    ],
+    "actor_motive": [
+      "Ideology"
+    ],
+    "action_variety": [
+      "Defacement",
+      "Unknown"
+    ],
+    "action_vector": [
+      "Web application"
+    ],
+    "asset_variety": [
+      "Web application"
+    ],
+    "attr_conf_data_variety": [],
+    "attr_integrity_variety": [
+      "Defacement"
+    ],
+    "attr_avail_variety": [
+      "Outage"
+    ],
+    "rationale": "The report describes politically-motivated hacktivist defacement of multiple Indonesian government websites (indonesia.go.id, kejaksaan.go.id, dprd.mojokertokota.go.id, etc.) by actors identifying as \"Indonesian Peoples\" / \"Indonesian Hacker People,\" replacing content with protest messages (\"Peringatan Darurat,\" \"Hacked by Oranggilee\") as \"mural online\" against DPR RI's perceived unconstitutional actions; a secondary incident involves an apparently compromised/abused DPR email account ([email protected]). The hacking method/vector is not specified beyond web defacement, and no data exfiltration is reported.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T06:56:46"
+    }
+  },
+  "GS-081": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unaffiliated"
+    ],
+    "actor_motive": [
+      "Financial",
+      "Unknown"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "Account \"DigitalGhostt\" on platform X claimed to have breached and obtained personal data of 4.6 million West Java residents, offering it on a dark web forum (\"diperjualbelikan di dark web\"), indicating an external hacking actor; however, the West Java provincial government denied any breach of its official systems (\"tidak ada data dari sistem Pemprov Jabar yang bocor\"), leaving the incident unconfirmed and the attack method unstated. Confidence is Low due to the unverified claim, disputed origin of the data, and absence of technical detail on the attack vector or method.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T13:24:16"
+    }
+  },
+  "GS-082": {
+    "in_scope": "Yes",
+    "multi_incident": "Yes",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial",
+      "Ideology"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database",
+      "Web application"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Bank",
+      "Credentials",
+      "Other"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report covers multiple incidents attributed to hacker \"Bjorka\" (WFT), who claimed to have breached and sold data from multiple institutions — including 4.9 million bank customers, 19.5 million BPJS Ketenagakerjaan records, 44 million MyPertamina records, 1.3 billion SIM card registrations, and NPWP tax data — with payment received in cryptocurrency and extortion as a stated motive (\"niat daripada pelaku adalah sebenarnya untuk melakukan pemerasan\"). The specific hacking techniques used are not described, so action variety is marked Unknown; multi_incident is Yes as the report spans several distinct breach events across different organizations.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T07:39:37"
+    }
+  },
+  "GS-083": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Grudge",
+      "Ideology",
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes threat actor \"Bjorka\" allegedly exfiltrating and publicly disclosing data on 341,800 Indonesian National Police (Polri) personnel (341.800 entri), motivated by retaliation against police claims of his arrest (\"Since the police in Indonesia allege that they have arrested me, I have decided to disclose this data\"). The specific hacking method and vector are not stated in the available text, so action variety and vector are marked Unknown.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "mixed",
+      "corrected_at": "2026-06-10T07:43:08"
+    }
+  },
+  "GS-084": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Unknown",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown",
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes alleged data of students from 13 universities appearing on the dark web (\"tangkapan layar data mahasiswa yang diduga diunggah di dark web\"), attributed to Pusdatin Kemendikti Saintek; however, no attack method, threat actor, or technical vector is described, making most VERIS dimensions unresolvable beyond the confirmed confidentiality impact on personal data.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T07:45:24"
+    }
+  },
+  "GS-085": {
+    "in_scope": "No",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "User Device",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "Unknown",
+    "attr_avail_present": "Unknown",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Desktop"
+    ],
+    "attr_conf_data_variety": [
+      "Classified",
+      "Internal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report is an opinion/commentary piece in which cybersecurity practitioners (Alfons Tanujaya, Ardi Sutedja) discuss an unverified claim about 240 million Indonesians' data being sold on the dark web; the source forum (darkforums.me) is described as inaccessible and the claim is characterised as \"probably recycled\" old data. No specific, confirmed incident is documented, making this out of scope as a distinct data-breach report.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "en",
+      "corrected_at": "2026-06-10T07:46:55"
+    }
+  },
+  "GS-086": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "Unknown",
+    "action_category": "Unknown",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes a suspected (\"dugaan\") data leak from PDDIKTI (the national higher-education database), with a student victim reporting unsolicited calls as evidence her data may have been exposed (\"saya mulai curiga bahwa data saya mungkin telah bocor\"). The breach method, actor, and vector are entirely unconfirmed — the expert only speculates human/admin negligence — so action, actor, and most VERIS dimensions cannot be determined from the text.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T07:49:00"
+    }
+  },
+  "GS-087": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "User Device",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Unknown"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report references a real incident at BRI Life where \"data nasabah bocor\" affecting up to 2 million (confirmed ~25,000) policyholders via \"peretasan\" (hacking); the suspected method was compromising employee devices (\"menyusupi perangkat milik karyawan BRI Life\"), but specific hacking variety, vector, and actor details are not stated. The article is primarily a commentary/advisory piece using the BRI Life breach as a case study, limiting annotation confidence.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T07:50:10"
+    }
+  },
+  "GS-088": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "Internal",
+    "action_category": "Misuse",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "High",
+    "incomplete_info_flag": "No",
+    "actor_variety": [
+      "End-user"
+    ],
+    "actor_motive": [
+      "Unknown",
+      "Other"
+    ],
+    "action_variety": [
+      "Privilege abuse"
+    ],
+    "action_vector": [
+      "LAN access"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes an outsourcing employee (FPH) at GraPARI Telkomsel Rungkut Surabaya who accessed customer personal data without authorization (\"tanpa ada otorisasi... melakukan pembukaan file atas nama DS\"), constituting insider privilege abuse. The actor had legitimate system access but used it outside authorized scope to disclose the personal data of subscriber Denny Siregar.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T07:51:21"
+    }
+  },
+  "GS-089": {
+    "in_scope": "No",
+    "multi_incident": "No",
+    "actor_category": "Unknown",
+    "action_category": "Unknown",
+    "asset_category": "Unknown",
+    "attr_conf_present": "Unknown",
+    "attr_conf_disclosure": null,
+    "attr_integrity_present": "Unknown",
+    "attr_avail_present": "Unknown",
+    "confidence": "Low",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Unknown"
+    ],
+    "attr_conf_data_variety": [],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report body contains only a single introductory sentence stating that BRI Life is disclosing the results of an investigation into alleged customer data leakage (\"dugaan adanya kebocoran data nasabah\") circulating on social media; no factual details about the incident, actor, action method, affected assets, or confirmed data disclosure are provided. Without substantive incident details, no VERIS dimensions can be reliably coded and the snippet is effectively a news headline/teaser rather than a reportable incident record.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "government",
+      "language": "id",
+      "corrected_at": "2026-06-10T07:51:41"
+    }
+  },
+  "GS-090": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "Internal",
+    "action_category": "Misuse",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "End-user"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Privilege abuse"
+    ],
+    "action_vector": [
+      "LAN access"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes a data leak (\"kebocoran data\") involving Telkomsel customer data, triggered by the Denny Siregar case; Telkomsel's statement explicitly references internal investigation and notes that customer service officers (\"petugas customer service\") have limited but real access to customer data systems, strongly implying insider misuse/privilege abuse as the vector. Key details such as the specific actor, confirmed data volume, and exact method of exfiltration are not disclosed, warranting Low confidence and an incomplete_info flag.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "telco",
+      "language": "id",
+      "corrected_at": "2026-06-10T07:52:37"
+    }
+  },
+  "GS-091": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unaffiliated"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database",
+      "Web application"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Credentials"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "Threat actor \"Bjorka\" is reported selling 35 million myIndiHome user records (email, phone number, NIK, IP address, etc.) on bjorka.ai and claiming access to Telkom Indonesia's internal database server (\"Pelaku juga mengklaim memiliki akses ke server milik @TelkomIndonesia\"), indicating an external hacking actor with financial motive; the specific intrusion method is not confirmed, and Telkom's own investigation denied any malware or server attack, leaving action variety and vector unknown.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "telco",
+      "language": "mixed",
+      "corrected_at": "2026-06-10T09:07:02"
+    }
+  },
+  "GS-092": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "System"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes an alleged May 2025 breach of Telkomsel's server (\"server Telkomsel diduga diretas oleh hacker\") with subscriber SIM card data (ICCID, IMSI, MSISDN, status kartu, paket tarif, APN, riwayat penggunaan) being sold on dark web platforms (Telegram, Breached Forums); however, Telkomsel has issued no official statement and the breach method is entirely unspecified, warranting Low confidence and incomplete_info_flag. The report also references two older, distinct Telkomsel incidents (2017 defacement, 2012 pulse theft), making multi_incident = Yes.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "telco",
+      "language": "id",
+      "corrected_at": "2026-06-10T09:09:14"
+    }
+  },
+  "GS-093": {
+    "in_scope": "Yes",
+    "multi_incident": "Yes",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "User Device",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Potentially",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Phishing"
+    ],
+    "action_vector": [
+      "Desktop sharing software"
+    ],
+    "asset_variety": [
+      "Mobile phone"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "This report is a general awareness/opinion article authored by Siti Rokhayah on the DJKN website, providing tips to protect personal data and steps to take after a data breach. It does not describe any specific, real data-breach or security incident; the disclaimer explicitly states \"Tulisan ini adalah pendapat pribadi\" (this is a personal opinion), confirming it is an editorial/explainer piece rather than an incident report.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "unknown",
+      "language": "id",
+      "corrected_at": "2026-06-10T09:15:26"
+    }
+  },
+  "GS-094": {
+    "in_scope": "Yes",
+    "multi_incident": "Yes",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Unknown",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Organized crime"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Unknown"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "This report is a general opinion/analysis piece asking \"kenapa kebocoran data di Indonesia terus terjadi dan siapa yang bertanggung jawab?\" — it discusses systemic trends, regulatory gaps (UU PDP), and governance issues without describing any specific, discrete data-breach incident. No victim organization, threat actor, or concrete incident details are present.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "unknown",
+      "language": "id",
+      "corrected_at": "2026-06-10T09:23:09"
+    }
+  },
+  "GS-095": {
+    "in_scope": "Yes",
+    "multi_incident": "Yes",
+    "actor_category": "External",
+    "action_category": "Malware",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Organized crime",
+      "Unaffiliated"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Spyware/Keylogger",
+      "Export data"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database",
+      "Web application"
+    ],
+    "attr_conf_data_variety": [
+      "Credentials",
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [
+      "Outage"
+    ],
+    "rationale": "The report describes the law-enforcement takedown of LeakBase, a criminal forum trading stolen data including \"database bocor\" and \"stealer logs\" — credentials (email and passwords) stolen via \"malware pencuri informasi\" (information-stealing malware). The article aggregates many underlying breach incidents rather than describing a single discrete event, and the specific hacking/malware vectors used in the original thefts are not detailed, warranting incomplete_info_flag=Yes and Medium confidence.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "unknown",
+      "language": "id",
+      "corrected_at": "2026-06-10T09:24:03"
+    }
+  },
+  "GS-096": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Credentials"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes a specific incident in which \"91 juta data akun Tokopedia dilaporkan diretas dan dijual di forum darkweb dengan harga $5000,\" confirming an external hacking action resulting in confirmed data disclosure of personal/credential data; however, the specific hacking technique and vector are not described, and the financial motive is inferred from the dark-web sale price.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "unknown",
+      "language": "mixed",
+      "corrected_at": "2026-06-10T09:24:50"
+    }
+  },
+  "GS-097": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "External",
+    "action_category": "Unknown",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Unknown"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes an alleged sale of 17 million PLN customer records (ID pelanggan, nama, alamat, nomor meteran, etc.) on the dark web forum breached.to, confirming confidentiality impact with personal data; however, the attack method, vector, and actor are entirely unstated — the article focuses on the DPR's call for investigation rather than technical details of the breach.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "unknown",
+      "language": "id",
+      "corrected_at": "2026-06-10T09:26:14"
+    }
+  },
+  "GS-098": {
+    "in_scope": "Yes",
+    "multi_incident": "Yes",
+    "actor_category": "External",
+    "action_category": "Hacking",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "Unknown",
+    "attr_avail_present": "Unknown",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Financial"
+    ],
+    "action_variety": [
+      "Use of stolen creds"
+    ],
+    "action_vector": [
+      "Unknown"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal",
+      "Credentials"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "This report is a general opinion/explainer article (\"Kasus-kasus ini menunjukkan bahwa Indonesia sudah menghadapi tantangan keamanan siber yang serius\") that briefly summarises multiple past incidents (Maybank 2020, Tokopedia 2020, Telkomsel 2021) as illustrative examples to argue for UU PDP compliance; it does not describe a single specific incident in sufficient detail to annotate as a discrete breach record, and its primary purpose is regulatory commentary rather than incident reporting.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "unknown",
+      "language": "mixed",
+      "corrected_at": "2026-06-10T09:27:33"
+    }
+  },
+  "GS-099": {
+    "in_scope": "Yes",
+    "multi_incident": "No",
+    "actor_category": "Unknown",
+    "action_category": "Error",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "No",
+    "attr_avail_present": "No",
+    "confidence": "Medium",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Unknown"
+    ],
+    "action_variety": [
+      "Misconfiguration"
+    ],
+    "action_vector": [
+      "Inadequate technology"
+    ],
+    "asset_variety": [
+      "Web application"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [],
+    "attr_avail_variety": [],
+    "rationale": "The report describes a \"technical issue\" / \"system anomaly\" with Indonesia's e-visa QR code system that caused personal data of other tourists (full names, dates of birth, passport numbers, photos) to appear on unrelated travellers' phones — consistent with a misconfiguration/programming error rather than a deliberate external attack. No threat actor is identified; the Directorate General of Immigration confirmed they are \"working to fix the system anomaly,\" supporting an Error classification with Unknown actor.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "unknown",
+      "language": "en",
+      "corrected_at": "2026-06-10T09:28:13"
+    }
+  },
+  "GS-100": {
+    "in_scope": "Yes",
+    "multi_incident": "Yes",
+    "actor_category": "External",
+    "action_category": "Malware",
+    "asset_category": "Server",
+    "attr_conf_present": "Yes",
+    "attr_conf_disclosure": "Yes",
+    "attr_integrity_present": "Yes",
+    "attr_avail_present": "Yes",
+    "confidence": "High",
+    "incomplete_info_flag": "Yes",
+    "actor_variety": [
+      "Unknown"
+    ],
+    "actor_motive": [
+      "Espionage",
+      "Financial",
+      "Fear"
+    ],
+    "action_variety": [
+      "Ransomware"
+    ],
+    "action_vector": [
+      "Other"
+    ],
+    "asset_variety": [
+      "Database"
+    ],
+    "attr_conf_data_variety": [
+      "Personal"
+    ],
+    "attr_integrity_variety": [
+      "Other"
+    ],
+    "attr_avail_variety": [
+      "Interruption"
+    ],
+    "rationale": "This report is a general overview/listicle article (\"Serangan Siber Terbesar yang Pernah Terjadi di Indonesia\") summarising at least seven distinct historical incidents (e.g., ASN data leak, Bjorka/NPWP breach, PDNS 2 ransomware, Tokopedia, DPR YouTube, Tiket.com/Citilink) rather than a single specific data-breach report; it therefore does not qualify as a single in-scope incident for VERIS annotation, and multi_incident = Yes further confirms it cannot be meaningfully encoded as one event.",
+    "_meta": {
+      "annotator": "annotator1",
+      "reviewed": true,
+      "source": "human",
+      "sector": "unknown",
+      "language": "id",
+      "corrected_at": "2026-06-10T09:30:36"
+    }
+  }
+}

@@ -20,6 +20,8 @@ python baselines/baselines.py
 | `baseline_robustness.py` | Degradation of the constant predictor and of the framework across all ten RQ3 perturbation scenarios |
 | `score.py` | Single-scenario scorer, used to verify that the RQ3 pipeline's stored scores are reproducible |
 | `summary.py` | Per-dimension gold entropy, top-class share and framework-minus-majority delta; writes `perdim.json` |
+| `metric_definitions.py` | The baseline comparison under five aggregate definitions for B0, v3, v2 and v1 (Table 4 of the paper), and the oracle-abstention counterfactual (0.6841 to 0.8726) |
+| `incident_overlap.py` | Incident-level overlap between the six few-shot exemplars and the evaluation set (18 of 72 records), and the score of B0 and the pipeline on each side of it |
 
 ## Expected output
 
@@ -40,3 +42,10 @@ perturbation scenarios, because its output does not depend on the input.
 
 Confidence intervals come from 10,000 bootstrap resamples over records with a
 fixed seed, so the figures above are byte-stable across runs.
+
+Further expected values:
+
+| Script | Expected |
+|---|---|
+| `metric_definitions.py` | B0 beats every configuration under three of five definitions; oracle abstention 0.8726 (+0.1884) |
+| `incident_overlap.py` | pipeline 0.6883 on the 18 overlapping records and 0.6828 on the other 54; on those 54, B0 leads by 0.0470, 95% CI [0.0003, 0.0872] |

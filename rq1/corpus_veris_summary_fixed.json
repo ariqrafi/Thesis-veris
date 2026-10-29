@@ -1,0 +1,45 @@
+{
+  "n_records": 637,
+  "n_error_records": 0,
+  "schema_violation_rate_pct": 0.0,
+  "n_violation_records": 0,
+  "field_completeness_pct": 99.8,
+  "offvocab_per_field": {},
+  "distribution": {
+    "actor_category": {
+      "External": 545,
+      "Unknown": 67,
+      "Internal": 22,
+      "Partner": 3
+    },
+    "action_category": {
+      "Hacking": 500,
+      "Malware": 59,
+      "Error": 54,
+      "Misuse": 16,
+      "Social": 6,
+      "Unknown": 2
+    },
+    "asset_category": {
+      "Server": 619,
+      "User Device": 14,
+      "Other": 2,
+      "Media": 1,
+      "Network": 1
+    },
+    "attr_conf_present": {
+      "Yes": 618,
+      "No": 19
+    },
+    "attr_integrity_present": {
+      "No": 578,
+      "Yes": 44,
+      "Unknown": 15
+    },
+    "attr_avail_present": {
+      "No": 575,
+      "Yes": 47,
+      "Unknown": 15
+    }
+  }
+}
